@@ -1,2 +1,6 @@
+main/grammarize.java
+ main.grammarize
 main/Main.java
  main.Main
+main/TrainSet.java
+ main.TrainSet

@@ -31,6 +31,26 @@ public class grammarize {
                     ary[counter] = "hey";
                 } else if (str.equals("heyyyy")) {
                     ary[counter] = "hey";
+                } else if (str.equals("musik")) {
+                    ary[counter] = "music";
+                } else if (str.equals("ugj")) {
+                    ary[counter] = "ugh";
+                } else if (str.equals("eww")) {
+                    ary[counter] = "ew";
+                } else if (str.equals("covee")) {
+                    ary[counter] = "cover";
+                } else if (str.equals("spoder")) {
+                    ary[counter] = "spider";
+                } else if (str.equals("oki")) {
+                    ary[counter] = "ok";
+                } else if (str.equals("idk")) {
+                    ary[counter] = "I don't know";
+                } else if (str.equals("dont")) {
+                    ary[counter] = "don't";
+                } else if (str.equals("cri")) {
+                    ary[counter] = "cry";
+                } else if (str.equals("boi")) {
+                    ary[counter] = "boy";
                 }
                 counter++;
             }
