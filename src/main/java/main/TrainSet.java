@@ -14,7 +14,7 @@ public class TrainSet {
     public TrainSet(File dataset) {
 
         String line = "";
-        String splitBy = "~";
+        String splitBy = ",";
 
         try {
             BufferedReader br = new BufferedReader(new FileReader(dataset));

@@ -22,7 +22,7 @@ public class Main {
             FileWriter fw = new FileWriter(datasetFile, true);
 
             fw.write(key);
-            fw.write("~");
+            fw.write(",");
             fw.write(" ");
             fw.write(response + "\n");
 
