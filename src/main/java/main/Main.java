@@ -24,7 +24,7 @@ public class Main {
             fw.write(key);
             fw.write(",");
             fw.write(" ");
-            fw.write(response + "\n");
+            fw.write("\n" + response);
 
             fw.close();
 
