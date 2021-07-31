@@ -41,10 +41,8 @@ public class Main {
             String lowerKey = key.toLowerCase();
             String lowerQuestion = question.toLowerCase();
             if (lowerKey.contains(lowerQuestion)) {
-                tts(dataset.get(key));
                 return dataset.get(key);
             } else {
-                tts(noAnswer(ej));
                 returnNull("");
             }
         }
