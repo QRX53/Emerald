@@ -10,6 +10,8 @@ import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
 import org.alicebot.ab.MagicBooleans;
 import org.alicebot.ab.MagicStrings;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
@@ -20,6 +22,7 @@ public class Main {
     public static TrainSet ts = new TrainSet(datasetFile);
     public static HashMap<String, String> dataset = ts.getKnowledge();
     private static final boolean TRACE_MODE = true;
+    private static long counter = 0L;
 
     private static String getResourcesPath() {
         File currDir = new File(".");
@@ -77,8 +80,11 @@ public class Main {
     public static void run() {
         String s;
         Scanner sc = new Scanner(System.in);
-        s = sc.nextLine();
-        tts(answer(s));
+        while (true) {
+            s = sc.nextLine();
+            tts(answer(s));
+            counter += 1;
+        }
     }
 
 
@@ -136,9 +142,12 @@ public class Main {
 //        } else {
 //            return null;
 //        }
-
-        return (String) getResponse(true, question);
-
+        try {
+            return (String) getResponse(true, question);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public static String noAnswer(String s) {
@@ -165,6 +174,7 @@ public class Main {
                 voice.setPitch(150);
                 voice.setVolume(3);
                 voice.speak(ToSpeak);
+                System.out.println(ToSpeak);
 
             } catch (Exception e1) {
                 e1.printStackTrace();
@@ -176,11 +186,20 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
-        while (true) {
-            run();
-        }
-
+        tts("Emerald system online: please allow time for configuration");
+            try {
+                run();
+                while (true) {
+                    if (counter == 0) {
+                        tts("Emerald engine starting, response loading...");
+                        break;
+                    } else {
+                        break;
+                    }
+                }
+            } catch (Exception e) {
+                e.getMessage();
+            }
     }
 
 }
