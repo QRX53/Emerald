@@ -24,6 +24,9 @@ dependencies {
     implementation platform('com.google.cloud:libraries-bom:20.9.0')
     compile 'com.google.cloud:google-cloud-speech'
     compile files('libs/Ab.jar')
+    compile files('libs/snakeyaml-1.18.jar')
+    compile files('libs/jackson-dataformat-yaml-2.9.2.jar')
+    compile files('libs/jackson-core-2.9.2.jar')
 }
 
 test {

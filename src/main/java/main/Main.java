@@ -33,7 +33,7 @@ public class Main {
 
             String resourcesPath = getResourcesPath();
             MagicBooleans.trace_mode = TRACE_MODE;
-            Bot bot = new Bot("grill", resourcesPath);
+            Bot bot = new Bot("emerald", resourcesPath);
             Chat chatSession = new Chat(bot);
             bot.brain.nodeStats();
             String textLine;
