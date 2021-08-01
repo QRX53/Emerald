@@ -3,13 +3,17 @@ package main;
 import java.io.File;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class TrainSet {
 
     private static HashMap<String, String> knowledge;
+
+    public static int rndInt(ArrayList<String> ary) {
+        Random r = new Random();
+
+        return r.nextInt(ary.size());
+    }
 
     public TrainSet(File dataset) {
 

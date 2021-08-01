@@ -1,20 +1,49 @@
 package main;
 
+
 import java.io.*;
 import java.util.*;
 
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 
+import static main.JavaSoundRecorder.RECORD_TIME;
+
 public class Main {
 
     public static File datasetFile = new File("src/main/resources/knowledge.csv");
+    public static File query = new File("src/main/resources/file.wav");
     public static TrainSet ts = new TrainSet(datasetFile);
     public static HashMap<String, String> dataset = ts.getKnowledge();
+    public static QuickstartSample qs;
 
-    public static String listen() {
+    static {
+        try {
+            qs = new QuickstartSample(query);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-        return "";
+
+    public static String listen() throws IOException {
+
+        final JavaSoundRecorder recorder = new JavaSoundRecorder();
+
+        Thread stopper = new Thread(() -> {
+            try {
+                Thread.sleep(RECORD_TIME);
+            } catch (InterruptedException ex) {
+                ex.printStackTrace();
+            }
+            recorder.finish();
+        });
+
+        stopper.start();
+
+        recorder.start();
+
+        return qs.getTranscription();
     }
 
     public static void learnf(String key, String response) {
@@ -34,37 +63,34 @@ public class Main {
     }
 
     public static String answer(String question) {
+        ArrayList<String> ary = new ArrayList<>();
         Set<String> keys = dataset.keySet();
-        String ej = "";
+        int counter = 0;
         for (String key : keys) {
-            ej = key;
             String lowerKey = key.toLowerCase();
             String lowerQuestion = question.toLowerCase();
             if (lowerKey.contains(lowerQuestion)) {
-                return dataset.get(key);
-            } else {
-                returnNull("");
+                // return dataset.get(key);
+                ary.add(key);
             }
         }
-        return returnStr(ej);
+        int idx = TrainSet.rndInt(ary);
+        if (ary.get(idx) != null) {
+            return ary.get(idx);
+        } else {
+            return null;
+        }
     }
 
-    public static String returnStr(String s) {
-        return s;
-    }
-    public static String returnNull(String s) {
-        String j = null;
-        return j;
-
-    }
-
-    public static String noAnswer(String s) {
+    public static String noAnswer(String s) throws IOException {
 
         Set<String> keys = dataset.keySet();
             tts("I don't currently understand your query, how would you like me to respond in the future?");
-            String jj = listen();
-            learnf(s, jj);
+        String jj = null;
+            jj = listen();
+        learnf(s, jj);
             return listen();
+
     }
 
     public static void tts(String ToSpeak) {
@@ -95,7 +121,6 @@ public class Main {
         String s = sc.nextLine();
 
         tts(answer(s));
-
 
     }
 
