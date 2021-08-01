@@ -1,5 +1,3 @@
-main/QuickstartSample.java
- main.QuickstartSample
 main/JavaSoundRecorder.java
  main.JavaSoundRecorder
 main/grammarize.java

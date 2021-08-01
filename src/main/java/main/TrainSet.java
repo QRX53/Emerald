@@ -17,14 +17,12 @@ public class TrainSet {
 
     public TrainSet(File dataset) {
 
-        String line = "";
-        String splitBy = ",";
-
+        String line;
         try {
             BufferedReader br = new BufferedReader(new FileReader(dataset));
             while ((line = br.readLine()) != null) {
 
-                String[] knowledgeAry = line.split(splitBy);
+                String[] knowledgeAry = line.split(",");
                 knowledge = new HashMap<String, String>();
 
                     for (int i = 0; i < knowledgeAry.length; i++) {

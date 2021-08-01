@@ -23,6 +23,7 @@ dependencies {
     implementation group: 'net.sf.sociaal', name: 'freetts', version: '1.2.2'
     implementation platform('com.google.cloud:libraries-bom:20.9.0')
     compile 'com.google.cloud:google-cloud-speech'
+    compile files('libs/Ab.jar')
 }
 
 test {
