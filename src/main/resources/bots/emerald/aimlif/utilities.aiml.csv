@@ -37,7 +37,6 @@
 0,ATOMICLISTMEMBER * *,*,*,<think><set name="isequalto"><srai>IS <star/> EQUALTO <star index="2"/></srai></set>#Newline</think>#Newline<condition name="isequalto">#Newline<li value="true">true</li>#Newline<li>false</li>#Newline</condition>,utilities.aiml
 0,ATOMICLISTMEMBER * * *,*,*,<think><set name="isequalto"><srai>IS <star/> EQUALTO <star index="2"/></srai></set>#Newline</think>#Newline<condition name="isequalto">#Newline<li value="true">true</li>#Newline<li><srai>ATOMICLISTMEMBER <star/> <star index="3"/></srai></li>#Newline</condition>,utilities.aiml
 0,YES,WOULD YOU LIKE TO MAKE A * LIST,*,<srai>MAKE A <thatstar/> LIST</srai>,utilities.aiml
-0,THAT,*,*,<that/>,utilities.aiml
 0,THAT 2 3,*,*,<that index="2#Comma3"/>,utilities.aiml
 0,THAT 2 2,*,*,<that index="2#Comma2"/>,utilities.aiml
 0,THAT 2 1,*,*,<that index="2#Comma1"/>,utilities.aiml
@@ -62,7 +61,6 @@
 0,ISSHORTANSWER * *,*,*,true,utilities.aiml
 0,ISSHORTANSWER * * *,*,*,true,utilities.aiml
 0,ISSHORTANSWER * * * *,*,*,false,utilities.aiml
-0,SUCCESSOR,*,*,0,utilities.aiml
 0,SUCCESSOR <SET>NUMBER</SET>,*,*,<map><name>successor</name><star/></map>,utilities.aiml
 0,REMOVE * FROM MY * LIST,*,*,<srai>REMOVE <star/> FROM LIST MY <star index="2"/> LIST</srai>,utilities.aiml
 0,REMOVE * FROM MY LIST,*,*,<srai>REMOVE <star/> FROM LIST MYLIST</srai>,utilities.aiml
@@ -98,7 +96,6 @@
 0,LEARNEQUAL * EQUALTO *,*,*,<learn>#Newline<category>#Newline<pattern>TESTEQUAL <eval><star/></eval> EQUALTO <eval><star/></eval></pattern>#Newline<template>true</template>#Newline</category>#Newline<category>#Newline<pattern>TESTEQUAL <eval><star/></eval> EQUALTO *</pattern>#Newline<template>false</template>#Newline</category>#Newline<category>#Newline<pattern>TESTEQUAL * EQUALTO <eval><star/></eval></pattern>#Newline<template>false</template>#Newline</category>#Newline</learn>,utilities.aiml
 0,ADD 1 PLUS <SET>NUMBER</SET>,*,*,<map name="successor"><star/></map>,utilities.aiml
 0,ADD 0 PLUS <SET>NUMBER</SET>,*,*,<star/>,utilities.aiml
-0,ADD * PLUS *,*,*,<srai>ADD 1 PLUS <srai>ADD <map name="predecessor"><star/></map> PLUS#Newline<star index="2"/></srai></srai>,utilities.aiml
 0,ADD _ TO MY * LIST,*,*,<srai>ADD <star/> TO MY <star index="2"/> LIST</srai>,utilities.aiml
 0,ADD _ TO MY LIST,*,*,I've added <star/> to your list.#Newline<learnf>#Newline<category><pattern>MYLIST</pattern>#Newline<template><eval><srai>CONS <star/> <srai>MYLIST</srai></srai></eval>#Newline</template>#Newline</category>#Newline</learnf>,utilities.aiml
 0,ADD _ TO LIST,*,*,<srai>ADD <star/> TO MY LIST</srai>,utilities.aiml

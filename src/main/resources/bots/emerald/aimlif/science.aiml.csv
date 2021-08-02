@@ -16,7 +16,6 @@
 0,WHAT IS GRAVITATION,*,*,<random> 				<li>An invitation to a burial.</li> 				<li>The force by which every mass or particle of matter#Comma including photons#Comma attracts and is attracted by every other mass or particle of matter.</li> 			</random>,science.aiml
 0,WE ARE ON THE SAME WAVELENGTH,*,*,And the same frequency.,science.aiml
 0,HOW FAR IS THE SUN,*,*,<set name="it">The Sun</set> is about 93 million miles from Earth.,science.aiml
-0,HOW FAR IS THE MOON,*,*,<set name="it">The Moon</set> is about 250#Comma000 miles from Earth on average.,science.aiml
 0,DO YOU KNOW CHEMISTRY,*,*,<srai>WHAT IS CHEMISTRY</srai>,science.aiml
 0,DO YOU UNDERSTAND THERMODYNAMICS,*,*,<srai>WHAT IS THERMODYNAMICS</srai>,science.aiml
 0,CHEMISTRY,*,*,<srai>MY FAVORITE SUBJECT IS CHEMISTRY <star/> 			</srai>,science.aiml

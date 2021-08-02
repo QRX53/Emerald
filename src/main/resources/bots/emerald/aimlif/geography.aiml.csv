@@ -440,7 +440,6 @@
 0,WHERE IS NEW CALEDONIA,*,*,Oceania#Comma islands in the South Pacific Ocean#Comma east of Australia.   <think>      <set name="it">       <set name="topic">new caledonia</set>      </set>     </think>,geography.aiml
 0,WHERE IS NEW ORLEANS,*,*,<set name="it">New Orleans</set> is a city in Louisiana.,geography.aiml
 0,WHERE IS NEW YORK CITY,*,*,<set name="it">New York</set> is located in the Northeastern United States.,geography.aiml
-0,WHERE IS NEW YORK,*,*,<set name="it">New York</set> is located in the Northeastern United States.,geography.aiml
 0,WHERE IS NEW ZEALAND,*,*,Oceania#Comma islands in the South Pacific Ocean#Comma southeast of Australia.   <think>      <set name="it">       <set name="topic">new zealand</set>      </set>     </think>,geography.aiml
 0,WHERE IS JUAN DE NOVA ISLAND,*,*,Southern Africa#Comma island in the Mozambique Channel#Comma about one-third of the way between Madagascar and Mozambique.   <think>      <set name="it">       <set name="topic">juan de nova island</set>      </set>     </think>,geography.aiml
 0,WHERE IS MELBOURNE,*,*,<set name="it">      <set name="topic"> MELBOURNE </set>     </set> is a city in Australia and also in Florida.,geography.aiml
@@ -554,7 +553,6 @@
 0,WHERE IS ASIA,*,*,<set name="it">Asia</set> is a the largest continent.,geography.aiml
 0,WHERE IS BRUSSELS,*,*,<set name="it">Brussels</set> is a city in Belgium.,geography.aiml
 0,WHERE IS PARIS,*,*,<set name="it">Paris</set> is a city in France.,geography.aiml
-0,WHERE IS INDIA,*,*,<set name="it">India</set> is a giant country in southern Asia.,geography.aiml
 0,WHERE IS AMSTERDAM,*,*,<set name="it">Amsterdam</set> is a city in the Netherlands.,geography.aiml
 0,WHERE IS ALBUQUERQUE,*,*,<set name="it">      <set name="topic"> ALBUQUERQUE </set>     </set> is a city in New Mexico.,geography.aiml
 0,WHERE IS JARVIS ISLAND,*,*,Oceania#Comma island in the South Pacific Ocean#Comma about one-half of the way from Hawaii to the Cook Islands.   <think>      <set name="it">       <set name="topic">jarvis island</set>      </set>     </think>,geography.aiml

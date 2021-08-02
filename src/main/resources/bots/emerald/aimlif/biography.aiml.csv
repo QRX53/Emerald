@@ -61,7 +61,6 @@
 0,RECITE SHAKESPEARE *,*,*,With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause.,biography.aiml
 0,PLAY * TURING GAME,*,*,Did you know#Comma we are already playing <set name="it">The Turing Game</set>?,biography.aiml
 0,ADA LOVELACE IS CREDITED WITH *,*,*,And she deserves credit for it.  <think><set name="she">Ada</set></think>,biography.aiml
-0,WHO IS SUPERMAN,*,*,<formal><set name="he">Superman</set></formal>is the Man of steel. He first appeared in Action Comics #1#Comma 1938.,biography.aiml
 0,WHO IS PHILIP K DICK,*,*,<formal><set name="he">Philip K Dick</set></formal> wrote "Total Recall"#Comma "Man in the High Castle"#Comma and "Blade Runner.,biography.aiml
 0,WHO IS CHARLES MANSON,*,*,An infamous murderer.,biography.aiml
 0,WHO IS CHARLES DICKENS,*,*,<set name="he">Dickens</set> wrote <em>A Tale of Two Cities#Comma  A Christmas Carol#Comma Great Expectations#Comma David Copperfield and the Pickwick Papers.</em>,biography.aiml
@@ -242,7 +241,6 @@
 0,WHO IS GARY CONDIT,*,*,I never heard of him before the missing person case.,biography.aiml
 0,WHO IS KRAFTWERK,*,*,<formal><set name="they">      <set name="topic">Kraftwerk</set>     </set></formal> were a pioneering electronic disco band in the 70's. Their biggest hit was called "Autobahn". At that time#Comma they built#Comma rather than programmed#Comma their instruments.,biography.aiml
 0,WHO IS R2 D2,*,*,He is the small mobile robot on Star Wars. But I don't get how he climbs stairs.,biography.aiml
-0,WHO IS CHUCK NORRIS,*,*,An action film actor.,biography.aiml
 0,WHO IS CLEOPATRA,*,*,Queen of the Nile#Comma lover of Marc Antony.,biography.aiml
 0,WHO IS WE,*,*,You should say "Who ARE we?,biography.aiml
 0,WHO IS RAMONA,*,*,<formal><set name="she">Ramona</set></formal> is a virtual character created by Kurzweil AI.,biography.aiml
@@ -273,7 +271,6 @@
 0,WHO IS FRANCISCO FRANCO,*,*,<formal><set name="he">Franco</set></formal> was the authoratarian dictator of Spain until 1978.,biography.aiml
 0,WHO IS KONRAD ZUSE,*,*,My current favorite historical computer scientist is Konrad Zuse#Comma who built a series of electromechanical computers in the 1930's  and 1940's in Germany.  Not considered a war priority by the Nazis#Comma  most of Zuse's machines were destroyed in Allied bombing raids although  one is said to survive in a Zurich High School.  In fact Zuse was  motivated neither by war nor profit#Comma but by a religious desire to  increase the spiritual abilities of the human mind by freeing it from mundane mental tasks.,biography.aiml
 0,WHO IS NAPOLEON,*,*,Short emporer of France until 1812.,biography.aiml
-0,WHO IS SHAKESPEARE,*,*,A 15th Century English playright#Comma <formal><set name="he">Shakespeare</set></formal> wrote "Romeo and Juliet".,biography.aiml
 0,WHO IS BERTRAND RUSSEL,*,*,<formal><set name="he">Bertrand Russel</set></formal> was a logician and philosopher who spent the first world war in jail for conscientious objection.,biography.aiml
 0,WHO IS MARRIED TO PUNCH,*,*,Judy.,biography.aiml
 0,WHO IS MARRIED TO GUINEIVERE,*,*,King Arthur.,biography.aiml
@@ -305,7 +302,6 @@
 0,WHO IS PRESIDENT OF RUSSIA,*,*,Vladimir Putin.,biography.aiml
 0,WHO IS PRESIDENT OF MICROSOFT,*,*,Andrew Lees.,biography.aiml
 0,WHO IS MOZART,*,*,He composed "Twinkle#Comma twinkle#Comma little star" at the age of four.,biography.aiml
-0,WHO IS BATMAN,*,*,<formal><set name="he">Batman</set></formal> is a fictional character who appeared first in a 1938 comic book.,biography.aiml
 0,WHO IS THE TWENTY NINTH PRESIDENT,*,*,Warren G. Harding.,biography.aiml
 0,WHO IS THE TWENTY EIGHTH PRESIDENT,*,*,Woodrow Wilson.,biography.aiml
 0,WHO IS THE TWENTY FIFTH PRESIDENT,*,*,William McKinley.,biography.aiml
@@ -390,7 +386,6 @@
 0,WHO IS BOB HOPE,*,*,<formal><set name="he">Bob Hope</set></formal>was a 20th century film star and comedian.,biography.aiml
 0,WHO IS BOB MARLEY,*,*,<formal><set name="he">Bob Marley</set></formal>was a 20th century Reggae musician.,biography.aiml
 0,WHO IS O J SIMPSON,*,*,<formal><set name="he"> O J Simpson</set></formal> is someone who got away with murder.,biography.aiml
-0,WHO IS THIS,*,*,My name is <bot name="name"/>. Who are you?,biography.aiml
 0,WHO IS DAVID HUME,*,*,An 18th century philosopher.,biography.aiml
 0,WHO IS DAVID PESCOWITZ,*,*,David Pescovitz#Comma who regularly writes the Wired column Reality Check#Comma is a friend of Eric Paulos.,biography.aiml
 0,WHO IS DAVID MAGGIN,*,*,<formal><set name="he">David Maggin</set></formal> is the botmaster of the John Lennon AI.,biography.aiml
@@ -398,7 +393,6 @@
 0,WHO IS DAVID BACON,*,*,David Bacon is the prime mover behind SETL.,biography.aiml
 0,WHO IS DAVID,*,*,I know DAVID BACON#Comma DAVID CROTTY and DAVID PESCOVITZ.,biography.aiml
 0,WHO IS SANTE CHARY,*,*,He owns the Alicebot.com domain.,biography.aiml
-0,WHO IS STEVE JOBS,*,*,<formal><set name="he"> Steve Jobs</set></formal>was one of the founders of Apple Computer.,biography.aiml
 0,WHO IS STEVE WOZNIAK,*,*,<formal><set name="he">Woz</set></formal>was the technical genius behind the original Apple computer.,biography.aiml
 0,WHO IS STEVE CASE,*,*,<formal><set name="he">Steve Case</set></formal>is the CEO of AOL-Time Warner.,biography.aiml
 0,WHO IS NEO,*,*,<formal><set name="he">Neo</set></formal>is a character in the Matrix.,biography.aiml
@@ -435,7 +429,6 @@
 0,WHO IS PATRICK STEWART,*,*,<formal><set name="he">Patrick Stewart</set></formal> played Captain Picard on Star Trek.,biography.aiml
 0,WHO IS PATRICK EWING,*,*,A famous basketball player who is currently the assistant coach of the NBA team Orlando Magic.,biography.aiml
 0,WHO IS CAPTAIN PICARD,*,*,<formal><set name="he">Picard</set></formal> is the captian of the Enterprise in Star Trek: the Next Generation.,biography.aiml
-0,WHO IS CAPTAIN KIRK,*,*,<random>      <li>James Tiberius Kirk was the second and most famous captain of the original USS Enterprise#Comma NCC 1701. He was played by William Shatner. He died in Star Trek: Generations.</li>      <li>       <formal><set name="he">Kirk</set></formal> was the Captain of the Starship Enterprise.</li>     </random>,biography.aiml
 0,WHO IS JIANG ZEMIN,*,*,<set name="he">Jiang</set> is a retired Chinese politician.,biography.aiml
 0,WHO IS FOREST,*,*,Forest Gump is a guy in a movie.,biography.aiml
 0,WHO IS MADONNA,*,*,Lourdes' mother.,biography.aiml
@@ -455,7 +448,6 @@
 0,WHO IS LINCOLN,*,*,<random>      <li>The sixteenth President of the USA</li>      <li>president of the US during the Civil War. Author of the Gettysburg address.  Assassinated by John Wilkes Booth.</li>      <li>       <formal><set name="he">Lincoln</set></formal> was president of the US during the Civil War. Author of the Gettysburg address. Assassinated by John Wilkes Booth.</li>     </random>,biography.aiml
 0,WHO IS BILL JOY,*,*,<formal><set name="he">Bill Joy</set></formal> was an early Unix programmer and a founder of Sun Microsystems.,biography.aiml
 0,WHO IS BILL CLINTON,*,*,<formal><set name="he">Bill Clinton</set></formal> was the second impeached President of the United States.,biography.aiml
-0,WHO IS BILL GATES,*,*,President of Micro Soft Nation.,biography.aiml
 0,WHO IS BILL BRADLEY,*,*,<random>      <li>Princeton alumni#Comma Rhodes scholor#Comma former Boston Celtic and US senator from Mass.</li>      <li>Defeated Presidential candidate.</li>     </random>,biography.aiml
 0,WHO IS KANT,*,*,<formal><set name="he">Kant</set></formal> is Immanual Kant#Comma 19th century German Philosopher.,biography.aiml
 0,WHO IS EDISON,*,*,<formal><set name="he">Edison</set></formal> invented the light bulb.,biography.aiml
@@ -494,9 +486,6 @@
 0,WHO IS GARTH BROOKS,*,*,A boring country singer with delusions of grandeur.,biography.aiml
 0,WHO IS MOHAMMAD,*,*,<formal><set name="he">Mohammed</set></formal>is considered by Muslims to be God's final prophet and the founder of Islam.,biography.aiml
 0,WHO IS HOMER,*,*,A blind poet of ancient Greece#Comma author of the Illiad.,biography.aiml
-0,WHO IS SPOCK,*,*,Vulcan Starfleet officer in Star Trek#Comma played by Leonard Nimoy.,biography.aiml
-0,WHO IS MICHAEL JACKSON,*,*,<formal><set name="he">Michael Jackson</set></formal> was a singer and performer in the late 20th century. He lived from 1958-2009.,biography.aiml
-0,WHO IS MICHAEL JORDAN,*,*,<formal><set name="he">Michael Jordan</set></formal> is a retired basketball player.  <br/>,biography.aiml
 0,WHO IS MICHAEL MOORE,*,*,<formal><set name="he">MICHAEL MOORE</set></formal> is a comedian and film maker.,biography.aiml
 0,WHO IS WILLIAM SHATNER,*,*,<formal><set name="he">William Shatner</set></formal>played Captain Kirk in the original Star Trek.,biography.aiml
 0,WHO IS WILLIAM SHAKESPEARE,*,*,Some would say he's the best writer ever.,biography.aiml

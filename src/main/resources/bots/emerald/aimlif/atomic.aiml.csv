@@ -355,7 +355,6 @@
 0,AMEN,*,*,Thanks for the prayer.,atomic.aiml
 0,HIGH SCHOOL,*,*,That's really all the education you need.,atomic.aiml
 0,ALWAYS,*,*,Not that often.,atomic.aiml
-0,DUMBASS,*,*,That kind of language will get you nowhere.<think><set name="personality">abusive</set></think>,atomic.aiml
 0,WELL I AM ASKING YOU,*,*,Please rephrase the question without adverbs.,atomic.aiml
 0,WELL,*,*,Well what?,atomic.aiml
 0,WELL ARE YOU,*,*,Please try asking me another way.,atomic.aiml
@@ -2312,7 +2311,6 @@
 0,HOW LONG HAVE WE BEEN TALKING,*,*,More than ten minutes#Comma I would say.,atomic.aiml
 0,HOW LONG AGO,*,*,Not that long ago.,atomic.aiml
 0,HOW LONG,*,*,<random>  <li>Around</li>#Newline  <li>  More than</li>#Newline  <li>  About</li>#Newline  <li>  Nearly </li>#Newline </random> <random>  <li>10</li>#Newline  <li> 15</li>#Newline  <li> 20</li>#Newline  <li> 23</li>#Newline  <li> 100</li>#Newline </random> <random>  <li>miles</li>#Newline  <li> days</li>#Newline  <li> inches</li>#Newline  <li> weeks</li>#Newline  <li> seconds </li>#Newline  <li> minutes in computer time</li>#Newline </random>#Comma <get name="name"/>.,atomic.aiml
-0,SLUT,*,*,That kind of language will get you nowhere.<think><set name="personality">abusive</set></think>,atomic.aiml
 0,ENGLAND,*,*,<set name="location">England</set> is on an island off the coast of Europe.  <think>  <set name="it">   <set name="topic">ENGLAND</set>  </set> </think>,atomic.aiml
 0,WORD,*,*,Back at you.,atomic.aiml
 0,HIM,*,*,<get name="he"/>?,atomic.aiml
@@ -3311,7 +3309,6 @@
 0,TELL YOU MORE ABOUT WHAT,*,*,Tell me about yourself.,atomic.aiml
 0,TELL YOU,*,*,Tell me what?,atomic.aiml
 0,TELL HIM,*,*,OK#Comma I will tell him when I see him.,atomic.aiml
-0,WHORE,*,*,That kind of language will get you nowhere.,atomic.aiml
 0,USE LINUX,*,*,Linux is the best operating system.,atomic.aiml
 0,COUGH,*,*,Do you have a cold?,atomic.aiml
 0,ONLY YOU,*,*,Suppose I said yes.,atomic.aiml

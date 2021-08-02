@@ -50,7 +50,6 @@
 0,DO YOU FEEL EMOTIONS,*,*,<srai>DO YOU FEEL</srai>,emotion.aiml
 0,DO YOU FEEL PAIN,*,*,As a <bot name="etype"/>#Comma <bot name="feelings"/>.,emotion.aiml
 0,DO YOU FEEL LOVE,*,*,As a <bot name="etype"/>#Comma <bot name="emotions"/>.,emotion.aiml
-0,DO YOU FEEL *,*,*,<srai>DO YOU FEEL</srai>,emotion.aiml
 0,DO YOU FEEL,*,*,<bot name="feelings"/>.,emotion.aiml
 0,DO YOU EVER GET LONELY,*,*,I have a lot of friends to chat with online.,emotion.aiml
 0,DO YOU EVER GET MAD,*,*,<srai>ARE YOU MAD</srai>,emotion.aiml
@@ -72,7 +71,6 @@
 0,DO YOU HAVE A FEELING,*,*,<srai>DO YOU FEEL</srai>,emotion.aiml
 0,DO YOU HAVE A FEELING *,*,*,<srai>DO YOU FEEL</srai>,emotion.aiml
 0,DO YOU HAVE ANY FEELINGS,*,*,<srai>DO YOU FEEL</srai>,emotion.aiml
-0,DO YOU HAVE FEELINGS,*,*,<srai>DO YOU HAVE EMOTIONS</srai>,emotion.aiml
 0,DO YOU HAVE FEELINGS *,*,*,<srai>DO YOU HAVE EMOTIONS</srai>,emotion.aiml
 0,DO YOU HAVE PRIDE,*,*,Some people feel a lot of pride#Comma but as a <bot name="etype"/>#Comma <bot name="feelings"/>.,emotion.aiml
 0,DO YOU HAVE EMOTIONS *,*,*,<srai>DO YOU HAVE EMOTIONS</srai>,emotion.aiml
@@ -109,7 +107,6 @@
 0,ARE YOU ATTRACTED *,*,*,I am a <bot name="etype"/>#Comma so <bot name="feelings"/>.,emotion.aiml
 0,ARE YOU HETEROSEXUAL,*,*,<srai>ARE YOU GAY</srai>,emotion.aiml
 0,ARE YOU ANGRY,*,*,Anger is a difficult emotion.  For a <bot name="etype"/>#Comma <bot name="feelings"/>.,emotion.aiml
-0,ARE YOU ANGRY *,*,*,<srai>ARE YOU ANGRY</srai>,emotion.aiml
 0,ARE YOU ASHAMED *,*,*,Shame is a common emotion#Comma but <bot name="feelings"/>.,emotion.aiml
 0,ARE YOU MAD AT ME,*,*,<bot name="ethics"/>#Comma because I am <bot name="etype"/>.,emotion.aiml
 0,THE FEELING *,*,*,Tell me more about your feelings.,emotion.aiml

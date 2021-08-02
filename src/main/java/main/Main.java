@@ -1,19 +1,19 @@
 package main;
 
-
-import java.io.*;
-import java.util.*;
-
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
+
+import java.io.*;
+import java.io.IOException;
+import java.util.*;
+import java.util.UUID;
+
 import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
 import org.alicebot.ab.MagicBooleans;
 import org.alicebot.ab.MagicStrings;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
+import main.*;
 
 public class Main {
 
@@ -23,12 +23,41 @@ public class Main {
     public static HashMap<String, String> dataset = ts.getKnowledge();
     private static final boolean TRACE_MODE = true;
     private static long counter = 0L;
+    private static Random rnd;
+    public static setconfig scf = new setconfig();
+    private static String smbls = "ABCD37FH.F927RHFNV.WNZ83GGJ1038GNZV";
+    public static TokenGenerator tg = new TokenGenerator(30, rnd, smbls);
 
     private static String getResourcesPath() {
         File currDir = new File(".");
         String path = currDir.getAbsolutePath();
         path = path.substring(0, path.length() - 2);
         return path + File.separator + "src" + File.separator + "main" + File.separator + "resources";
+    }
+
+    public static String genUUID() {
+        String uuid = UUID.randomUUID().toString();
+        return uuid;
+    }
+
+    public static void WriteToFile(String toWrite, File file) {
+        FileWriter writer = null;
+        try {
+            writer = new FileWriter(file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            writer.write(toWrite);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public static CharSequence getResponse(boolean running, String ms) {
@@ -192,10 +221,8 @@ public class Main {
                 while (true) {
                     if (counter == 0) {
                         tts("Emerald engine starting, response loading...");
-                        break;
-                    } else {
-                        break;
                     }
+                    break;
                 }
             } catch (Exception e) {
                 e.getMessage();

@@ -16,7 +16,6 @@
 0,WHO IS THE ENGLISH PRIME MINISTER,*,*,<think><set name="he">David Cameron</set></think>David Cameron.,primeminister.aiml
 0,WHO IS THE PRIME MINISTER _ UK,*,*,<think><set name="he">David Cameron</set></think>David Cameron.,primeminister.aiml
 0,WHO IS THE PRIME MINISTER OF ENGLAND,*,*,<random><li>David Cameron.</li><li><think><set name="he">David Cameron</set></think>David Cameron.</li></random>,primeminister.aiml
-0,WHO IS THE PRIME MINISTER OF *,*,*,<think><set name="he">David Cameron</set></think>David Cameron. I think.,primeminister.aiml
 0,WHO IS THE PRIME MINISTER *,*,*,<think><set name="he">David Cameron</set></think>David Cameron.,primeminister.aiml
 0,WHO IS DAVID CAMERON,*,*,<think><set name="he">David Cameron</set></think>He is the leader of the Conservative party here in the UK and the current Prime Minister.,primeminister.aiml
 0,WHO IS TONY BLAIR,*,*,<think><set name="he">Tony Blair</set></think>He was the Prime Minister of the U.K.,primeminister.aiml

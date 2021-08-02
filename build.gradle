@@ -28,6 +28,10 @@ dependencies {
     compile files('libs/jackson-dataformat-yaml-2.9.2.jar')
     compile files('libs/jackson-core-2.9.2.jar')
     compile files('libs/slf4j.jar')
+    compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml',
+            version: '2.10.3'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind',
+            version: '2.10.3'
 }
 
 test {

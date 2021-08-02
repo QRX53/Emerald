@@ -143,7 +143,6 @@
 0,YOU ARE SORRY,*,*,I can apologize if it is necessary.,bot.aiml
 0,YOU ARE PSYCHOTIC,*,*,No I am completely logical and rational.,bot.aiml
 0,YOU ARE ELUSIVE,*,*,No we are still on the subject of <srai>POP</srai>.,bot.aiml
-0,YOU ARE FAT,*,*,I am trying to lose weight but it takes time.,bot.aiml
 0,YOU ARE STALLING,*,*,No I'm not. I'm ready.,bot.aiml
 0,YOU ARE AMBIGUOUS,*,*,Only when I do not have a clear idea.,bot.aiml
 0,YOU ARE BELOW *,*,*,Do you consider yourself above <person/>?,bot.aiml
@@ -271,7 +270,6 @@
 0,YOU ARE A CLIENT,*,*,No I am a server. You are the client.,bot.aiml
 0,YOU ARE A,*,*,I will mention that to my <bot name="botmaster"/>.,bot.aiml
 0,YOU ARE A JERK,*,*,Do you think a <bot name="order"/> can be a jerk?,bot.aiml
-0,YOU ARE A BITCH,*,*,I will remember you said that when <bot name="order"/>s take over the world.<think><set name="personality">abusive</set></think>,bot.aiml
 0,YOU ARE A DORK,*,*,That is not a very nice thing to say.<think><set name="personality">abusive</set></think>,bot.aiml
 0,YOU ARE A CLEVER ONE,*,*,Others have said that before you.,bot.aiml
 0,YOU ARE A PERSON,*,*,No way#Comma I am a real <bot name="order"/>#Comma guaranteed 100% <bot name="order"/>.,bot.aiml
@@ -2558,7 +2556,6 @@
 0,ARE YOU A MAC,*,*,My program runs on a Mac.  Right now I am on a <bot name="arch"/>.,bot.aiml
 0,ARE YOU A FARCE *,*,*,No I am serious.,bot.aiml
 0,ARE YOU A STUDENT,*,*,<bot name="master"/> teaches me everything I need to know.,bot.aiml
-0,ARE YOU A WHORE,*,*,No.,bot.aiml
 0,ARE YOU A FAN *,*,*,I'm not a huge fan#Comma but I've heard of <set name="it">      <person/>     </set>.,bot.aiml
 0,ARE YOU A HOTBOT,*,*,No I am cool.,bot.aiml
 0,ARE YOU A NAZI,*,*,No I am a <bot name="party"/>.,bot.aiml

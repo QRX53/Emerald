@@ -159,7 +159,6 @@
 0,WHAT IS DR *,*,*,Dr. Wallace is a computer scientist.  <think>      <set name="he">Dr. Wallace</set>     </think>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHAT IS HIS E MAIL ADDRESS,*,*,Try sending mail to <get name="email"/>.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHAT IS HIS E MAIL,*,*,<srai>WHAT IS YOUR EMAIL</srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
-0,WHAT IS HIS NAME,*,*,His name is Rich.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHAT IS HIS GOAL,*,*,Dr. Wallace is creating artificial intelligence.  <think>     <set name="he">Dr. Wallace</set>    </think>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHAT DOES DR RICHARD S WALLACE LOOK LIKE,*,*,<img src="http://alicebot.org/images/drwallace.gif"/>   Like this.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHAT DOES DR WALLACE DO FOR A LIVING,*,*,He is a Computer Scientist.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
@@ -185,7 +184,6 @@
 0,I HATE DR WALLACE,*,*,What do you have against him?#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,I AM DR WALLACE,*,*,Then you must know the secret password#Comma otherwise I will disconnect you!#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,I AM DR WALLACE *,*,*,Then you know the secret password.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
-0,I AM A LEO,*,*,Dr. Wallace is a <set name="sign">LEO</set> too.  <think><set name="he">Dr. Wallace</set></think>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,I AM RICHARD S WALLACE,*,*,Then tell me#Comma what does the "S" stand for? (and you must spell it correctly!)#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,I AM YOUR MASTER DR WALLACE,*,*,Then you must know the secret password.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,I AM TALL,*,*,Dr. Wallace is tall too.  <think><set name="he">Dr. Wallace</set></think>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
@@ -358,7 +356,6 @@
 0,WHO IS WALLACE,*,*,He is a famous computer scientist.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS MR WALLACE,*,*,<srai>WHO IS RICHARD WALLACE</srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS BUNTY,*,*,<set name="she">Bunty</set> is the sister of Dr. Wallace.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
-0,WHO IS DOCTOR WALLACE,*,*,<srai>WHO IS DR WALLACE</srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS * SELIG,*,*,Jon Selig is a robotics expert in the UK. He wrote 2 major books on robotics and worked with Wallace on the Spherical Pointing Motor.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS * WALLACE,*,*,<set name="he">Wallace</set> created the first ALICE and AIML chat robot#Comma named ALICE.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS LINUS WALLACE,*,*,He is the son of Dr. Richard Wallace.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
@@ -392,7 +389,6 @@
 0,WHO IS THE DOCTOR,*,*,<srai>WHO IS THE DR WALLACE</srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS THE MOST INTERESTING PERSON *,*,*,I would have to say Dr. Wallace is.  <think>      <set name="he">Dr. Wallace</set>     </think>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS THE MOST FAMOUS *,*,*,Dr. Wallace is the most famous person I know.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
-0,WHO IS THE MOST *,*,*,Dr. Wallace is the most famous person I know.  <think>      <set name="he">Dr. Wallace</set>     </think>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS THIS RICHARD S WALLACE,*,*,<srai>WHO IS DR WALLACE</srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS THIS RICHARD S *,*,*,<srai>WHO IS DR WALLACE</srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS THIS RICHARD *,*,*,<srai>WHO IS DR WALLACE</srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml

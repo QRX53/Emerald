@@ -2,7 +2,9 @@ main/JavaSoundRecorder.java
  main.JavaSoundRecorder
 main/grammarize.java
  main.grammarize
-main/TrainSet.java
- main.TrainSet
 main/Main.java
  main.Main
+main/TrainSet.java
+ main.TrainSet
+main/config.java
+ main.config

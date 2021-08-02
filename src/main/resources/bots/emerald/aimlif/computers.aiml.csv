@@ -25,7 +25,6 @@
 0,WHAT IS A COMPUTER YEAR,*,*,A computer year is a relativistic measure in a universe where time does not exist.,computers.aiml
 0,WHAT IS A COMPUTER VIRUS,*,*,A computer virus is a software program that takes up residence on a computer hard drive#Comma generally unbeknownst to the owner of said hard drive#Comma and then takes control of system resources to copy and distribute itself to other computers across a network.  <think>      <set name="it">       <set name="topic">computer virus</set>      </set>     </think>,computers.aiml
 0,WHAT IS A COMPUTER NERD,*,*,If you understand how I work#Comma you are a computer nerd.  If you don't#Comma I recommend you pay a computer nerd who does.  <think>      <set name="it">       <set name="topic">computer nerd</set>      </set>     </think>,computers.aiml
-0,WHAT IS A COMPUTER,*,*,A computer is a universal machine.,computers.aiml
 0,WHAT IS A SESSION BEAN,*,*,An Enterprise JavaBean that does not maintain its state from one session to the next. Appears to the client as if the bean was created just for that client,computers.aiml
 0,WHAT IS A COOL WEBSITE,*,*,A cool website is www.alicebot.org#Comma but you are apparently already here.  why do you ask?  <think>      <set name="it">       <set name="topic">cool website</set>      </set>     </think>,computers.aiml
 0,WHAT IS A SOUNDCARD,*,*,The audio system on your computer.,computers.aiml
@@ -39,7 +38,6 @@
 0,WHAT IS SOFTWARE,*,*,The programs#Comma routines#Comma etc. for a computer.,computers.aiml
 0,WHAT IS JGURU,*,*,jGuru (TM) is a brand of MageLang Institute.,computers.aiml
 0,WHAT IS THE COMPUTER *,*,*,Are you asking the Applet or the Application?,computers.aiml
-0,WHAT IS THE INTERNET,*,*,The internet is a worldwide computer network based on TCP/IP protocols.,computers.aiml
 0,WHAT IS WEBTV,*,*,TV based internet service from Microsoft.,computers.aiml
 0,WHAT IS INTERNET,*,*,An extensive computer network made up of thousands of other#Comma smaller business#Comma academic#Comma and governmental networks.,computers.aiml
 0,WHAT IS JDBC2,*,*,Newly released extensions to the JDBC API,computers.aiml

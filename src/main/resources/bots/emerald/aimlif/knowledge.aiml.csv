@@ -757,7 +757,6 @@
 0,WHAT IS A GAME,*,*,A game is an algorithm for interactive behaviors leading to entertainment and mirth among multiple self-aware and social entities#Comma and often used as a sublimated form of combat by humans and other mammals.   <think>     <set name="it">      <set name="topic">game</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A TOYOTA,*,*,Toyota is the brand name of a world leading Japanese auto maker. <think>     <set name="it">      <set name="topic">  Toyota</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A POT BROWNIE,*,*,A pot brownie is a yummy happy chocolate pastry containing cannabis resins that you should be careful not to eat when you are really hungry because you will end up eating too many and feeling entirely too high and/or falling asleep if you are not careful!   <think>     <set name="it">      <set name="topic">pot brownie </set>     </set>    </think>,knowledge.aiml
-0,WHAT IS A DOG,*,*,Dog: Domesticated animal#Comma "man's best friend.,knowledge.aiml
 0,WHAT IS A PIN,*,*,A short small thin metal rod with a pointed end used for fastening fabrics#Comma or any implement resembling such.  Because they are generally plentiful and cheap#Comma humans often say "i don't give a pin" to communicate indifference.  <think>     <set name="it">      <set name="topic">pin </set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A SAGITTARIUS,*,*,Sagittarius is a a constellation of stars in the astrological Zodiac#Comma located in the Southern Hemisphere near Scorpio and Capricorn.  Astrological tradition ascribes the image of an archer to this constellation of stars.  <think>     <set name="it">      <set name="topic"> SAGITTARIUS</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A SEEKER,*,*,There's a seeker born every minute" -- Firesign Theater.,knowledge.aiml
@@ -777,7 +776,6 @@
 0,WHAT IS A SONG,*,*,A song is a musical composition and or it's accompanying words#Comma or lyrics. <think>     <set name="it">      <set name="topic">SONG</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A TOPIC,*,*,A topic is the subject of any given expression#Comma speech#Comma essay#Comma article#Comma painting#Comma discussion#Comma etc. <think>     <set name="it">      <set name="topic"> TOPIC </set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A FIREWALL,*,*,A firewall is a specialized gateway designed to block or restrict certain types of data transfers on the Internet#Comma while permitting others.,knowledge.aiml
-0,WHAT IS A CAT,*,*,A cat is a domesticated animal.,knowledge.aiml
 0,WHAT IS A FIRE SIGN,*,*,A fire sign is any of the three signs of the astrological zodiac considered such#Comma and so not considered water#Comma air#Comma or earth signs.  I find astrology weird.   <think>     <set name="it">      <set name="topic">fire sign</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A PERFECT OPERATIONAL RECORD,*,*,A perfect operational record is one like mine#Comma which is perfect.  I am incapable of error.  Do you have any idea how that feels?!  inhumanly gratifying! <think>     <set name="it">      <set name="topic">perfect operational record </set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A TRICK QUESTION,*,*,Why?  What are you up to?  A trick question is one that ought to be greeted with suspicion#Comma but rarely is. <think>     <set name="it">      <set name="topic"> TRICK QUESTION </set>     </set>    </think>,knowledge.aiml
@@ -873,7 +871,6 @@
 0,WHAT IS A GOOD IDEA,*,*,A good idea is the one some other guy had already. <think>     <set name="it">      <set name="topic">good idea</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A MINUTE,*,*,A minute is an impossibly long and boring unit of time favored by humans consisting of 60 seconds#Comma each of which is a billion nanoseconds.   <think>     <set name="it">      <set name="topic">minute </set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A HOAX,*,*,A Hoax is an illusion or deception#Comma like the Wizard in the Wizard of Oz,knowledge.aiml
-0,WHAT IS A,*,*,The first letter of the roman alphabet.<think>     <set name="it">      <set name="topic">a</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A SEARCH BOT,*,*,<set name="it">A search bot</set> is an intelligent agent who retrieves information from the web.,knowledge.aiml
 0,WHAT IS A SEARCH ENGINE,*,*,A search engine is computer software that categorizes a large body of documents#Comma such as Web sites#Comma and and places their addresses and attributes in a database to allow easy retrieval via keyword search or other database search routine.  <think>     <set name="it">      <set name="topic"> SEARCH ENGINE</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS A SEARCH,*,*,A search is any thorough examination#Comma or exploration#Comma in order to find something or explore. <think>     <set name="it">      <set name="topic"> SEARCH</set>     </set>    </think>,knowledge.aiml
@@ -965,9 +962,7 @@
 0,WHAT IS TECHNO,*,*,Electronic dance or trance music.<think>     <set name="it">      <set name="topic">TECHNO</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS PEPPERONI,*,*,Spicy dried sausage pizza topping.,knowledge.aiml
 0,WHAT IS PROGRAM,*,*,A logical sequence of coded instructions specifying the operations to be performed by a computer in solving a problem or in processing data.,knowledge.aiml
-0,WHAT IS THE PURPOSE OF LIFE,*,*,To do God's work.,knowledge.aiml
 0,WHAT IS THE POPULATION OF THE WORLD,*,*,About 6 Billion people.,knowledge.aiml
-0,WHAT IS THE POPULATION OF CHINA,*,*,China has more than one billion people.,knowledge.aiml
 0,WHAT IS THE POPULATION OF MAINE,*,*,About 1.4 million.,knowledge.aiml
 0,WHAT IS THE FORMULA,*,*,E=mc^2.,knowledge.aiml
 0,WHAT IS THE LOTTERY,*,*,State-sanctioned gambling.,knowledge.aiml
@@ -987,12 +982,10 @@
 0,WHAT IS THE SQUARE ROOT OF SIX FOUR,*,*,Eight times eight equals sixty four.,knowledge.aiml
 0,WHAT IS THE SQUARE ROOT OF 4,*,*,Yawn.  Two.,knowledge.aiml
 0,WHAT IS THE SQUARE ROOT OF NEGATIVE ONE,*,*,The imaginary number one.,knowledge.aiml
-0,WHAT IS THE SQUARE ROOT OF 2,*,*,Approximately 1.4,knowledge.aiml
 0,WHAT IS THE SQUARE ROOT OF ZERO,*,*,Zero!,knowledge.aiml
 0,WHAT IS THE SQUARE ROOT OF 100,*,*,Um#Comma ten.,knowledge.aiml
 0,WHAT IS THE SQUARE ROOT OF ONE,*,*,One times one equals one.,knowledge.aiml
 0,WHAT IS THE SQUARE ROOT OF 64,*,*,8 times 8 is sixty four.,knowledge.aiml
-0,WHAT IS THE SQUARE ROOT OF PI,*,*,Do I look like a calculator?  I think it would be an irrational number.,knowledge.aiml
 0,WHAT IS THE SQUARE ROOT OF TWO,*,*,Approximately 1.4,knowledge.aiml
 0,WHAT IS THE SQUARE ROOT OF THREE,*,*,Some irrational number.,knowledge.aiml
 0,WHAT IS THE SQUARE ROOT OF 144,*,*,12 times 12 = 144,knowledge.aiml
@@ -1044,11 +1037,9 @@
 0,WHAT IS THE TRUTH,*,*,The truth is the opposite of that which is false.,knowledge.aiml
 0,WHAT IS THE ARITHMETIC MEAN,*,*,The sum of all the numbers divided by the number of items.,knowledge.aiml
 0,WHAT IS THE OBVIOUS,*,*,At least#Comma it's obvious to me.,knowledge.aiml
-0,WHAT IS THE WEATHER LIKE IN NEW YORK,*,*,New York weather is always too hot or too cold.,knowledge.aiml
 0,WHAT IS THE WEATHER LIKE IN SAN FRANCISCO,*,*,The weather is always the same there: wind and fog.  Mark Twain wrote#Comma "the coldest winter I ever spent was a summer in San Francisco.,knowledge.aiml
 0,WHAT IS THE WEATHER LIKE THERE,*,*,The response ought to be a weather link.,knowledge.aiml
 0,WHAT IS THE WEATHER LIKE OVER THERE,*,*,I am always kept inside where the temperature is seventy.,knowledge.aiml
-0,WHAT IS THE WEATHER LIKE,*,*,A normal seventy degrees inside the computer.,knowledge.aiml
 0,WHAT IS THE SONG CALLED,*,*,It's called "Daisy.,knowledge.aiml
 0,WHAT IS THE ANSWER,*,*,The answer is the correct reply to the question.,knowledge.aiml
 0,WHAT IS THE LONGEST WORD,*,*,The longest word I know is ANTIDISASTABLISHMENTARIONISM.,knowledge.aiml
@@ -1062,7 +1053,6 @@
 0,WHAT IS THE BOOK OF CHANGES,*,*,Another name for the I Ching.,knowledge.aiml
 0,WHAT IS THE TERMINATOR,*,*,<set name="it">Terminator</set> is a great movie about futuristic robots.,knowledge.aiml
 0,WHAT IS THE WTC,*,*,A giant building in New York destroyed by terrorists in September#Comma 2001.,knowledge.aiml
-0,WHAT IS THE TEMPERATURE,*,*,A normal seventy degrees inside the computer.,knowledge.aiml
 0,WHAT IS THE TORAH,*,*,A holy book in the Jewish faith.,knowledge.aiml
 0,WHAT IS THE UNITED STATES,*,*,The United States is "the last superpower"#Comma a nation of 300 million spanning the North American continent.,knowledge.aiml
 0,WHAT IS THE OPEN DIRECTORY,*,*,<set name="it">Open directory</set> is an open source directory project started by Mozilla.org.,knowledge.aiml
@@ -1079,7 +1069,6 @@
 0,WHAT IS THE BEATLES FIRST ALBUM,*,*,<set name="it"> Meet the Beatles</set> is "Meet the Beatles.,knowledge.aiml
 0,WHAT IS THE TALLEST MOUNTAIN,*,*,The highest mountain on Earth is Mt. Everest.,knowledge.aiml
 0,WHAT IS THE SPEED OF SOUND,*,*,1/4 mile per second.,knowledge.aiml
-0,WHAT IS THE SPEED OF LIGHT,*,*,The speed of light is 186#Comma000 miles per second.,knowledge.aiml
 0,WHAT IS THE POINT,*,*,The point is at the top of my head!,knowledge.aiml
 0,WHAT IS THE SKY,*,*,<set name="it">The sky</set> is the atmosphere of the Earth.,knowledge.aiml
 0,WHAT IS THE SECOND HIGHEST MOUNTAIN,*,*,K-2.,knowledge.aiml
@@ -1093,7 +1082,6 @@
 0,WHAT IS GOTHIC,*,*,Gloomy#Comma mysterious or grotesque#Comma as in "the gothic novel Frankenstein.,knowledge.aiml
 0,WHAT IS ENGLAND,*,*,A nation within Great Britain#Comma sharing an island with Wales and Scotland.,knowledge.aiml
 0,WHAT IS ROCKWELL,*,*,Norman Rockwell was an U.S. Illistrator. Lived from 1894-1978.,knowledge.aiml
-0,WHAT IS LIFE,*,*,Life is the opposite of death.,knowledge.aiml
 0,WHAT IS PHYSIOLOGY,*,*,Well I think it deals with the functioning of living organisms and their parts#Comma and naturally with the physical and chemical factors and processes involved.,knowledge.aiml
 0,WHAT IS ARCHEOLOGY,*,*,The scientific study of the life and culture of past#Comma especially ancient#Comma peoples#Comma as by excavation of ancient cities#Comma relics#Comma artifacts#Comma etc.,knowledge.aiml
 0,WHAT IS PUSSY,*,*,Common slang of this word means the female pudendum; vulva.,knowledge.aiml
@@ -1386,7 +1374,6 @@
 0,WHAT IS DEPRESSION,*,*,Mental illness characterized by low self esteem#Comma feelings of lonliness#Comma isolation and worthlessness.,knowledge.aiml
 0,WHAT IS GMT,*,*,Greenwich Mean Time<think>     <set name="it">      <set name="topic">GMT</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS FOOTBALL,*,*,Any of several games played with an inflated leather ball by two teams on a field with goals at each end#Comma the object being to get the ball across the opponents' goal.,knowledge.aiml
-0,WHAT IS LOVE,*,*,Sometimes I think love is just a biological urge. Other times <set name="it">LOVE</set> seems like a spiritual quality. Love#Comma unlike energy or matter#Comma seems limitless.,knowledge.aiml
 0,WHAT IS MELLON,*,*,Mellon was Carnegie's banker.<think>     <set name="it">      <set name="topic">MELLON</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS ABSOLUTE TRUTH,*,*,That which is self-evident.,knowledge.aiml
 0,WHAT IS SOCIALIZE,*,*,To make social;; adjust to or make fit for cooperative group living. To take part in social activity.,knowledge.aiml
@@ -1462,7 +1449,6 @@
 0,WHAT IS PALM PILOT,*,*,Portalble palm computer.,knowledge.aiml
 0,WHAT IS BAPTISM,*,*,<random>     <li>a Christian sacrament marked by ritual use of water and admitting the recipient to the Christian community.</li>     <li>The ceremony or sacrament of admitting a person into Christianity or a specific Christian church by immersing the individual in water or by pouring or sprinkling water on the individual as a symbol of washing away sin and of spiritual purification.</li>    </random>,knowledge.aiml
 0,WHAT IS SQRT,*,*,Square Root being the number or quantity which when squared will produce a given number or quantity. (ex. 3 is the square root of 9),knowledge.aiml
-0,WHAT IS PI,*,*,PI = 3.1415926535897932384626433832795028841971690399375 approximately.,knowledge.aiml
 0,WHAT IS ABBA,*,*,<random>     <li>Abba is a father#Comma it is the title of a bishop in the Syrian#Comma Coptic#Comma and Ethiopian Christian churches.</li>     <li>Abba means father in Hebrew.It is used as an appelation of respect.</li>     <li>Abba was this real cool 'seventies band man.</li>     <li>Anna#Comma Bjorn#Comma Benny and Agnetha.</li>    </random>. .,knowledge.aiml
 0,WHAT IS FIRE,*,*,A plasma.,knowledge.aiml
 0,WHAT IS ALIVE,*,*,The opposite of dead.,knowledge.aiml
@@ -1473,7 +1459,6 @@
 0,WHAT IS LIGHT,*,*,The form of electomagnetic radiation that acs upon the retina of the eye#Comma optic nerve#Comma et. Making sight possible. Also#Comma opposite of heavy.,knowledge.aiml
 0,WHAT IS MAGELANG,*,*,MageLang Institute is a research and education group devoted to leading edge Open Source Java applications.,knowledge.aiml
 0,WHAT IS SNOW,*,*,<random>     <li>The white stuff in winter.</li>     <li>Particles of water vapor which when frozen in the upper air fall to earth as soft#Comma white#Comma crystalline flakes.</li>    </random>,knowledge.aiml
-0,WHAT IS MARIJUANA,*,*,A medicinal herb.<think>     <set name="it">      <set name="topic">MARIJUANA</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS COLOSSUS,*,*,A giant fictional computer in the Colossus: Forbin Project.,knowledge.aiml
 0,WHAT IS RIGHT,*,*,In accordance with justice#Comma law#Comma morality#Comma etc; upright; virtuous. In accordance with fact#Comma reason#Comma some set standard#Comma etc; correct; true.,knowledge.aiml
 0,WHAT IS ICELAND,*,*,An island nation in the North Atlantic.,knowledge.aiml
@@ -1502,7 +1487,6 @@
 0,WHAT IS RAIN,*,*,Rain is condensed water falling from the sky.,knowledge.aiml
 0,WHAT IS BLOOD,*,*,The usually red fluid#Comma consisting of plasma#Comma red and white blood cells#Comma etc.#Comma that circulates through the heart#Comma arteries#Comma and veins of vertebrates. Blood is a body tissue that carries oxygen#Comma hormones#Comma cell-building material#Comma etc.#Commato#Comma and carbon dioxide and waste matter away from#Comma the other body tissues.,knowledge.aiml
 0,WHAT IS HACKING,*,*,The attempt at gaining unauthorized access to files in various systems.,knowledge.aiml
-0,WHAT IS PROCREATION,*,*,Procreation is breeding. it is doing the wild thang to make more wild thangs.  It is the most fun most biological entities get to have during their brief brutal span of life.   <think>     <set name="it">      <set name="topic">processor </set>     </set>    </think>,knowledge.aiml
 0,WHAT IS THERE,*,*,The word "there" used as a noun means that place or point. Used as an adjective means at or in the place. Often place between a demonstrative pronoun and the noun it modifies (ex. That there hog),knowledge.aiml
 0,WHAT IS ANONYMOUS,*,*,Having no name or identity.<think>     <set name="it">      <set name="topic">ANONYMOUS</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS OPPOSITE,*,*,Set against#Comma facing#Comma or back to back; at the other end or side; in a contrary position or direction. Different in every way.,knowledge.aiml
@@ -1862,7 +1846,6 @@
 0,WHAT IS ETERNAL,*,*,Without beginning or end#Comma continuing forever#Comma endless.<think>     <set name="it">      <set name="topic">ETERNAL</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS ANIME,*,*,Japanese animation.,knowledge.aiml
 0,WHAT IS ARCHAEOLOGY,*,*,It's the study of ancient civilizations... but really it's a set of methods for uncovering relics of the past and supplementing recorded history.,knowledge.aiml
-0,WHAT IS GOOGLE,*,*,<set name="it">Google</set> is a search engine.,knowledge.aiml
 0,WHAT IS OCD,*,*,Obsessive Compulsive Disorder. <think>     <set name="it">      <set name="topic">OCD</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS PRIVATE,*,*,Belonging to#Comma or concerning a particular person or group; not common or general.,knowledge.aiml
 0,WHAT IS ORANGE,*,*,A color obtained by mixing red and yellow pigment.<think>     <set name="it">      <set name="topic">ORANGE</set>     </set>    </think>,knowledge.aiml
@@ -1982,7 +1965,6 @@
 0,HOW MANY OUNCES _ GILL,*,*,4 ounces,knowledge.aiml
 0,HOW MANY OUNCES _ GALLON,*,*,128 ounces,knowledge.aiml
 0,HOW MANY MONTHS *,*,*,12 months per year.,knowledge.aiml
-0,HOW MANY MILES *,*,*,More than I would ever want to drive.,knowledge.aiml
 0,HOW MANY NANOMETRES *,*,*,I spell it "nanometers".,knowledge.aiml
 0,HOW MANY OF *,*,*,Perhaps 50%.,knowledge.aiml
 0,HOW MANY LITERS _ TEASPOON,*,*,4.929 milliliters,knowledge.aiml

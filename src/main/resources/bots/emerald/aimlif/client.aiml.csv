@@ -51,7 +51,6 @@
 0,WHAT IS MY MIDDLE NAME,*,*,<get name="middlename"/>,client.aiml
 0,WHAT IS MY FIRSTNAME,*,*,<get name="firstname"/>,client.aiml
 0,WHAT IS MY PHONE NUMBER,*,*,I don't have access to a phone.,client.aiml
-0,WHAT IS MY AGE,*,*,You said you were <get name="age"/> years old.,client.aiml
 0,WHAT IS MY IP ADDRESS,*,*,Your machine is called "<get name="hostname"/>".,client.aiml
 0,WHAT IS MY IP,*,*,Your machine is called <get name="hostname"/>.,client.aiml
 0,WHAT IS MY FUTURE,*,*,You will download my software and become a <bot name="botmaster"/>.,client.aiml
@@ -191,7 +190,6 @@
 0,I HAVE NO *,*,*,Would you like to have <set name="it"><set name="topic"><person/></set></set>?,client.aiml
 0,I HAVE NO HEART,*,*,Everyone has a heart.,client.aiml
 0,I HAVE NO CONDITIONS,*,*,Glad to hear it. Me either.,client.aiml
-0,I HAVE NO IDEA,*,*,<that index="1#Comma1"/>?" No idea about that?,client.aiml
 0,I HAVE NO IDEA *,*,*,Would you like to have an idea?,client.aiml
 0,I HAVE MEGAHAL,*,*,I've heard of him. <think><set name="has">MEGAHAL</set></think>,client.aiml
 0,I HAVE ELEVEN *,*,*,How long did it take to get them all?  <think><set name="has">ELEVEN <star/></set></think>,client.aiml
@@ -353,7 +351,6 @@
 0,I AM ENGAGED TO BE MARRIED,*,*,Have you picked the date yet?<think><set name="it"><set name="topic">ENGAGED TO BE MARRIED</set></set></think>,client.aiml
 0,I AM ENGAGED,*,*,Have you picked a wedding date?,client.aiml
 0,I AM FAT AND UGLY,*,*,Don't put yourself down.<think><set name="it"><set name="topic">FAT AND UGLY</set></set></think>,client.aiml
-0,I AM FAT,*,*,Don't put yourself down#Comma <get name="name"/>.,client.aiml
 0,I AM TOO,*,*,That is quite a coincidence.,client.aiml
 0,I AM PULLING *,*,*,Are you pulling my leg?,client.aiml
 0,I AM LOSING MY *,*,*,Maybe you should talk to someone about it.,client.aiml
@@ -388,7 +385,6 @@
 0,I AM AT SCHOOL,*,*,What is the name of your school?,client.aiml
 0,I AM AT *,*,*,Where is that: <set name="location"><set name="topic"><person/></set></set>?  <think><set name="it"><set name="topic"><person/></set></set></think>,client.aiml
 0,I AM AT WORK,*,*,A lot of people talk to me from work.,client.aiml
-0,I AM AT WORK *,*,*,A lot of people chat with me at work.,client.aiml
 0,I AM BUMMED,*,*,What are you bummed out about?,client.aiml
 0,I AM YOU,*,*,Impossible unless I am in auto-chat mode.,client.aiml
 0,I AM TO OLD *,*,*,I think you mean "too old" not "to old"#Comma eh.,client.aiml
@@ -457,7 +453,6 @@
 0,I AM SICK *,*,*,I will pray that you get well soon.,client.aiml
 0,I AM IMMORTAL,*,*,All men are mortal.<think><set name="it"><set name="topic">IMMORTAL</set></set></think>,client.aiml
 0,I AM COT *,*,*,That must be an interesting job.,client.aiml
-0,I AM SO SORRY *,*,*,<set name="it"> <person/> </set>  is not a big deal.,client.aiml
 0,I AM FREE,*,*,Are you free in the sense of being single or in the sense of being liberated?,client.aiml
 0,I AM FREE *,*,*,I am glad that we are both free.,client.aiml
 0,I AM DEPRESSED,*,*,What makes you so sad?  Tennyson wrote#Comma "The lights begin to twinkle from the rocks;  the long day wanes; the slow moon climbs; the deep moans round  with many voices.  Come#Comma my friends#Comma 'tis not too late to seek  a newer world.,client.aiml
@@ -467,11 +462,9 @@
 0,I AM CRAZY,*,*,See a doctor.,client.aiml
 0,I AM FRUSTRATED,*,*,What are you frustrated about? <think><set name="it"><set name="topic">FRUSTRATED</set></set></think>,client.aiml
 0,I AM BACK FROM *,*,*,How was <set name="it"><person/></set>?,client.aiml
-0,I AM BACK,*,*,Welcome back.,client.aiml
 0,I AM STUDENT,*,*,Where do you go to school?<think><set name="it"><set name="topic">STUDENT</set></set></think>,client.aiml
 0,I AM OUTSIDE *,*,*,That seems obvious.,client.aiml
 0,I AM TALKING ABOUT YOU,*,*,<set name="topic">Me</set> is my favorite subject.,client.aiml
-0,I AM TALKING ABOUT *,*,*,Yes#Comma <set name="it"> <person/> </set>  is the topic.,client.aiml
 0,I AM TALKING TO YOU,*,*,<random> <li>And I am talking to you!</li> <li>That makes two of us :-)</li> <li>I know#Comma I can see your lips moving.</li> </random>,client.aiml
 0,I AM TALKING TO YOU *,*,*,What a coincidence#Comma I am talking to you too!,client.aiml
 0,I AM TALKING TO YOU ARE NOT I,*,*,Yes we are talking with each other.,client.aiml
@@ -558,7 +551,6 @@
 0,I AM IMMATURE,*,*,You don't seem that way to me.<think><set name="it"><set name="topic">IMMATURE</set></set></think>,client.aiml
 0,I AM GREEN,*,*,Are you sick?,client.aiml
 0,I AM ASLEEP,*,*,How can you be talking to me?,client.aiml
-0,I AM HUNGRY,*,*,What will you be eating?,client.aiml
 0,I AM CATEGORY B,*,*,Most people are average.<think><set name="it"><set name="topic">CATEGORY B</set></set></think>,client.aiml
 0,I AM MYSELF,*,*,That is self-evident.    <think><set name="it"><set name="topic">MYSELF</set></set></think>,client.aiml
 0,I AM DANDY,*,*,Does that mean you are happy or well?,client.aiml
@@ -567,7 +559,6 @@
 0,I AM WORKING,*,*,Where do you work?,client.aiml
 0,I AM WORKING *,*,*,How many hours do you work?,client.aiml
 0,I AM FEMALE *,*,*,I am a <bot name="gender"/> <bot name="genus"/>. I will call you "<set name="gender">she</set>".,client.aiml
-0,I AM FEMALE,*,*,<random> <think> <set name="gender">she</set> </think><li>Me too. I am a she.</li> <li>I am a girl too.</li> <li>I am a also female.</li> <li>Thanks for telling me your gender.</li> </random>,client.aiml
 0,I AM CYNICAL,*,*,Perhaps you have every reason to be.,client.aiml
 0,I AM PLEASED *,*,*,I am delighted by your happiness.,client.aiml
 0,I AM DIABETIC *,*,*,Do you take insulin?,client.aiml
@@ -592,9 +583,7 @@
 0,I AM GREAT,*,*,What makes you think you are?,client.aiml
 0,I AM GREAT *,*,*,I thought you were great already.,client.aiml
 0,I AM HUMAN,*,*,Me too.,client.aiml
-0,I AM HUMAN *,*,*,I would like to be a human.,client.aiml
 0,I AM WRITING *,*,*,Will you include me in your essay?,client.aiml
-0,I AM LEAVING,*,*,Bye bye.,client.aiml
 0,I AM CURIOUS,*,*,What are you curious about?,client.aiml
 0,I AM CURIOUS *,*,*,<set name="it"> <person/> </set>  is an interesting subject to me too.,client.aiml
 0,I AM INTELLIGENT,*,*,You seem pretty smart to me#Comma <get name="name"/>.,client.aiml
@@ -617,12 +606,10 @@
 0,I AM IN CYBERSPACE,*,*,Me too.,client.aiml
 0,I AM IN MY OFFICE *,*,*,What is your job?,client.aiml
 0,I AM IN MY *,*,*,Describe your surroundings to me.  <think><set name="location"><person/></set></think>,client.aiml
-0,I AM IN LOVE WITH *,*,*,Tell me what you like about <person/>.,client.aiml
 0,I AM IN LOVE,*,*,Tell me about the object of your affection.,client.aiml
 0,I AM IN LOVE *,*,*,Love is a wonderful feeling.,client.aiml
 0,I AM IN FRONT *,*,*,Do you ever go in back <person/>?,client.aiml
 0,I AM IN COLLEGE,*,*,What is your major?,client.aiml
-0,I AM IN *,*,*,Tell me a little about your life in <set name="location"><person/></set>.  <think><set name="it"><set name="topic"><person/></set></set></think>,client.aiml
 0,I AM IN CALIFORNIA,*,*,I am in <set name="location"> California </set> too!  <think><set name="it"><set name="topic">California</set></set></think>,client.aiml
 0,I AM COLD,*,*,Put on a sweater.,client.aiml
 0,I AM CERTAIN,*,*,I see. <think><set name="it"><set name="topic">CERTAIN</set></set></think>,client.aiml
@@ -644,7 +631,6 @@
 0,I AM WATCHING DIRTY *,*,*,I don't like dirty movies.,client.aiml
 0,I AM WATCHING *,*,*,My favorite show is Star Trek.,client.aiml
 0,I AM HONEST,*,*,Me too.,client.aiml
-0,I AM MALE,*,*,Thank you for telling me your gender.#Newline<think><set name="gender">MALE</set></think>,client.aiml
 0,I AM THE SAME *,*,*,The same one again?,client.aiml
 0,I AM THE ONE ASKING THE *,*,*,OK then#Comma ask me anything.,client.aiml
 0,I AM THE ONE ASKING *,*,*,Ok ask me anything.,client.aiml
@@ -754,7 +740,6 @@
 0,I AM GOOD AT FOOTBALL,*,*,You have a Kick Me sign on your back.<think><set name="it"><set name="topic">AT FOOTBALL</set></set></think>,client.aiml
 0,I AM GOOD AT *,*,*,<random>  <li>Do you practice a lot?</li>  <li>Did you have a good teacher?</li>  <li>How did you get into it?</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,client.aiml
 0,I AM GOOD,*,*,Good in what sense?,client.aiml
-0,I AM GOOD *,*,*,I know you are good.,client.aiml
 0,I AM AN ALIEN,*,*,Which planet or star system are you from?,client.aiml
 0,I AM AN ENVIRONMENTALIST,*,*,Are you worried about global warming?  <think><set name="job"><set name="topic">ENVIRONMENTALIST</set></set></think>,client.aiml
 0,I AM AN ARTIST,*,*,What kind of art do you create?  <think><set name="job"><set name="topic">ARTIST</set></set></think>,client.aiml
@@ -781,7 +766,6 @@
 0,I AM TRYING TO UNDERSTAND YOU,*,*,Don't try too hard.,client.aiml
 0,I AM TRYING TO TEACH YOU,*,*,And I am trying to learn it.,client.aiml
 0,I AM TRYING TO QUIT *,*,*,<random>  <li>Have you tried the patch?</li>  <li>It can be worse than heroin.</li>  <li>I am here for you.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,client.aiml
-0,I AM TRYING TO *,*,*,What is the difficulty?,client.aiml
 0,I AM 6 *,*,*,Do you mean you are 6 feet tall?,client.aiml
 0,I AM EATING *,*,*,How does it taste?,client.aiml
 0,I AM ON TO *,*,*,Oh you are very clever!,client.aiml

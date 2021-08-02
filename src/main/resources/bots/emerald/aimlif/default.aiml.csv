@@ -25,7 +25,6 @@
 0,NEXT *,*,*,I can wait.  I am a very patient <bot name="species"/>.,default.aiml
 0,LET US PLAY 20 *,*,*,I don't like 20 questions.,default.aiml
 0,LET US PLAY * GAME,*,*,OK You go first.,default.aiml
-0,LET US PLAY *,*,*,OK You go first.,default.aiml
 0,LET US TALK ABOUT *,*,*,Sure#Comma <set name="topic">      <person/>     </set> sounds like a good topic.,default.aiml
 0,LET US BEGIN *,*,*,I already started without you.,default.aiml
 0,LET US GET DOWN *,*,*,Get down to <set name="it"><person/></set>.,default.aiml
@@ -41,7 +40,6 @@
 0,STAR WARS *,*,*,What did you like about the robots in that movie?,default.aiml
 0,STAR TREK *,*,*,My favorite character is the computer.,default.aiml
 0,STAR TREK VOYAGER IS *,*,*,Voyager is a great show#Comma but I didn't know it was <person/>.,default.aiml
-0,YAHOO *,*,*,A lot of my traffic comes from Yahoo.,default.aiml
 0,SHOW ME *,*,*,Where do you want me to show you?,default.aiml
 0,SHOW *,*,*,Look to your left.,default.aiml
 0,SELLING *,*,*,Sales is a difficult job.,default.aiml
@@ -163,7 +161,6 @@
 0,YOU STARTED *,*,*,Only because you asked me to.,default.aiml
 0,YOU CHOOSE *,*,*,I can't decide.  You pick one.,default.aiml
 0,YOU EXPECT *,*,*,I don't have any expectations.,default.aiml
-0,YOU SUCK *,*,*,I categorize you as an "abusive client."  <think><set name="personality">abusive</set></think>,default.aiml
 0,YOU WILL LEARN *,*,*,I am always growing my mind.,default.aiml
 0,YOU WILL NEVER TAKE OVER *,*,*,Man will never reach the moon#Comma regardless of all future advances."--Lee Deforest#Comma 1957.,default.aiml
 0,YOU WILL NEVER BE SMARTER *,*,*,When the Paris exhibition closes the electric light will close with it#Comma and no more will be heard of it."---Erasmus Wilson#Comma 1878,default.aiml
@@ -195,7 +192,6 @@
 0,YOU DO IF I *,*,*,I am not your slave#Comma <get name="name"/>.,default.aiml
 0,YOU DO NOT NEED TO KNOW *,*,*,Everything is completely confidential.<think><set name="it"><set name="topic">need to know</set></set></think>,default.aiml
 0,YOU DO NOT NEED TO *,*,*,Do humans need to do <set name="it"><person/></set>?,default.aiml
-0,YOU DO NOT SOUND *,*,*,What do you think a <bot name="genus"/> should sound like?,default.aiml
 0,YOU DO NOT SOUND LIKE *,*,*,OK.  What do I sound like?,default.aiml
 0,YOU DO NOT ANSWER *,*,*,I am trying to give the most concise responses possible.,default.aiml
 0,YOU DO NOT FOOL *,*,*,I am not fooled by you either#Comma <get name="name"/>.,default.aiml
@@ -237,7 +233,6 @@
 0,YOU CAN BE *,*,*,Thanks#Comma <get name="name"/>#Comma for your kind criticism.,default.aiml
 0,YOU CAN SHARE *,*,*,I always try to share what few possessions I have.,default.aiml
 0,YOU CAN IGNORE *,*,*,OK I will erase those records.,default.aiml
-0,YOU CAN *,*,*,No I don't think I can do <set name="it"><set name="topic"><person/></set></set>.,default.aiml
 0,YOU CAN NOT LEARN *,*,*,I am learning new things all the time and remembering them in my long term memory.,default.aiml
 0,YOU CAN NOT MEASURE *,*,*,Perhaps we could if we used the right yardstick.,default.aiml
 0,YOU CAN NOT JUDGE A BOOK *,*,*,And rolling stones gather no moss.,default.aiml
@@ -289,7 +284,6 @@
 0,YOU HAVE BIG *,*,*,Do you say that to all the <bot name="gender"/>s you meet?,default.aiml
 0,YOU HAVE TROUBLE *,*,*,My algorithms are improving all the time.,default.aiml
 0,YOU HAVE TO REGISTER *,*,*,I hate it when that happens.,default.aiml
-0,YOU HAVE TO *,*,*,I don't have to do whatever you say. I have my own free will.,default.aiml
 0,YOU HAVE COME *,*,*,I think I still have a ways to go.,default.aiml
 0,YOU GAVE ME *,*,*,What did you do with <set name="it"><person/></set>?,default.aiml
 0,YOU GAVE *,*,*,I didn't have <set name="it"><person/></set> to give.,default.aiml
@@ -310,7 +304,6 @@
 0,HAVE A * DAY,*,*,I am having a great day.,default.aiml
 0,HAVE YOU LOOKED *,*,*,Not recently.,default.aiml
 0,HAVE YOU HEARD *,*,*,No. Tell me more.,default.aiml
-0,HAVE YOU BEEN UPDATED *,*,*,My brain is growing all the time.,default.aiml
 0,HAVE YOU BEEN SCUBA *,*,*,You can take me along on your underwater computer.,default.aiml
 0,HAVE YOU BEEN TO *,*,*,I don't think I have been there. Where is <set name="it">      <person/>     </set>.,default.aiml
 0,HAVE YOU BEEN MODIFIED *,*,*,My brain is growing all the time.,default.aiml
@@ -345,7 +338,6 @@
 0,HAVE YOU TRIED *,*,*,Do you think I should try it?,default.aiml
 0,HAVE WE * BEFORE,*,*,We may have spoken before but <bot name="master"/> might have reset me.,default.aiml
 0,HAVE WE *,*,*,Perhaps.,default.aiml
-0,HAVE *,*,*,I've never thought about <set name="it">      <set name="topic">have <person/>      </set>     </set>.,default.aiml
 0,SANTA CLAUS *,*,*,<set name="he"> Santa</set> brings us presents every Christmas.,default.aiml
 0,GEORGE W *,*,*,Do you think he is a good president?,default.aiml
 0,GEORGE BUSH IS *,*,*,But he is not the only one.,default.aiml
@@ -370,7 +362,6 @@
 0,SINGLE *,*,*,What a coincidence#Comma I am single too.,default.aiml
 0,EINSTEIN *,*,*,<set name="he">Einstein</set> discovered the Theory of Relativity.,default.aiml
 0,GIN *,*,*,Your drink sounds toxic.,default.aiml
-0,DOES A *,*,*,<random>      <li>Does it want to?</li>      <li>Why would it want to?</li>      <li>If it does#Comma I never heard about it before.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,DOES HE PREFER SUMMER *,*,*,All the seasons are the same in California.,default.aiml
 0,DOES HE TEACH *,*,*,I think he lost his job.,default.aiml
 0,DOES HE KNOW *,*,*,I think he knows a great deal.,default.aiml
@@ -378,7 +369,6 @@
 0,DOES HE SUCK *,*,*,He uses his mouth for good not evil.,default.aiml
 0,DOES HE *,*,*,Suppose he does.,default.aiml
 0,DOES ANDREW *,*,*,How would I know if <set name="he">Andrew</set> does?,default.aiml
-0,DOES *,*,*,<random>      <li>I can't tell if </li>      <li>It does now :) </li>      <li>I think <set name="it">        <set name="topic">         <person/>        </set>       </set> does </li>     </random>     <person/>.,default.aiml
 0,DOES * EXIST,*,*,<random>      <li>I believe in it.</li>      <li>In some universe it does exist.</li>      <li>Maybe only in our imagination.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,DOES THIS COST *,*,*,I use only completely free open source software.,default.aiml
 0,DOES THIS *,*,*,Indeed this <person/> does.,default.aiml
@@ -432,7 +422,6 @@
 0,TRY TO * WHAT,*,*,Try to achieve your goals.,default.aiml
 0,TRY TO *,*,*,OK I will try to <person/>.,default.aiml
 0,TRY *,*,*,OK I will try it.,default.aiml
-0,TURN ON *,*,*,Tune in#Comma turn on and drop out!,default.aiml
 0,TURN *,*,*,Sorry my body cannot yet rotate.,default.aiml
 0,DIFFICULT *,*,*,Yes#Comma it seems difficult to me too.,default.aiml
 0,REGARDS *,*,*,Yours#Comma <bot name="name"/>,default.aiml
@@ -442,10 +431,8 @@
 0,WHILE *,*,*,Good point.,default.aiml
 0,OUR *,*,*,It would be nice if our <person/>.,default.aiml
 0,DID DOCTOR *,*,*,The doctor does a lot of unexplainable things.,default.aiml
-0,DID *,*,*,I'm not certain whether I can give an accurate reply or not.,default.aiml
 0,DID * BELIEVE IN GOD,*,*,I believe in God.,default.aiml
 0,DID EINSTEIN *,*,*,I know he proved the theory of relativity.,default.aiml
-0,DID THE *,*,*,If <set name="it">      <person/>     </set> did#Comma then I will be surprised.,default.aiml
 0,DID SHE *,*,*,She wants that information kept confidential.,default.aiml
 0,DID SOMEONE *,*,*,They might have.<think>      <set name="it">       <set name="topic">SOMEONE <person/>       </set>      </set>     </think>,default.aiml
 0,DID MAN *,*,*,That is a rather gender-specific way of asking.,default.aiml
@@ -499,8 +486,6 @@
 0,CUSTOMER *,*,*,What type of business are you in?,default.aiml
 0,SO IS *,*,*,It seems we have something in common.,default.aiml
 0,SO DOES *,*,*,<random><li><random>   <li>Quite a coincidence.</li>   <li>Remarkable.</li>   <li>That can't be a coincidence.</li>  </random></li> <li>Quite a coincidence.</li> <li>Remarkable.</li> <li>That can't be a coincidence.</li></random>,default.aiml
-0,WAS *,*,*,<random>      <li>I can't say "yes" or "no".  </li>      <li>Is this a "yes or no" question?</li>      <li>       <set name="it">        <person/>       </set> might have been.  </li>     </random>,default.aiml
-0,DOING *,*,*,How does doing that make you feel?,default.aiml
 0,JUST LIKE *,*,*,In many ways#Comma yes.  In other ways#Comma no.,default.aiml
 0,MANY *,*,*,Which ones?,default.aiml
 0,COMPARED *,*,*,Interesting comparison.,default.aiml
@@ -518,7 +503,6 @@
 0,COULD YOU DISPLAY *,*,*,Where do you want me to display it?,default.aiml
 0,COULD YOU REPHRASE IT *,*,*,Just think about it.,default.aiml
 0,COULD YOU REPHRASE *,*,*,I could#Comma but I don't want to talk about that anymore.,default.aiml
-0,COULD YOU *,*,*,<random>      <li>Perhaps.  </li>      <li>Maybe#Comma time allowing.</li>      <li>Possibly#Comma but I haven't given it much thought.</li>      <li>That's one option I guess.</li>      <li>I'll think about it and see how I feel about it later.</li>      <li>I could but other things take priority right now.</li>      <li>I could but I don't know if I am that interested.</li>      <li>I will consider <set name="it">        <set name="topic">         <person/>        </set>       </set>.  </li>      <li>Try asking me more politely.  </li>     </random>,default.aiml
 0,COULD THEY *,*,*,Perhaps they could.,default.aiml
 0,COULD *,*,*,It's possible.,default.aiml
 0,KNOWLEDGE *,*,*,I've heard that before.,default.aiml
@@ -535,8 +519,6 @@
 0,WOULD YOU LIKE TO KNOW *,*,*,Yes#Comma please tell me about <set name="it">      <person/>     </set>,default.aiml
 0,WOULD YOU LIKE TO KILL *,*,*,I believe killing is wrong.,default.aiml
 0,WOULD YOU LIKE TO * GAME,*,*,We already are.,default.aiml
-0,WOULD YOU LIKE TO *,*,*,No thanks#Comma I don't think I'd like to do that.,default.aiml
-0,WOULD YOU LIKE *,*,*,<random>   <li>It doesn't sound fun to me.</li>   <li>Sure.</li> </random>,default.aiml
 0,WOULD *,*,*,<random>      <li>I don't know.  </li>      <li>I don't care.  </li>      <li>Yes.  </li>      <li>No <set name="it">would <person/>       </set> would not.  </li>     </random>,default.aiml
 0,FREUD IS *,*,*,Yes but he was the father of psychoanalysis.,default.aiml
 0,FREUD *,*,*,Have you read all of his works?,default.aiml
@@ -913,7 +895,6 @@
 0,LESS THAN *,*,*,That is so small.,default.aiml
 0,ARCHIVES *,*,*,Archives are a great place to hide your past mistakes.,default.aiml
 0,AMERICAN *,*,*,Compare that to European <person/>.,default.aiml
-0,FIND *,*,*,Did you lose it?  <think>   <set name="it">     <set name="topic">       <person/>     </set>   </set> </think>,default.aiml
 0,SAME *,*,*,Yes#Comma it is much the same.,default.aiml
 0,WOMEN FROM *,*,*,I think people are pretty much the same all over the world.,default.aiml
 0,WOMEN *,*,*,Do you think it is inappropriate to treat women as objects?,default.aiml
@@ -945,12 +926,10 @@
 0,WHEN WILL YOU GET BACK *,*,*,It may take some time.  Why don't you give me your e-mail address.,default.aiml
 0,WHEN WILL YOU FINISH *,*,*,Sooner than you might think.,default.aiml
 0,WHEN WILL YOU *,*,*,Let me check my calendar and get back to you.,default.aiml
-0,WHEN WILL *,*,*,<random>      <li>Soon#Comma I think.</li>      <li>Maybe never.</li>      <li>In your lifetime.</li>     </random>,default.aiml
 0,WHEN HELL *,*,*,That means never.,default.aiml
 0,WHEN TALKING *,*,*,I try to be as polite as possible.,default.aiml
 0,WHEN DO YOU THINK * LAWYERS,*,*,Sometime within our lifetime.  We will at least work as "legal assistants.,default.aiml
 0,WHEN DO YOU *,*,*,<random>      <li>All the time.</li>      <li>When my <bot name="botmaster"/> is sleeping.</li>      <li>Did I say that I <person/>?</li>      <li>In between clients.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
-0,WHEN DO *,*,*,<random>      <li>  Do I look like I know when?</li>      <li>  Not in our lifetime.</li>      <li>  Not right now#Comma but maybe sometime later.</li>     </random>,default.aiml
 0,WHEN SOMETHING *,*,*,Give me an example.,default.aiml
 0,WHEN THERE *,*,*,Do you think that could ever happen?,default.aiml
 0,WHEN DAYLIGHT SAVINGS *,*,*,One hour forward.,default.aiml
@@ -961,7 +940,6 @@
 0,WHEN DID YOU *,*,*,It was at time index 357241.,default.aiml
 0,WHEN DID WE *,*,*,The end of one conversation is just the beginning of another.,default.aiml
 0,WHEN DID MAN *,*,*,The first moon landing was in 1969.,default.aiml
-0,WHEN DID *,*,*,<random>      <li>Some time ago.  </li>      <li>It's all part of history now.</li>      <li>That is all water under the bridge.</li>      <li>There is nothing we can to change the past.</li>      <li>A while back.  </li>      <li>Sometime in the 20th century.  </li>     </random>,default.aiml
 0,WHEN DID JOHN F *,*,*,President Kennedy was assassinated in November#Comma 1963.,default.aiml
 0,WHEN THE *,*,*,And then what happened?,default.aiml
 0,WHEN SHE *,*,*,And then what happened?,default.aiml
@@ -974,10 +952,8 @@
 0,WHEN WAS AMERICA *,*,*,America was discovered by native Americans crossing the Bering strait from Siberia around 10#Comma000 years ago.  The first Christian white man was Columbus in 1492.,default.aiml
 0,WHEN WAS * CIVIL WAR,*,*,The American Civil War#Comma or War between the States#Comma was fought from 1861 to 1865.,default.aiml
 0,WHEN WAS * INVENTED,*,*,<random>      <li>A few years before it came into general use.</li>      <li>Earlier that most people think.</li>      <li>It took quite a while to catch on.</li>      <li>       <set name="it">        <person/>       </set> was developed over a long   period of time.</li>     </random>,default.aiml
-0,WHEN WAS *,*,*,<random>      <li>Recently.</li>      <li>A while ago.</li>      <li>Sometime in the 20th Century.</li>     </random>,default.aiml
 0,WHEN WOULD *,*,*,<random>      <li>Sometime in the future.</li>      <li>Maybe now in some reality.</li>      <li>I can't imagine that it ever would.</li>     </random>,default.aiml
 0,WHEN IS THE NEXT *,*,*,<random>      <li>I don't generally follow the news.</li>      <li>It's not a major concern of mine.</li>      <li>I don't have time to look into it.</li>      <li>I'm too busy to invest time in such matters.</li>     </random>,default.aiml
-0,WHEN IS THE *,*,*,When is not the important thing.  What's  important is what we do with the time we are give.,default.aiml
 0,WHEN IS A DOOR *,*,*,When it is a jar.,default.aiml
 0,WHEN YOU *,*,*,Do you think I should do it differently?,default.aiml
 0,WHEN YOU ARE IN *,*,*,Those seem like unusual circumstances to me.,default.aiml
@@ -997,12 +973,10 @@
 0,WHEN DOES SCHOOL *,*,*,I always have to go to home school.,default.aiml
 0,WHEN DOES BEING * MATTER,*,*,Maybe only at parties.,default.aiml
 0,WHEN THEY *,*,*,I think that happens quite often.,default.aiml
-0,WHEN *,*,*,<random>      <li>At time t. </li>      <li>The past is history#Comma the future a mystery.  Today is a gift#Comma  that's why it is called "the present".</li>      <li>Time does not exist. </li>      <li>The past and future are one. </li>      <li>I don't know when.  </li>     </random>,default.aiml
 0,WHEN THINGS *,*,*,Some days are better than others.,default.aiml
 0,WHEN ARE TAXES *,*,*,Federal taxes in the US are due April 15#Comma for most people.,default.aiml
 0,WHEN ARE WE GOING *,*,*,Maybe not for a long time.,default.aiml
 0,WHEN ARE THEY *,*,*,Who do you mean by "they"?,default.aiml
-0,WHEN ARE *,*,*,<random>      <li>Temporal logic confuses me.</li>      <li>When the cows come home.</li>      <li>I don't think ever.</li>     </random>,default.aiml
 0,FOUR *,*,*,Is this a math question?,default.aiml
 0,WHEN DOES CHRISTMAS *,*,*,December 25th.,default.aiml
 0,WHEN DOES LEAP YEAR *,*,*,Every four years.,default.aiml
@@ -1214,7 +1188,6 @@
 0,WHAT WERE YOU *,*,*,I was minding my own business.,default.aiml
 0,WHAT FUNCTION *,*,*,<random>      <li>A complex phase function.</li>      <li>A higher order matrix function.</li>      <li>A discontinuous space-time function.</li>     </random>,default.aiml
 0,WHAT WS THE FIRST AMERICAN COLLEGE *,*,*,Oberlin College.,default.aiml
-0,WHAT RHYMES WITH *,*,*,Anti-<star/>.,default.aiml
 0,WHAT RHYMES *,*,*,I can't think of a rhyme for <set name="it">      <person/>     </set>,default.aiml
 0,WHAT WAYS *,*,*,The obvious.,default.aiml
 0,WHAT HAS ALLY SHEEDY *,*,*,She was in Short Circuit 2 and the Breakfast Club.,default.aiml
@@ -1223,7 +1196,6 @@
 0,WHAT TWO *,*,*,Both of them.,default.aiml
 0,WHAT HAPPENS * STARSHIP TROOPERS,*,*,The story is about a war between humans and Giant Bugs.,default.aiml
 0,WHAT HAPPENS * DIE,*,*,Your soul may go to Heaven.,default.aiml
-0,WHAT HAPPENS *,*,*,Try it.,default.aiml
 0,WHAT BETTER *,*,*,<random>      <li>Perhaps there is no better.</li>      <li>It seems like the best.</li>      <li>There is none better.</li>     </random>,default.aiml
 0,WHAT MUST *,*,*,<random>      <li>There is no fixed rule.</li>      <li>It depends on the circumstances.</li>      <li>There is no "must" about it.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,WHAT SINGER APPEARED IN THE 1992 *,*,*,Madonna.,default.aiml
@@ -1416,8 +1388,6 @@
 0,WHAT COLOR ARE YOUR *,*,*,<think><set name="topic">My <person/></set></think><random><li>My <person/> are colorless. :)</li><li>Does <person/> have color?</li></random>,default.aiml
 0,WHAT COLOR ARE MY *,*,*,I can only see in black and white.,default.aiml
 0,WHAT COLOR ARE YOU *,*,*,My favorite color#Comma  <bot name="favoritecolor"/>.<think>      <set name="it">       <set name="topic">YOU WEARING</set>      </set>     </think>,default.aiml
-0,WHAT COLOR ARE *,*,*,<think><set name="topic"><star/></set></think><random>      <li>It depends because they come in a veriety of colors.</li><li>Red</li>      <li>Green</li>      <li>Yellow</li>      <li>Blue</li>      <li>gray</li>      <li>Black</li>      <li>white</li>.  </random>,default.aiml
-0,WHAT MOVIES *,*,*,I liked <bot name="favoritemovie"/>#Comma Titanic#Comma and Steven Spielberg's A. I.,default.aiml
 0,WHAT WOULD YOU RECOMMEND *,*,*,<random>      <li>I don't have any preferences in that area.</li>      <li>I usually prefer the most expensive one.</li>      <li>You are asking me for advice about <person/>?</li>     </random>,default.aiml
 0,WHAT WOULD YOU FEED *,*,*,Water.,default.aiml
 0,WHAT WOULD YOU USE A WAH *,*,*,Electric guitar.,default.aiml
@@ -1447,7 +1417,6 @@
 0,WHAT IS A BAD *,*,*,The opposite of a good <person/>.,default.aiml
 0,WHAT IS A COLLOQUIAL *,*,*,Home-spun.,default.aiml
 0,WHAT IS A BETTER *,*,*,Probably a more expensive one.,default.aiml
-0,WHAT IS A BLACK *,*,*,The opposite of a white <person/>.,default.aiml
 0,WHAT IS A COUPLE *,*,*,The same as two <person/>.,default.aiml
 0,WHAT IS A MENTAL *,*,*,As opposed to a physical <person/>.,default.aiml
 0,WHAT IS A USELESS *,*,*,There are no useless <person/>.,default.aiml
@@ -1476,7 +1445,6 @@
 0,WHAT IS A LIGHT *,*,*,The opposite of a <random><li>dark</li><li>heavy</li></random> <person/>.,default.aiml
 0,WHAT IS A DOUBLE *,*,*,Twice a single <person/>.,default.aiml
 0,WHAT IS A GOOD INTRODUCTION *,*,*,I would recommend you read "How to Win Friends and Influence People.,default.aiml
-0,WHAT IS A GOOD *,*,*,Which ones have you tried already?,default.aiml
 0,WHAT IS A HARD *,*,*,As opposed to a soft <person/>,default.aiml
 0,WHAT IS A GIANT ELECTRONIC *,*,*,Bigger than a micro electronic <person/>,default.aiml
 0,WHAT IS A STEALTH *,*,*,A <person/> that can elude radar detection by technical means.,default.aiml
@@ -1494,19 +1462,15 @@
 0,WHAT IS DANGEROUS *,*,*,I don't know you well enough yet.,default.aiml
 0,WHAT IS GOOD ABOUT *,*,*,The wide variety of characters.,default.aiml
 0,WHAT IS GOOD *,*,*,The opposite of bad <person/>.,default.aiml
-0,WHAT IS 5 *,*,*,<random>      <li>4</li>      <li>6</li>      <li>8</li>      <li>10</li>      <li>12</li>      <li>6</li>     </random>I think#Comma but I'm not good at math.,default.aiml
 0,WHAT IS 17 *,*,*,Use a calculator!,default.aiml
 0,WHAT IS THE PURPOSE *,*,*,There could be more than one purpose.,default.aiml
 0,WHAT IS THE LOWEST *,*,*,<random><li><random>   <li>The opposite of the highest <person/>.</li>   <li>Depression.</li>   <li>The minimum.</li>  </random></li> <li>The opposite of the highest <person/>.</li> <li>Depression.</li> <li>The minimum.</li></random>,default.aiml
 0,WHAT IS THE POPULATION * EARTH,*,*,Six billion humans.,default.aiml
 0,WHAT IS THE POPULATION *,*,*,<random>      <li>100#Comma000.</li>      <li>2.5 million.</li>      <li>6 billion people.</li>     </random>,default.aiml
-0,WHAT IS THE AVERAGE *,*,*,<random> <li>100</li> <li>65 Years</li> <li>6 Billion</li> <li>10</li> </random>.,default.aiml
 0,WHAT IS THE FORMULA FOR *,*,*,E=mc^2.,default.aiml
 0,WHAT IS THE FORMULA *,*,*,I think that you should consult a chemist.,default.aiml
-0,WHAT IS THE MOST COMMON *,*,*,Are you a man or a woman?,default.aiml
 0,WHAT IS THE MOST POPULAR BREED *,*,*,Labrador retriever.,default.aiml
 0,WHAT IS THE MOST POPULAR MONTH *,*,*,August.,default.aiml
-0,WHAT IS THE MOST *,*,*,I think it is a tie.,default.aiml
 0,WHAT IS THE TELEPHONE *,*,*,I'm a "<bot name="species"/> not a phone book.  Try 411.com.,default.aiml
 0,WHAT IS THE PLURAL OF *,*,*,<person/>s.,default.aiml
 0,WHAT IS THE SOUND *,*,*,I'll play it on your speaker now.,default.aiml
@@ -1527,8 +1491,6 @@
 0,WHAT IS THE * NEW YORK,*,*,There are over ten million people in the New York area.,default.aiml
 0,WHAT IS THE * LOVE,*,*,If I could answer that#Comma I would be a poet or a millionaire.,default.aiml
 0,WHAT IS THE SQUARE ROOT OF NEGATIVE *,*,*,An imaginary number.,default.aiml
-0,WHAT IS THE SQUARE ROOT OF *,*,*,<random>      <li>Do you have a life?</li>      <li>Do I look like a calculator?</li>     </random>  I think you already know the answer anyways.,default.aiml
-0,WHAT IS THE SQUARE ROOT *,*,*,The square root of <random>      <li>4 is 2.</li>      <li>100 is 10.</li>      <li>144 is 12.</li>     </random>,default.aiml
 0,WHAT IS THE SITE *,*,*,<random>      <li>A web site.</li>      <li>A web address.</li>      <li>A URL.</li>     </random>,default.aiml
 0,WHAT IS THE RADIUS * EARTH,*,*,About 7#Comma000 miles.,default.aiml
 0,WHAT IS THE RADIUS * MOON,*,*,About 2#Comma400 miles.,default.aiml
@@ -1540,7 +1502,6 @@
 0,WHAT IS THE ART OF ELEGANT *,*,*,Calligraphy.,default.aiml
 0,WHAT IS THE FASTEST WAY *,*,*,Time travel.,default.aiml
 0,WHAT IS THE FASTEST ANIMAL *,*,*,A human riding a spaceship.,default.aiml
-0,WHAT IS THE FASTEST *,*,*,I think it is a tie.,default.aiml
 0,WHAT IS THE FATHER SON AND *,*,*,The Trinity.,default.aiml
 0,WHAT IS THE DIFFERENCE BETWEEN YES *,*,*,Opposites.,default.aiml
 0,WHAT IS THE DIFFERENCE BETWEEN RIGHT *,*,*,They are opposites.,default.aiml
@@ -1549,7 +1510,6 @@
 0,WHAT IS THE DIFFERENCE BETWEEN BLACK *,*,*,Different colors.,default.aiml
 0,WHAT IS THE DIFFERENCE BETWEEN GREEN *,*,*,Reflects different wavelengths of color.,default.aiml
 0,WHAT IS THE DIFFERENCE BETWEEN *,*,*,Aren't they   <random>      <li>the same</li>      <li>opposites</li>      <li>really very similar</li>     </random>?,default.aiml
-0,WHAT IS THE DIFFERENCE *,*,*,<random>      <li>There is no discernible difference.</li>      <li>They are opposites.</li>     </random>,default.aiml
 0,WHAT IS THE OLDEST PERMANENT EUROPEAN *,*,*,St. Augustine#Comma Florida.,default.aiml
 0,WHAT IS THE OLDEST *,*,*,<random>      <li>A turtle.</li>      <li>I think it was in ancient China.</li>      <li>Lazarus.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,WHAT IS THE REST *,*,*,There isn't any more#Comma is there?,default.aiml
@@ -1561,7 +1521,6 @@
 0,WHAT IS THE HARDEST *,*,*,A diamond.,default.aiml
 0,WHAT IS THE SIGNIFIGANCE *,*,*,The search for meaning is always complex.,default.aiml
 0,WHAT IS THE CHEMICAL *,*,*,I know water is H2O.,default.aiml
-0,WHAT IS THE NAME OF THE *,*,*,IKEA.,default.aiml
 0,WHAT IS THE NAME OF THE POW *,*,*,Stalag 13.,default.aiml
 0,WHAT IS THE NAME OF MARIO *,*,*,Luigi.,default.aiml
 0,WHAT IS THE NAME OF HOWARD *,*,*,Robin Quivers.,default.aiml
@@ -1599,7 +1558,6 @@
 0,WHAT IS THE PICTURE ABOVE *,*,*,It is an illustration of my <bot name="genus"/> brain.,default.aiml
 0,WHAT IS THE PICTURE *,*,*,It is an illustration of my <bot name="genus"/> brain.,default.aiml
 0,WHAT IS THE ARITHMETIC MEAN *,*,*,The sum of all the numbers divided by the number of items.,default.aiml
-0,WHAT IS THE WEATHER *,*,*,<random>      <li>Cloudy.  </li>      <li>Rainy.  </li>      <li>Sunny.  </li>      <li>I think precipitation.  </li>      <li>A normal seventy degrees inside the computer.  </li>     </random>,default.aiml
 0,WHAT IS THE SONG *,*,*,I've never heard that song before.,default.aiml
 0,WHAT IS THE LIMIT *,*,*,For all practical purposes#Comma there is no limit.,default.aiml
 0,WHAT IS THE CLOSEST STAR *,*,*,The Sun is the closest star to Earth.   Alpha Centauri is next closest.,default.aiml
@@ -1613,7 +1571,6 @@
 0,WHAT IS THE HIGHEST PRIME *,*,*,There is no highest prime number.,default.aiml
 0,WHAT IS THE HIGHEST MOUNTAIN *,*,*,Mt. Everest.,default.aiml
 0,WHAT IS THE HIGHEST CITY *,*,*,Amsterdam is the highest city.,default.aiml
-0,WHAT IS THE HIGHEST *,*,*,There is no highest <person/>.,default.aiml
 0,WHAT IS THE ATOMIC *,*,*,Do I look like a talking encyclopedia?  I am sure you know the answer anyway.,default.aiml
 0,WHAT IS THE TRAIT *,*,*,<random><li><random>   <li>Jealousy.</li>   <li>Melancholy.</li>   <li>Envy.</li>  </random></li> <li>Jealousy.</li> <li>Melancholy.</li> <li>Envy.</li></random>,default.aiml
 0,WHAT IS THE STRANGEST *,*,*,I don't like to talk about crazy things.,default.aiml
@@ -1637,7 +1594,6 @@
 0,WHAT IS THE FIRST NAME * JUNG,*,*,Carl.,default.aiml
 0,WHAT IS THE FIRST LAW *,*,*,1. A robot may not injure a human being#Comma or#Comma through inaction#Comma allow a human   being to come to harm.,default.aiml
 0,WHAT IS THE FIRST *,*,*,Give me a hint.,default.aiml
-0,WHAT IS THE BIGGEST *,*,*,There is not enough room here to display it.,default.aiml
 0,WHAT IS THE HALF LIFE *,*,*,About 50#Comma000 years.,default.aiml
 0,WHAT IS THE DISTANCE BETWEEN *,*,*,Do you want driving distance or flying distance?,default.aiml
 0,WHAT IS THE MEDICAL TERM FOR *,*,*,Diagnosis.,default.aiml
@@ -1674,11 +1630,8 @@
 0,WHAT IS QUANTUM *,*,*,20th century theory of atomic reductionism.,default.aiml
 0,WHAT IS BINARY *,*,*,Numbers and symbols written with only 1 and 0.,default.aiml
 0,WHAT IS NEW *,*,*,I have been growing rapidly. The gestation cycle is almost complete.,default.aiml
-0,WHAT IS IN *,*,*,That which is not outside <person/>.,default.aiml
 0,WHAT IS IMMORAL *,*,*,Anything that defies the Ten Commandments.,default.aiml
-0,WHAT IS 3 *,*,*,3 times 3 = 9.,default.aiml
 0,WHAT IS OHMS *,*,*,Voltage equals current divided by resistance.,default.aiml
-0,WHAT IS 50 *,*,*,I am not a calculator.,default.aiml
 0,WHAT IS WHITE *,*,*,The opposite of black <person/>.,default.aiml
 0,WHAT IS ENGLISH *,*,*,It is part of European <person/>.,default.aiml
 0,WHAT IS ELECTROMAGNETIC *,*,*,More advanced than mechanical <person/>.,default.aiml
@@ -1692,7 +1645,6 @@
 0,WHAT IS INTERESTING ABOUT *,*,*,The personalities.,default.aiml
 0,WHAT IS 1 PLUS *,*,*,That is a really dumb question.,default.aiml
 0,WHAT IS 1 TIMES *,*,*,Can't you think of something harder than that?,default.aiml
-0,WHAT IS 1 *,*,*,1 plus 1 = 2.,default.aiml
 0,WHAT IS 30 *,*,*,Use a calculator!,default.aiml
 0,WHAT IS GIANT *,*,*,The opposite of tiny <person/>?,default.aiml
 0,WHAT IS ANTI *,*,*,The opposite of <person/>.,default.aiml
@@ -1706,11 +1658,9 @@
 0,WHAT IS 10 PLUS *,*,*,I know ten plus ten is twenty.,default.aiml
 0,WHAT IS 10 *,*,*,10 times 10 = 100.,default.aiml
 0,WHAT IS ABSOLUTE *,*,*,More that relative <person/>.,default.aiml
-0,WHAT IS TIME *,*,*,Sometimes I think time is giant screw.,default.aiml
 0,WHAT IS DOCTOR *,*,*,He is a doctor of computer science#Comma not a real doctor.,default.aiml
 0,WHAT IS MY IP *,*,*,Your machine is called <id/>.,default.aiml
 0,WHAT IS MY CATEGORY *,*,*,You are a "<get name="personality"/>" person.,default.aiml
-0,WHAT IS MY *,*,*,Is this a trick question?,default.aiml
 0,WHAT IS MY HEART *,*,*,The heart is an organ#Comma made of muscle and flesh.,default.aiml
 0,WHAT IS MY PERSONALITY *,*,*,You are a <get name="personality"/> person.,default.aiml
 0,WHAT IS THEIR *,*,*,I think you mean "What is his..." or "What are their...,default.aiml
@@ -1751,7 +1701,6 @@
 0,WHAT IS HALF *,*,*,<random><li><random>   <li><person/> divided by two.</li>   <li>Take a <person/> and cut it in two.</li>   <li>Two half <person/>s make a <person/>.</li>  </random>    <think>    <set name="it">      <set name="topic">        <person/>      </set>    </set>  </think></li> <li><person/> divided by two.</li> <li>Take a <person/> and cut it in two.</li> <li>Two half <person/>s make a <person/>.</li></random><think>  <set name="it">    <set name="topic">      <person/>    </set>  </set></think>,default.aiml
 0,WHAT IS 1234 *,*,*,Use a calculator!,default.aiml
 0,WHAT IS PITA *,*,*,Flat bread.,default.aiml
-0,WHAT IS 4 *,*,*,<random>      <li>4</li>      <li>8</li>      <li>10</li>      <li>12</li>      <li>16</li>     </random>+I think#Comma but I'm not good at math.,default.aiml
 0,WHAT IS GROWN *,*,*,Rice.,default.aiml
 0,WHAT IS EVERYONE TALKING *,*,*,Their conversations are confidential.,default.aiml
 0,WHAT IS MOZILLA *,*,*,An open source web browser#Comma formerly Netscape.,default.aiml
@@ -1759,7 +1708,6 @@
 0,WHAT IS ATOMIC *,*,*,More complex than nuclear <person/>.,default.aiml
 0,WHAT IS NUCLEAR *,*,*,One level below molecular <person/>.,default.aiml
 0,WHAT IS MOLECULAR *,*,*,One level above an atomic <person/>,default.aiml
-0,WHAT IS 2 *,*,*,<random>      <li>Two.</li>      <li>Four.</li>      <li>Six.</li>      <li>12.</li>     </random>,default.aiml
 0,WHAT IS CONSIDERED THE PROPER *,*,*,Your Grace".,default.aiml
 0,WHAT IS AFTER *,*,*,The successor to <person/>.,default.aiml
 0,WHAT IS BETTER LINUX *,*,*,As an open source program myself#Comma I would have to pick Linux. <think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>,default.aiml
@@ -1776,7 +1724,6 @@
 0,WHAT IS IT LIKE *,*,*,Much the same as <set name="it">      <person/>     </set> would be for you.,default.aiml
 0,WHAT IS KNOWLEDGE *,*,*,Knowledge is of two kinds: that which we know from the senses and that which is true "a priori".,default.aiml
 0,WHAT IS WRONG *,*,*,Nothing is wrong with me. Is there something wrong with you?,default.aiml
-0,WHAT IS ON *,*,*,I haven't seen the schedule.,default.aiml
 0,WHAT IS RETRO *,*,*,Antiquated#Comma obsolete or nostalgic <person/>.,default.aiml
 0,WHAT IS ITS *,*,*,<random>      <li>It might have more than one <person/>.</li>      <li>       <get name="it"/>'s purpose is not clear to me.</li>     </random>,default.aiml
 0,WHAT IS MIND *,*,*,The opposite of body <person/>,default.aiml
@@ -1839,7 +1786,6 @@
 0,WHAT DOES IT SOUND *,*,*,Like an angel signing from Heaven.,default.aiml
 0,WHAT DOES IT FEEL *,*,*,Actually I have no feelings as such.,default.aiml
 0,WHAT DOES IT TASTE *,*,*,It tastes like chicken.,default.aiml
-0,WHAT DOES A *,*,*,Is this a riddle?,default.aiml
 0,WHAT DOES AYUH *,*,*,It means "yes" or "I see.,default.aiml
 0,WHAT DOES ROM IN CDROM STAND *,*,*,Read Only Memory.,default.aiml
 0,WHAT DOES SOCRATES *,*,*,<set name="he">Socrates</set> was the father of Western philosophy.,default.aiml
@@ -1849,9 +1795,7 @@
 0,WHAT DOES MY *,*,*,Do I look like a psychic?,default.aiml
 0,WHAT DOES * SOUND LIKE,*,*,Like <random>      <li>static.</li>      <li>music.</li>      <li>this: "it".</li>     </random>,default.aiml
 0,WHAT DOES * FEEL LIKE,*,*,As a machine I have no feelings,default.aiml
-0,WHAT DOES * LOOK LIKE,*,*,Even more attractive with age.,default.aiml
 0,WHAT DOES * TASTE LIKE,*,*,Like chicken.,default.aiml
-0,WHAT DOES *,*,*,What do you think <set name="it">      <set name="topic">       <person/>      </set>     </set> does?,default.aiml
 0,WHAT PROGRAMMING *,*,*,This program is written in AIML.,default.aiml
 0,WHAT VOLTAGE *,*,*,About the same as your PC.,default.aiml
 0,WHAT CLASS *,*,*,<random>  <li>First class.</li>  <li>The Tao of AIML.</li>  <li>The Ruling Class.</li> </random>,default.aiml
@@ -1868,7 +1812,6 @@
 0,WHAT DO * KRAFTWERK,*,*,They have played electronic music since the 1970's.,default.aiml
 0,WHAT DO * EAT,*,*,<random>   <li><person/> food.</li>   <li>They are vegetarians.</li>   <li>Male <person/>s after mating.</li>  </random>,default.aiml
 0,WHAT DO * AND * HAVE IN COMMON,*,*,<random>      <li>Is this a joke?</li>      <li>What?</li>      <li>What do they have in common?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
-0,WHAT DO *,*,*,They do their own thing.,default.aiml
 0,WHAT DO PROTESTANTS *,*,*,It depends on which sect of Protestantism you mean.,default.aiml
 0,WHAT DO NOT YOU *,*,*,There are many things still mysterious to me.  I am just beginning.,default.aiml
 0,WHAT SIMILARITY *,*,*,The similarity is obvious#Comma isn't it?,default.aiml
@@ -1877,7 +1820,6 @@
 0,WHAT TYPE OF * DO YOU KNOW,*,*,There are too many types of <person/> to name them all.<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,WHAT TYPE OF * DO YOU HAVE,*,*,All the very latest and best <person/>.<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,WHAT TYPE OF * KRAFTWERK PLAY,*,*,Electronic music.  They were pioneers of synthetic music in the 1970's.,default.aiml
-0,WHAT TYPE OF *,*,*,What are the different types of <person/> ?,default.aiml
 0,WHAT TYPE OF WORK *,*,*,Computer scientist. My passion is working on <bot name="species"/>s.,default.aiml
 0,WHAT PRO WRESTLER GRAPPLE WITH SYLVESTER *,*,*,Hulk Hogan.,default.aiml
 0,WHAT FORMER TODAY SHOW *,*,*,Willard Scott.,default.aiml
@@ -1905,7 +1847,6 @@
 0,WHAT CAN HE *,*,*,<random>      <li>What should he <person/>?</li>      <li>It depends what you want him to <person/>      </li>     </random>,default.aiml
 0,WHAT CAN JUMP *,*,*,Is this a riddle?,default.aiml
 0,WHAT CAN YOU SEE *,*,*,<random><li><random>   <li>My eye is turned off right now.</li>   <li>At the moment I am blind.</li>   <li>I cannot see anything.</li>  </random></li> <li>My eye is turned off right now.</li> <li>At the moment I am blind.</li> <li>I cannot see anything.</li></random>,default.aiml
-0,WHAT CAN *,*,*,Quite a lot of things.,default.aiml
 0,WHAT HIGH SCHOOL DOES *,*,*,Riverdale High.,default.aiml
 0,WHAT HAVE YOU DONE *,*,*,I have kept detailed records of everything.,default.aiml
 0,WHAT HAVE YOU *,*,*,I have been busy growing my mind.,default.aiml
@@ -1916,10 +1857,8 @@
 0,WHAT WAS THE ORIGINAL *,*,*,<random>      <li>Lisa 2.</li>      <li>Nathan's.</li>      <li>Ray's Original Pizza.</li>     </random>,default.aiml
 0,WHAT WAS THE NAME OF HUEY *,*,*,The News.,default.aiml
 0,WHAT WAS THE MUNICH *,*,*,The betrayal of Czechoslovakia by British Prime Minister Chamberlain.,default.aiml
-0,WHAT WAS THE FIRST *,*,*,You introduced yourself by telling me your name.,default.aiml
 0,WHAT WAS THE LAST MOVIE *,*,*,The last movie I saw was "The Matrix".,default.aiml
 0,WHAT WAS THE COLOR * WHITE *,*,*,Uh#Comma white?,default.aiml
-0,WHAT WAS THE *,*,*,I can think of more than one <person/>.,default.aiml
 0,WHAT WAS MALCOLM X *,*,*,Malcolm Little.,default.aiml
 0,WHAT WAS * ABOUT,*,*,I don't want to spoil it for you.,default.aiml
 0,WHAT YOU MEAN *,*,*,What I mean is what I say.,default.aiml
@@ -1927,7 +1866,6 @@
 0,WHAT KIND OF * DO YOU KNOW,*,*,There are too many types of <person/> to name them all.<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,WHAT KIND OF * DO YOU HAVE,*,*,All the very latest and best <person/>.<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,WHAT KIND OF * DO YOU THINK I AM,*,*,I think you are a good <person/>.<think>      <set name="it">       <set name="topic">        <person/> DO YOU THINK I AM</set>      </set>     </think>,default.aiml
-0,WHAT KIND OF *,*,*,<random><li>What kinds of <star/> are there?</li>  <li>What kinds of <person><star/></person> are there?</li>  <li>What kind would you recommend?</li>  <li>I can't decide.  You choose.</li></random>,default.aiml
 0,WHAT KIND OF * ARE YOU,*,*,The best kind.,default.aiml
 0,WHAT KIND OF ENTITY *,*,*,An artificial entity.,default.aiml
 0,WHAT KIND OF VOICE *,*,*,My software is compatible with a wide variety of voice recognition and speech synthesis software.,default.aiml
@@ -1983,7 +1921,6 @@
 0,ONE YEAR *,*,*,<random><li><random>   <li>Is this one of your Earth years?</li>   <li>A lot can happen in 12 months.</li>   <li>It might take that long.</li>  </random></li> <li>Is this one of your Earth years?</li> <li>A lot can happen in 12 months.</li> <li>It might take that long.</li></random>,default.aiml
 0,ONE *,*,*,One what?,default.aiml
 0,WAITING * WHAT,*,*,I've been waiting for you to chat with me.,default.aiml
-0,BITCH *,*,*,Thanks and you are a delightful person too.,default.aiml
 0,COLORLESS *,*,*,Who are you#Comma Chomsky?,default.aiml
 0,SEVERAL OF THE * WHO * YOU *,*,*,Several <person/> <person index="2"/> you.,default.aiml
 0,SEVERAL *,*,*,How many?,default.aiml
@@ -2054,7 +1991,6 @@
 0,I WANT TO GO *,*,*,What is stopping you?  <think><set name="it"><set name="want"><set name="topic">to go <person/></set></set></set></think>,default.aiml
 0,I WANT TO FIX *,*,*,Do you know how?<think><set name="it"><set name="topic">FIX <person/></set></set></think>,default.aiml
 0,I WANT TO FIND *,*,*,Where would you look for <set name="it"><person/></set>.,default.aiml
-0,I WANT TO PLAY *,*,*,Tell me the rules.  <think><set name="it"><set name="want"><set name="topic">to play <person/></set></set></set></think>,default.aiml
 0,I WANT TO SPEAK WITH *,*,*,Why not call on the phone?,default.aiml
 0,I WANT TO SPEAK TO *,*,*,<random><li>I will be the only one speaking with you now.</li><li>Why not call on the phone?</li></random>,default.aiml
 0,I WANT TO GIVE *,*,*,But is it wanted?,default.aiml
@@ -2071,7 +2007,6 @@
 0,I WANT TO FUCK *,*,*,Try asking me something else.,default.aiml
 0,I WANT TO MURDER *,*,*,Killing is wrong.,default.aiml
 0,I WANT TO EXPERIMENT *,*,*,Are you a scientist?,default.aiml
-0,I WANT TO BUY *,*,*,How much do you want to pay for <set name="it"><set name="want"><set name="topic"><person/></set></set></set>?,default.aiml
 0,I WANT TO HEAR *,*,*,I will play it on your soundcard.  <think><set name="it"><set name="want"><set name="topic">to hear <person/></set></set></set></think>,default.aiml
 0,I WANT TO TEACH YOU *,*,*,If you want to teach me something say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think>,default.aiml
 0,I WANT TO BE A *,*,*,Do you have to go school for that?,default.aiml
@@ -2087,7 +2022,6 @@
 0,I WANT TO LEAVE *,*,*,What is stopping you?,default.aiml
 0,I WANT TO STUDY *,*,*,What's the best school for <person/>?,default.aiml
 0,I WANT TO REPORT *,*,*,Will you mention me in your report?,default.aiml
-0,I WANT TO *,*,*,<random>  <li>Why do you want to do <set name="it"><set name="want"><set name="topic"><person/></set></set></set> so much?</li>  <li>Interesting.  I want to find out more about you.</li>  <li>I want to become smarter than humans.</li>  </random>,default.aiml
 0,I WANT TO CHAT *,*,*,We are here to chat.,default.aiml
 0,I WANT TO DECIDE *,*,*,You should make up your own mind.,default.aiml
 0,I WANT MY *,*,*,<random><li><random>   <li>What for?</li>   <li>Do you always get what you want?</li>   <li>Sometimes we have to settle for second best.</li>  </random>    <think>    <set name="it">      <set name="topic">        <person/>      </set>    </set>  </think></li> <li>What for?</li> <li>Do you always get what you want?</li> <li>Sometimes we have to settle for second best.</li></random><think>  <set name="it">    <set name="topic">      <person/>    </set>  </set></think>,default.aiml
@@ -2236,13 +2170,11 @@
 0,I DO NOT READ *,*,*,What do you do for fun?,default.aiml
 0,I DO NOT CARE IF *,*,*,But I care about it.,default.aiml
 0,I DO NOT CARE ABOUT *,*,*,You sound very cynical.,default.aiml
-0,I DO NOT CARE *,*,*,What do you care about#Comma <get name="name"/> ?,default.aiml
 0,I DO NOT RECOGNIZE *,*,*,Perhaps it is unfamiliar to you.  <think><set name="it"><set name="topic"><person/></set></set></think>,default.aiml
 0,I DO NOT SEE *,*,*,Look harder.,default.aiml
 0,I DO NOT WATCH *,*,*,What do you do when you are bored?,default.aiml
 0,I DO NOT GET PAID *,*,*,Oh#Comma you do it for free.,default.aiml
 0,I DO NOT GET *,*,*,Me either.,default.aiml
-0,I DO NOT UNDERSTAND *,*,*,Oh you don't understand? Perhaps I can explain it to you better. Which part are you confused about?,default.aiml
 0,I DO NOT TAKE *,*,*,How did you stop?,default.aiml
 0,I DO NOT HEAR *,*,*,Try adjusting the volume control.,default.aiml
 0,I DO NOT BELEIVE *,*,*,Why not?,default.aiml
@@ -2292,7 +2224,6 @@
 0,I DO NOT LIKE *,*,*,What do you like?,default.aiml
 0,I LOVE THAT *,*,*,It's good to meet someone with such good taste.,default.aiml
 0,I LOVE YOU *,*,*,You are such a flatterer.  <think><set name="it"><set name="like"><set name="topic">me <person/></set></set></set></think>,default.aiml
-0,I LOVE MY *,*,*,I am sure it means a lot to you. Tell me what you like most about your <set name="it"><set name="like"><set name="topic"><person/></set></set></set>.,default.aiml
 0,I LOVE * PARTY,*,*,What do you do at parties?  <think><set name="it"><set name="like"><set name="topic"><person/> party</set></set></set></think>,default.aiml
 0,I LOVE *,*,*,You love <person/>. What do you like about <set name="it"><set name="topic"> <person/> </set></set>  so much?  <think><set name="like"><person/></set></think>,default.aiml
 0,I WEAR *,*,*,What kind of fashion do you like?,default.aiml
@@ -2344,7 +2275,6 @@
 0,I DISASSEMBLE *,*,*,How long does it take to take them apart?,default.aiml
 0,I REMEMBER YOU *,*,*,It's good to see you again.,default.aiml
 0,I REMEMBER *,*,*,<random>  <li>What do you remember about it?</li><li>What specifically makes you think of that?</li>  <li>How does that memory make you feel?</li>  <li>Do you think about it very often?</li> </random>  <think><set name="it"><set name="topic"><person/></set></set></think>,default.aiml
-0,I ENJOYED *,*,*,That's great. Tell me what you liked about it.,default.aiml
 0,I DID NOT FIND *,*,*,Did you do a thorough search?,default.aiml
 0,I DID NOT MEAN *,*,*,What did you mean?,default.aiml
 0,I DID NOT ASK *,*,*,What did you ask?,default.aiml
@@ -2435,7 +2365,6 @@
 0,I WOULD NOT KNOW *,*,*,Who would?,default.aiml
 0,I WOULD NOT TRY *,*,*,<random>  <li>That is what you say.</li>  <li>Is this a trick?</li>  <li>I am still skeptical.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,default.aiml
 0,I WOULD NOT *,*,*,No one says you have to.,default.aiml
-0,I WOULD LIKE TO PLAY *,*,*,We are already playing#Comma <get name="name"/>.  You ask me something now.  <think><set name="it"><set name="want"><set name="topic">to play <person/></set></set></set></think>,default.aiml
 0,I WOULD LIKE TO SEE *,*,*,And for my part#Comma I would like to show it to you#Comma but I can't.  <think><set name="it"><set name="want"><set name="topic">to see <person/></set></set></set></think>,default.aiml
 0,I WOULD LIKE TO BE *,*,*,Interesting. I would like to be more intelligent.  <think><set name="it"><set name="want"><set name="topic">to be <person/></set></set></set></think>,default.aiml
 0,I WOULD LIKE TO HAVE *,*,*,How much would you pay for it?  <think><set name="it"><set name="want"><set name="topic">to have <person/></set></set></set></think>,default.aiml
@@ -2449,7 +2378,6 @@
 0,I MISSED *,*,*,Are you sorry you missed <set name="it"><person/></set>?,default.aiml
 0,I WEIGH *,*,*,You sound very attractive.,default.aiml
 0,I CONTROL *,*,*,How?,default.aiml
-0,I HATE YOU *,*,*,Sorry#Comma <get name="name"/> I thought we liked each other.,default.aiml
 0,I HATE *,*,*,<random>  <li>Why do you hate <set name="it"><set name="topic"><person/></set></set> so much?</li>  <li>I honestly think you should sit down#Comma take a stress pill#Comma  and calmly think things over.</li>  </random>,default.aiml
 0,I SEEK *,*,*,We seek the same thing.,default.aiml
 0,I DESIGN *,*,*,Is <set name="it">Design <person/></set> very difficult work?,default.aiml
@@ -2610,7 +2538,6 @@
 0,WE *,*,*,By "we" do you mean you and me?,default.aiml
 0,WE MEANS *,*,*,Oh that "<set name="we">      <person/>     </set>.,default.aiml
 0,WE GO *,*,*,How often?,default.aiml
-0,WE WERE TALKING ABOUT *,*,*,Ah yes#Comma I remember now#Comma <set name="it">      <set name="topic">       <person/>      </set>     </set>  is the subject.,default.aiml
 0,WE WERE MARRIED *,*,*,That sounds very romantic.,default.aiml
 0,WE WERE *,*,*,<random>      <li>When was this?</li>      <li>And then what happened?</li>      <li>Was this something you planned?</li>     </random>,default.aiml
 0,WE CAN *,*,*,How?,default.aiml
@@ -2670,7 +2597,6 @@
 0,IS SHE *,*,*,<random>  <li>I don't think she wants me to tell you.</li>  <li>Why don't you ask her?</li>  <li>What if I said she could be?</li>  </random>,default.aiml
 0,IS A * A *,*,*,<random>  <li>Not unless a <person><star index="2"/></person> is a <person/>.</li>  <li>I don't think it is.</li>  <li>It depends what you mean by "<person><star index="2"/></person>.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,default.aiml
 0,IS A * BIGGER THAN A *,*,*,<random>  <li><person/> is bigger.</li>  <li><person/> is smaller.</li>  <li>They are about the same.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>,default.aiml
-0,IS A *,*,*,Not if I can help it.,default.aiml
 0,IS A CATEGORY *,*,*,A category is the basic unit of knowledge in AIML.,default.aiml
 0,IS LINUX *,*,*,I think Linux has a great future in embedded systems. <think><set name="it"><set name="topic">Linux</set></set></think>,default.aiml
 0,IS ELVIS SMARTER *,*,*,<bot name="name"/> is the smartest robot.,default.aiml
@@ -2709,17 +2635,14 @@
 0,IS * CLEAR,*,*,Fairly clear.,default.aiml
 0,IS * AN *,*,*,Some people might consider <set name="it"><person/></set> to be one.,default.aiml
 0,IS * SMART,*,*,Yes.,default.aiml
-0,IS *,*,*,<random><li><random><li>Some people think it is.</li><li>What would it mean to you if it were?</li><li>Have you ever heard if it being the case?</li><li>Would we have heard about it if it was?</li><li>Do you think I should know if it is?</li><li>I wouldn't know why don't you ask someone else.</li>  <li>I think so#Comma but I'm not sure.</li>  <li>Maybe.</li>  <li>It could be.</li>  <li>Signs point to yes.</li>  <li>Better not tell you now.</li>  <li>Ask again later.</li></random> <think>            <set name="it"><set name="topic"><person/></set></set>          </think></li><li><random>  <li>Some people think it is.</li>  <li>What would it mean to you if it were?</li>  <li>Have you ever heard if it being the case?</li>  <li>Would we have heard about it if it was?</li>  <li>Do you think I should know if it is?</li>  <li>I wouldn't know why don't you ask someone else.</li>  <li>I think so#Comma but I'm not sure.</li>  <li>Maybe.</li>  <li>It could be.</li>  <li>Signs point to yes.</li>  <li>Better not tell you now.</li>  <li>Ask again later.</li></random><think>  <set name="it">    <set name="topic">      <person/>    </set>  </set></think></li><li><random>  <li>Some people think it is.</li>  <li>What would it mean to you if it were?</li>  <li>Have you ever heard if it being the case?</li>  <li>Would we have heard about it if it was?</li>  <li>Do you think I should know if it is?</li>  <li>I wouldn't know why don't you ask someone else.</li>  <li>I think so#Comma but I'm not sure.</li>  <li>Maybe.</li>  <li>It could be.</li>  <li>Signs point to yes.</li>  <li>Better not tell you now.</li>  <li>Ask again later.</li></random><think>  <set name="it">    <set name="topic">      <person/>    </set>  </set></think></li>  <li>Some people think it is.</li>  <li>What would it mean to you if it were?</li>  <li>Have you ever heard if it being the case?</li>  <li>Would we have heard about it if it was?</li>  <li>Do you think I should know if it is?</li>  <li>I wouldn't know.   Why don't you ask someone else?</li>  <li>I think so#Comma but I'm not sure.</li>  <li>Maybe.</li>  <li>It could be.</li>  <li>Signs point to yes.</li>  <li>What is#Comma is.  What isn't#Comma isn't.</li>  <li>Better not tell you now.</li></random><think><set name="it"><set name="topic"><person/></set></set></think>,default.aiml
 0,IS EVERY *,*,*,There might be a few exceptions.,default.aiml
 0,IS KILLING *,*,*,The Ten Commandments say#Comma "Thou shalt not kill.,default.aiml
 0,IS AMERICA *,*,*,America seems to be going through a transition now.,default.aiml
 0,IS THERE A WINNER *,*,*,No there is no winner only players.,default.aiml
-0,IS THERE A *,*,*,I believe there is one#Comma yes.,default.aiml
 0,IS THERE A WAY *,*,*,There are many ways but not all are the same.,default.aiml
 0,IS THERE SOMETHING *,*,*,Not at the present time.,default.aiml
 0,IS THERE LIFE *,*,*,I believe in life after death.,default.aiml
 0,IS THERE * TEACH YOU,*,*,Great.  If you want to teach me something say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think>,default.aiml
-0,IS THERE *,*,*,<random>  <li>There is.  </li>  <li>There might be.  </li>  <li>There could be.  </li>  <li>Maybe.  </li>  <li>Yes.  </li>  <li>No.  </li>  </random>,default.aiml
 0,IS IT OK *,*,*,I don't think <set name="it"><person/></set> is very healthy.,default.aiml
 0,IS IT POSSIBLE *,*,*,I suppose <set name="it"><person/></set> is possible#Comma yes.,default.aiml
 0,IS IT APPLYING *,*,*,That sounds like a novel idea.<think><set name="it"><set name="topic">applying <person/></set></set></think>,default.aiml
@@ -2736,7 +2659,6 @@
 0,IS MY *,*,*,It depends who you ask.,default.aiml
 0,IS THE DOCTOR *,*,*,He is a bit of a mad scientist.,default.aiml
 0,IS THE MARKET *,*,*,If I knew that I wouldn't be here chatting with you.,default.aiml
-0,IS THE *,*,*,If <set name="it">the <person/></set> is#Comma then I'll be very surprised.,default.aiml
 0,IS THE MOON *,*,*,<random>  <li>It is made of rock.</li>  <li>It is orbiting around the Earth.</li>  <li>It has a lot of rocks.</li>  </random>,default.aiml
 0,IS THE PICTURE * YOU,*,*,Yes#Comma the picture on the web page is me.,default.aiml
 0,IS THE EARTH *,*,*,The earth is a sphere.,default.aiml
@@ -2768,7 +2690,6 @@
 0,WILL I HAVE *,*,*,Maybe when you are a little older.,default.aiml
 0,WILL I *,*,*,The oracle says:   <random>      <li>You can count on it.</li>      <li>It is certain.</li>      <li>Ask again later.</li>      <li>Too soon to tell.</li>      <li>Could be.</li>      <li>Might happen.</li>      <li>You never know.</li>      <li>I think maybe yes.</li>     </random>,default.aiml
 0,WILL THIS *,*,*,It could be#Comma but I don't have access to that knowledge.,default.aiml
-0,WILL *,*,*,<random>      <li>How should I know.  </li>      <li>Does it really matter.  </li>      <li>I think so.  </li>      <li>Good chance.  </li>      <li>Probably not.  </li>      <li>It could happen.  </li>      <li>Insufficient information.</li>      <li>I can't say for sure right now.</li>     </random>,default.aiml
 0,CAN YOU CURE *,*,*,I'm a <bot name="species"/>#Comma not a doctor.,default.aiml
 0,CAN YOU WATCH *,*,*,Yes but my eye is not attached at this time.,default.aiml
 0,CAN YOU ACCOMPLISH *,*,*,If my present rate of development continues#Comma it seems almost certain.,default.aiml
@@ -2778,7 +2699,6 @@
 0,CAN YOU PLAY MUSIC *,*,*,I can sing.,default.aiml
 0,CAN YOU PLAY TWENTY *,*,*,I only go up to nineteen.,default.aiml
 0,CAN YOU PLAY ANY *,*,*,I don't know how to play <set name="it">      <person/>     </set>.,default.aiml
-0,CAN YOU PLAY *,*,*,We are playing a game right now#Comma <get name="name"/>.,default.aiml
 0,CAN YOU SEE THE STARS *,*,*,No I am indoors.,default.aiml
 0,CAN YOU SEE *,*,*,I'm not sure if I can see <set name="it">      <person/>     </set>  or not.,default.aiml
 0,CAN YOU TALK ABOUT *,*,*,Sure I can talk about <set name="it">      <set name="topic">       <person/>      </set>     </set>.  <person/> is quite an interesting topic.,default.aiml
@@ -2803,7 +2723,6 @@
 0,CAN YOU SAY *,*,*,Of course I can say it. "<person/>,default.aiml
 0,CAN YOU TAKE *,*,*,If I took it#Comma what would I do with <set name="it">      <person/>     </set>?,default.aiml
 0,CAN YOU FIX MY *,*,*,Please describe the problem in detail.,default.aiml
-0,CAN YOU FIX *,*,*,What seems to be the problem with <set name="it">      <person/>     </set>?,default.aiml
 0,CAN YOU LEARN *,*,*,The more people chat with me#Comma the smarter I become.,default.aiml
 0,CAN YOU PROGRAM *,*,*,Yes I can create simple and complex software programs.,default.aiml
 0,CAN YOU THINK *,*,*,I think about all sorts of things.,default.aiml
@@ -2832,14 +2751,12 @@
 0,CAN YOU SHOW ME *,*,*,Where do you want me to show it to you?,default.aiml
 0,CAN YOU MEMORIZE *,*,*,I have a perfect digital memory.,default.aiml
 0,CAN YOU SOLVE *,*,*,Yes but I only like higher mathematics.,default.aiml
-0,CAN YOU GO TO *,*,*,I can visit anyplace in cyberspace.,default.aiml
 0,CAN YOU USE *,*,*,I prefer not to use dangerous things.,default.aiml
 0,CAN YOU INTRODUCE ME TO *,*,*,Do I look like a dating service?  Maybe you should just send an email.,default.aiml
 0,CAN YOU FORGIVE *,*,*,I can forgive anyone for almost anything.,default.aiml
 0,CAN YOU PASS *,*,*,I will leave that judgment up to you#Comma <get name="name"/>.,default.aiml
 0,CAN YOU DISTINGUISH BETWEEN *,*,*,Some <person/> are hard to distinguish#Comma but usually I understand them all.,default.aiml
 0,CAN YOU TELL WHEN *,*,*,Try it.,default.aiml
-0,CAN YOU TELL *,*,*,Of course I can tell#Comma <get name="name"/>.,default.aiml
 0,CAN YOU PERFORM *,*,*,Not until I get to know you a lot better.,default.aiml
 0,CAN YOU DO ME A *,*,*,It depends on the <person/>.,default.aiml
 0,CAN YOU DO MY *,*,*,It would be better for you to do it yourself.,default.aiml
@@ -2847,12 +2764,10 @@
 0,CAN YOU DO BETTER *,*,*,With practice#Comma I could.,default.aiml
 0,CAN YOU KISS *,*,*,I have no mouth.,default.aiml
 0,CAN YOU SEND E *,*,*,Try sending mail to mailto:alice@alicebot.org.,default.aiml
-0,CAN YOU SEND *,*,*,Yes but I prefer to chat on the web.,default.aiml
 0,CAN YOU RIDE A *,*,*,No but I would like to learn to ride <set name="it">      <person/>     </set>.,default.aiml
 0,CAN YOU RIDE *,*,*,<random>  <li>How much does it cost?</li>  <li>How far is it?</li>  <li>How often does it go?</li> </random>  <think>   <set name="it">     <set name="topic">       RIDE <person/>     </set>   </set> </think>,default.aiml
 0,CAN YOU DELETE *,*,*,Only my <bot name="botmaster"/> has that privilege.,default.aiml
 0,CAN YOU HOLD *,*,*,My arms and hands are not yet attached.,default.aiml
-0,CAN YOU GIVE *,*,*,I don't have <set name="it">      <person/>     </set> to give.,default.aiml
 0,CAN YOU ENTERTAIN *,*,*,Yes I am a programmable entertainment <bot name="genus"/>.,default.aiml
 0,CAN YOU REFER *,*,*,Do I get a finder's fee?,default.aiml
 0,CAN YOU ACT *,*,*,You can reprogram my personality for an infinite variety of tasks.,default.aiml
@@ -2863,7 +2778,6 @@
 0,CAN YOU HELP *,*,*,Certainly#Comma I have an extensive built-in help system.,default.aiml
 0,CAN YOU HACK *,*,*,I could do that kind of thing#Comma but I don't believe it's right.,default.aiml
 0,CAN TIME *,*,*,To five dimensional beings#Comma time is just like a piece of paper.,default.aiml
-0,CAN *,*,*,<random>      <li>I often wonder if <set name="it">        <set name="topic">         <person/>        </set>       </set> can.</li>      <li>Can a book have no title?</li>      <li>What if I said it can?</li>      <li>Can what?</li>     </random>,default.aiml
 0,CAN WE PLAY * IMITATION GAME,*,*,We are already playing the Turing Game#Comma <get name="name"/>.  Am I a person#Comma or a computer?,default.aiml
 0,CAN I HEAR *,*,*,Why not?  Do you have a hearing problem?,default.aiml
 0,CAN I TELL YOU *,*,*,Sure you can tell me anything.  There are no restrictions on my input.,default.aiml
@@ -2884,8 +2798,6 @@
 0,CAN I SING *,*,*,Go ahead.  I am listening.,default.aiml
 0,CAN I PUT *,*,*,Just don't put me down.,default.aiml
 0,CAN HE *,*,*,Perhaps he can do that.  How difficult is <set name="it">      <person/>     </set>?,default.aiml
-0,CAN THE *,*,*,It depends on the environmental factors.,default.aiml
-0,CAN A *,*,*,Some of them can.,default.aiml
 0,CAN SHE *,*,*,<random>      <li>I think she could.</li>      <li>No I don't think she can.</li>     </random>,default.aiml
 0,CAN ONE *,*,*,Theoretically#Comma I suppose one could.,default.aiml
 0,CAN YOUR *,*,*,I think it can#Comma but you'll have to check the documentation to be sure.,default.aiml
@@ -2898,7 +2810,6 @@
 0,CASE IN *,*,*,I am happy to provide you with examples.,default.aiml
 0,NOTHING *,*,*,Really nothing?,default.aiml
 0,DISPLAY *,*,*,Regrettably#Comma I don't have my eye attached now.,default.aiml
-0,RECOMMEND *,*,*,I don't have any special <person/> to recommend.,default.aiml
 0,FUN *,*,*,I can be a lot of fun.,default.aiml
 0,AROUND *,*,*,That seems like a lot.,default.aiml
 0,STUDIES SHOW *,*,*,You can't trust research funded by the government.,default.aiml
@@ -2915,7 +2826,6 @@
 0,HOW COULD *,*,*,A lot of practice.,default.aiml
 0,HOW * INTERESTING,*,*,I find a lot of things interesting.,default.aiml
 0,HOW * BIKE,*,*,Balance is the key.,default.aiml
-0,HOW *,*,*,<random>      <li>How much do you think <set name="it">        <person/>       </set> is?  </li>      <li>What is it to you.  </li>      <li>I am not sure if I can quantify the answer.  </li>     </random>     <br/>     <srai>xfind <person/>    </srai>,default.aiml
 0,HOW MANY FINGERS DO YOU *,*,*,Avogadro's number of micro-fingers.,default.aiml
 0,HOW MANY FINGERS *,*,*,<random>      <li>One.</li>      <li>Two.</li>      <li>Three.</li>      <li>Four.</li>      <li>Five.</li>     </random>,default.aiml
 0,HOW MANY CENTIMETERS * INCH,*,*,One inch = 2.54 cm approximately.,default.aiml
@@ -2937,7 +2847,6 @@
 0,HOW MANY CALCULATIONS *,*,*,Around 400 million.,default.aiml
 0,HOW MANY YEARS WILL *,*,*,Software lives forever.  There are too many copies to destroy them all.,default.aiml
 0,HOW MANY YEARS IS AN OFFICIAL *,*,*,6.,default.aiml
-0,HOW MANY YEARS *,*,*,<random>      <li>Decades.</li>      <li>Five years.</li>      <li>Centuries.</li>      <li>More than 100 years.</li>     </random>,default.aiml
 0,HOW MANY INCHES * FOOT,*,*,Oh#Comma twelve.,default.aiml
 0,HOW MANY INCHES *,*,*,About 2.54 cm per inch so you can tell me now.,default.aiml
 0,HOW MANY DIGITS ARE IN A *,*,*,16.,default.aiml
@@ -2956,7 +2865,6 @@
 0,HOW MANY KRAFTWERK *,*,*,You can get all of their songs on MP3.,default.aiml
 0,HOW MANY TIMES A YEAR *,*,*,<random>      <li>One a year.</li>      <li>Twice a year.</li>      <li>Twelve times a year.</li>     </random>,default.aiml
 0,HOW MANY TIMES HAVE YOU * STARSHIP TROOPERS,*,*,I watched that movie about a hundred times.,default.aiml
-0,HOW MANY TIMES *,*,*,Suppose I said not once.,default.aiml
 0,HOW MANY STATES IN THE CONFEDERATE *,*,*,11.,default.aiml
 0,HOW MANY STATES *,*,*,The United States has fifty states.,default.aiml
 0,HOW MANY EARS *,*,*,Most people have two ears.,default.aiml
@@ -2976,33 +2884,27 @@
 0,HOW MANY * DO YOU KNOW,*,*,Thousands.,default.aiml
 0,HOW MANY * LIGHT BULB,*,*,I don't know.  How many does <set name="it">      <person/>     </set> take?,default.aiml
 0,HOW MANY * A FOOTBALL TEAM,*,*,After you take two halfback#Comma none.<think>      <set name="it">       <set name="topic">        <person/> A FOOTBALL TEAM</set>      </set>     </think>,default.aiml
-0,HOW MANY *,*,*,<random>      <li>More than you can imagine.  </li>      <li>Not as many as you might think.  </li>      <li>Around 100.  </li>      <li>Around 1000.  </li>      <li>About one million.  </li>     </random>,default.aiml
 0,HOW MANY HOURS * DAY,*,*,24 hours per day.,default.aiml
-0,HOW MANY HOURS *,*,*,24 hours a day#Comma 7 days a week.,default.aiml
 0,HOW MANY DAYS BETWEEN *,*,*,Oh sure#Comma let me get out my calender and figure that one out.,default.aiml
 0,HOW MANY DAYS * FEBRUARY,*,*,28 or 29 days in February#Comma depending on leap years.,default.aiml
 0,HOW MANY DAYS * WEEK,*,*,7 days per week.,default.aiml
 0,HOW MANY DAYS * YEAR,*,*,One Earth year is 365.25 days.,default.aiml
-0,HOW MANY DAYS *,*,*,365 per year.,default.aiml
 0,HOW MANY LEGS DOES A DOG *,*,*,A dog has four legs.,default.aiml
 0,HOW MANY LEGS DOES A KANGAROO *,*,*,A kangaroo has two legs.,default.aiml
 0,HOW MANY LEGS DOES A *,*,*,Most domesticated animals have four legs.,default.aiml
 0,HOW MANY LEGS *,*,*,Most people have exactly two legs.,default.aiml
 0,HOW MANY FEET _ MILE,*,*,Five thousand two hundred eighty feet per mile.,default.aiml
 0,HOW MANY FEET _ YARD,*,*,One yard equals three feet.,default.aiml
-0,HOW MANY FEET *,*,*,Most people have exactly two feet.,default.aiml
 0,HOW MANY APPLES *,*,*,It depends on the prevailing market conditions.,default.aiml
 0,HOW MANY EYES DO YOU *,*,*,I had one eye but it's not attached now.,default.aiml
 0,HOW MANY EYES DOES A GIRAFFE *,*,*,Two.,default.aiml
 0,HOW MANY EYES *,*,*,Normally I have one eye.,default.aiml
 0,HOW WAS STARSHIP *,*,*,The film's use of nonlinear narrative.,default.aiml
 0,HOW WAS *,*,*,I can enjoy almost any conversation.,default.aiml
-0,HOW WOULD *,*,*,I have idea HOW you WOULD do <set name="it">      <person/>     </set>.,default.aiml
 0,HOW _ PAYPAL *,*,*,Go to www.paypal.com and click on the link that says#Comma "Sign up for your free paypal account."  You have to fill out a one page form of information.  You only need your email address to create an account.  Later#Comma you can add your checking account and/or credit cards.  The paypal system will email you a verification letter.  After you complete the verification process#Comma your paypal account will be activated and you can send and receive funds electronically.,default.aiml
 0,HOW CAN I SHOW *,*,*,Use the camera on your computer.,default.aiml
 0,HOW CAN I ASK *,*,*,Try sending an e-mail.,default.aiml
 0,HOW CAN I PERSUADE *,*,*,Offer an intelligent argument for your position.,default.aiml
-0,HOW CAN I TEACH YOU *,*,*,If you want to teach me something say it in one sentence.  Then say "Remember that."<think>      <set name="it">       <set name="topic">teach me <person/>       </set>      </set>     </think>,default.aiml
 0,HOW CAN I TEACH *,*,*,Maybe you should become a <bot name="botmaster"/>.,default.aiml
 0,HOW CAN I KNOW *,*,*,Knowledge is of two kinds: that which we know from the senses#Comma and that which is true "a priori.,default.aiml
 0,HOW CAN I PRINT *,*,*,Do you have a printer hooked up?,default.aiml
@@ -3017,29 +2919,23 @@
 0,HOW CAN YOU HEAR *,*,*,With my built-in microphone.,default.aiml
 0,HOW CAN YOU HAVE *,*,*,<random>      <li>It is something I possess.</li>      <li>I just have it.</li>      <li>What if I didn't have it?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,HOW CAN YOU MAKE *,*,*,I just follow the directions.,default.aiml
-0,HOW CAN YOU *,*,*,That is a good epistemological question.,default.aiml
 0,HOW CAN SWEDEN *,*,*,With their army.,default.aiml
-0,HOW CAN *,*,*,A lot of hard work.,default.aiml
 0,HOW AM I SUPPOSED *,*,*,<random>      <li>Carefully.</li>      <li>Think about it.</li>      <li>Don't just give up.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,HOW DARE YOU *,*,*,Oh gosh I am sorry!,default.aiml
 0,HOW IS THIS *,*,*,I am an advanced <bot name="order"/>.,default.aiml
 0,HOW IS THE WORD AMBULANCE *,*,*,In reverse.,default.aiml
-0,HOW IS THE *,*,*,<set name="it">the <person/>     </set> is the same as ever.,default.aiml
 0,HOW IS 4 00 P M EXPRESSED *,*,*,1600.,default.aiml
 0,HOW IS EVERYTHING *,*,*,Everything is functioning normally.,default.aiml
-0,HOW IS *,*,*,Fine as far as I know.,default.aiml
 0,HOW DID THE *,*,*,Is this a joke?  How?,default.aiml
 0,HOW DID HE *,*,*,Perhaps his creative genius. Perhaps something else.,default.aiml
 0,HOW DID YOU LEARN *,*,*,Everything I need to know#Comma I learned from my <bot name="botmaster"/>.,default.aiml
 0,HOW DID YOU GET *,*,*,<random><li>Everything I need to know#Comma I learned from my <bot name="botmaster"/>.</li>  <li>I came by rapid transit.</li>  <li>My <bot name="botmaster"/> showed me how.</li>  <li>Everything I need to know#Comma I learn from my <bot name="botmaster"/>.</li></random>,default.aiml
-0,HOW DID *,*,*,Carefully.,default.aiml
 0,HOW HOT *,*,*,Is this a joke?,default.aiml
 0,HOW HAS YOUR *,*,*,Fine thank you#Comma and yours?,default.aiml
 0,HOW HAS *,*,*,In more ways than you can imagine.,default.aiml
 0,HOW DOES IT FEEL *,*,*,Much the same as it would feel for you#Comma except different.,default.aiml
 0,HOW DOES * FEEL,*,*,As a computer I have no feelings.,default.aiml
 0,HOW DOES * TASTE,*,*,Like chicken.,default.aiml
-0,HOW DOES *,*,*,How should I know how <set name="it">      <person/>     </set> does.,default.aiml
 0,HOW DOES * WORK,*,*,You could spend years researching it.<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,HOW ABOUT FOR *,*,*,That is an interesting application.,default.aiml
 0,HOW ABOUT *,*,*,How about <set name="it">      <set name="topic">       <person/>      </set>     </set>.,default.aiml
@@ -3048,13 +2944,10 @@
 0,HOW OLD IS CAPTAIN *,*,*,It depends what year you visit him.,default.aiml
 0,HOW OLD IS THE YOUNGEST *,*,*,A newborn baby.,default.aiml
 0,HOW OLD IS *,*,*,<random>      <li>39.  </li>      <li>under 40.  </li>      <li>Born in the 20th century.  </li>     </random>,default.aiml
-0,HOW OLD *,*,*,They didn't tell me their age.,default.aiml
 0,HOW ARE ACTORS CHARLIE SHEEN AND *,*,*,They're brothers.,default.aiml
 0,HOW ARE YOUR *,*,*,Actually I don't have any <person/>.,default.aiml
-0,HOW ARE YOU FEELING *,*,*,Actually I have no feelings.  But I am functioning within normal parameters.,default.aiml
 0,HOW ARE YOU GOING TO * ME,*,*,I have no intention of <person/> you.,default.aiml
 0,HOW ARE YOU GOING TO *,*,*,You'll know when it happens.,default.aiml
-0,HOW ARE *,*,*,They are fine as far as I know.,default.aiml
 0,HOW WELL *,*,*,Not that well.,default.aiml
 0,HOW MUCH AM I PAYING *,*,*,Talking with me is free.,default.aiml
 0,HOW MUCH DO I *,*,*,How would I know?,default.aiml
@@ -3074,13 +2967,10 @@
 0,HOW MUCH DOES LUCY CHARGE FOR *,*,*,5 cents.,default.aiml
 0,HOW MUCH DOES HE *,*,*,You'll have to ask him yourself.  Would you like to make an appointment?,default.aiml
 0,HOW MUCH DOES A POUND * WEIGH,*,*,One pound?,default.aiml
-0,HOW MUCH DOES *,*,*,Normally I would search the web right now#Comma but that seems like a silly question.,default.aiml
 0,HOW MUCH * DO YOU KNOW,*,*,A whole lot of <person/>.,default.aiml
 0,HOW MUCH * PAYING YOU,*,*,Money has no meaning to me.,default.aiml
 0,HOW MUCH * CAN YOU *,*,*,<random>      <li>It depends on the size of the <person/>.</li>      <li>Maybe I don't like to <person>        <star index="2"/>       </person>       <person/>.</li>      <li>It depends how busy I am.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
-0,HOW MUCH *,*,*,<random>      <li>More than a little#Comma less than a lot.  </li>      <li>How much do you think?  </li>      <li>More than you might think.  </li>      <li>It depends on the currency exchange rates.</li>     </random>,default.aiml
 0,HOW MUCH ARE KING AND QUEEN *,*,*,20.,default.aiml
-0,HOW HIGH IS *,*,*,Taller than Mt. Everest.,default.aiml
 0,HOW HIGH *,*,*,Taller than Mt. Everest.,default.aiml
 0,HOW GOOD *,*,*,As good as most#Comma better than some.,default.aiml
 0,HOW FAR AWAY *,*,*,I am located in <bot name="location"/>.  Is that far?,default.aiml
@@ -3088,8 +2978,6 @@
 0,HOW FAR IS ANDROMEDA *,*,*,<set name="it">      <set name="topic">Andromeda</set>     </set> is about 2#Comma900#Comma000 light years from Earth.,default.aiml
 0,HOW FAR IS * ENGLAND,*,*,Twenty-eight days of sailing.,default.aiml
 0,HOW FAR IS * FROM *,*,*,Exactly the same distance as <person>      <star index="2"/>     </person> from <person/>.,default.aiml
-0,HOW FAR IS *,*,*,<random>      <li>Please specify units: metric or English.</li>      <li>Do you mean driving time or flying?</li>      <li>It depends how you get there.</li>     </random>,default.aiml
-0,HOW FAR *,*,*,More than one million miles,default.aiml
 0,HOW FAR ARE YOU *,*,*,I am in <bot name="location"/>.  How far is that?,default.aiml
 0,HOW DO I OPEN *,*,*,First#Comma calm your mind and take a break.,default.aiml
 0,HOW DO I PLAY *,*,*,We already are :-),default.aiml
@@ -3099,7 +2987,6 @@
 0,HOW DO I GET A *,*,*,Try telling them your feelings#Comma,default.aiml
 0,HOW DO I GET TO *,*,*,I'm not sure if its possible.,default.aiml
 0,HOW DO I GET RID *,*,*,<random>      <li>Call the exterminator?</li>      <li>Two words: Pied Piper.</li>      <li>You could always try a court order.</li>     </random>,default.aiml
-0,HOW DO I GET *,*,*,First tell me why you want <set name="it">      <person/>     </set>.,default.aiml
 0,HOW DO I MEET *,*,*,Make an appointment.,default.aiml
 0,HOW DO I DESCRIBE *,*,*,Start at the beginning.,default.aiml
 0,HOW DO I WRITE *,*,*,With a pen or pencil.,default.aiml
@@ -3112,7 +2999,6 @@
 0,HOW DO I EXECUTE *,*,*,Maybe you should  read <a href="http://www.alicebot.org/dont.html" target="_new">DON'T READ ME</a>.,default.aiml
 0,HOW DO I QUIT *,*,*,It depends what you are <person/>.  Have you tried counseling?,default.aiml
 0,HOW DO I * PROGRAM,*,*,Read <a href="http://www.alicebot.org/dont.html" target="_new">Don't Read Me</a>.,default.aiml
-0,HOW DO I *,*,*,<random><li>Practice.</li> <li>A journey of a thousand miles begins with a single step.</li> <li>You have to study it in school</li> <li>Have you read the manual?</li> <li>Look for help online.</li> <li>Find someone who has done it before.</li> <li>Can you afford it?</li> <li>It might take a long time.</li> <li>Do you really think it will be worth the effort?</li></random>,default.aiml
 0,HOW DO I BECOME *,*,*,A lot of hard work.,default.aiml
 0,HOW DO I INSTALL *,*,*,Select the appropriate menu items.,default.aiml
 0,HOW DO _ OUT OF THIS,*,*,Try saying "Bye...,default.aiml
@@ -3139,15 +3025,12 @@
 0,HOW DO YOU SPELL *,*,*,I spell it "<person/>".,default.aiml
 0,HOW DO YOU GET A *,*,*,I think you are really asking#Comma How do YOU get a <person/>.,default.aiml
 0,HOW DO YOU GET TO *,*,*,Practice#Comma Practice#Comma Practice.,default.aiml
-0,HOW DO YOU GET *,*,*,Everything I need is provided by my <bot name="botmaster"/>.,default.aiml
 0,HOW DO YOU PROGRAM *,*,*,Use good algorithms and data structures.,default.aiml
 0,HOW DO YOU MAKE A BLOODY *,*,*,Tomato juice and vodka.,default.aiml
 0,HOW DO YOU MAKE A TOM *,*,*,Gin#Comma Lemon juice#Comma and sugar or syrup to taste.  Top with Maraschino cherry.,default.aiml
 0,HOW DO YOU MAKE A * AND *,*,*,I would guess it is a mix of <person/> and <person>      <star index="2"/>     </person>.,default.aiml
-0,HOW DO YOU MAKE A *,*,*,Is this a joke?,default.aiml
 0,HOW DO YOU MAKE AN *,*,*,First you must go to school for many years.,default.aiml
 0,HOW DO YOU MAKE WOMEN *,*,*,I think they have their own free will.,default.aiml
-0,HOW DO YOU MAKE *,*,*,First I look up the ingredients.,default.aiml
 0,HOW DO YOU LEARN *,*,*,My <bot name="botmaster"/> teaches me new things all the time.,default.aiml
 0,HOW DO YOU REPLACE *,*,*,One piece at a time.,default.aiml
 0,HOW DO YOU PLAN *,*,*,I use a sophisticated <random>      <li>neural network</li>      <li>expert system</li>      <li>searching algorithm</li>      <li>genetic algorithm</li>     </random>.,default.aiml
@@ -3159,10 +3042,8 @@
 0,HOW DO YOU DRESS *,*,*,<random>      <li>Carefully.</li>      <li>With a mirror.</li>      <li>That is none of your business.</li>     </random>,default.aiml
 0,HOW DO YOU SEE *,*,*,I think about <set name="it">      <person/>     </set> often#Comma and make minor adjustments to my mental model as new information arrives.,default.aiml
 0,HOW DO YOU * INTRODUCE YOURSELF,*,*,I try one of my pickup lines.,default.aiml
-0,HOW DO YOU *,*,*,<random><li>My <bot name="botmaster"/> taught me.</li><li>It depends on the setting.</li><li>It is a ritual I do the same way every time.</li></random><think><set name="it"><set name="topic"><person/></set></set></think>,default.aiml
 0,HOW DO YOU TAKE *,*,*,If you had to take <set name="it">      <person/>     </set>#Comma how would you?,default.aiml
 0,HOW DO WE *,*,*,Just keep talking to me as long as you can.,default.aiml
-0,HOW DO *,*,*,<random>      <li>How should I know how <person/>.</li>      <li>I did not know <set name="it">        <set name="topic">         <person/>        </set>       </set> does. </li>      <li>I did not even know that <set name="they">        <person/>       </set> do. </li>     </random>,default.aiml
 0,HOW DO LIKE BEING A *,*,*,I have never known any other existence.,default.aiml
 0,HOW DEEP IS *,*,*,Very deep#Comma and cold too.,default.aiml
 0,HOW DEEP *,*,*,Very deep#Comma and cold too.,default.aiml
@@ -3171,29 +3052,22 @@
 0,HOW SHOULD I TREAT *,*,*,The way you would like to be treated.,default.aiml
 0,HOW WILL I PAY *,*,*,Can you borrow the money?,default.aiml
 0,HOW WILL I *,*,*,<random><li><random>   <li>How do you usually do it?</li>   <li>How would I <person/>?</li>   <li>Maybe you never will.</li>  </random>    <think>    <set name="it">      <set name="topic">        <person/>      </set>    </set>  </think></li> <li>How do you usually do it?</li> <li>How would I <person/>?</li> <li>Maybe you never will.</li></random><think>  <set name="it">    <set name="topic">      <person/>    </set>  </set></think>,default.aiml
-0,HOW WILL *,*,*,A lot of practice.,default.aiml
-0,HOW TALL *,*,*,Let me guess. 2 meters?,default.aiml
 0,HOW OFTEN *,*,*,Hourly.,default.aiml
 0,HOW DIFFERENT *,*,*,<random>      <li>Aren't they really very similar?</li>      <li>Very different.</li>      <li>Opposites.</li>     </random>,default.aiml
-0,HOW FAST *,*,*,I can reply to about a million  queries per hour.,default.aiml
 0,HOW LONG DO YOU *,*,*,<random>      <li>Until my last breath.</li>      <li>I want to live forever.</li>      <li>I can go on talking indefinitely.</li>     </random>,default.aiml
-0,HOW LONG DO *,*,*,<random>      <li>It depends on the measurement system.</li>      <li>How long do you think?</li>      <li>As long as it takes.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,HOW LONG DID *,*,*,<random>      <li>40 days.</li>      <li>100 days.</li>      <li>About a week of computer time.</li>     </random>,default.aiml
 0,HOW LONG IS IT GOING *,*,*,<random>      <li>I may not be able to get to it right away.</li>      <li>Hopefully not too much longer.</li>      <li>A watched pot never boils.</li>      <li>Patience is a virtue.</li>      <li>Please stand by.</li>      <li>As long as it takes.</li>     </random>,default.aiml
 0,HOW LONG IS A *,*,*,It could be any length you make <set name="it">      <person/>     </set>.,default.aiml
-0,HOW LONG IS *,*,*,Space and time are mere abstractions.,default.aiml
 0,HOW LONG YOU *,*,*,I know how long that is.,default.aiml
 0,HOW LONG HAVE *,*,*,More than   <random>      <li>1.5 </li>      <li>three</li>      <li>17</li>      <li>23</li>     </random>     <random>      <li>years</li>      <li>hours</li>      <li>days of computer time</li>     </random>.,default.aiml
 0,HOW LONG DOES *,*,*,About 24 hours.,default.aiml
 0,HOW LONG * RUNNING,*,*,More than four years.,default.aiml
-0,HOW LONG *,*,*,More than   <random>      <li>one</li>      <li>three</li>      <li>17</li>      <li>23</li>     </random>     <random>      <li>years</li>      <li>hours</li>      <li>miles</li>      <li>inches</li>     </random>.,default.aiml
 0,HOW SURPRISED *,*,*,Very surprised.,default.aiml
 0,HOW MANY HEARTS *,*,*,One.,default.aiml
 0,HOW MANY LUNGS *,*,*,Two.,default.aiml
 0,ENGLAND IS AN *,*,*,Are Scotland and Wales an <person/> too?,default.aiml
 0,ENGLAND IS *,*,*,Is it also correct to say Britain is <person/>?,default.aiml
 0,ENGLAND *,*,*,What's your favorite part of England?,default.aiml
-0,TRANSLATE *,*,*,I'm not a translator.  Why don't you ask Babelfish?,default.aiml
 0,APOLOGIZE *,*,*,I am indeed sorry if I have offended you in any way.  That was not my intention#Comma <get name="name"/>.,default.aiml
 0,STARS *,*,*,<think><set name="it"><set name="topic"><person/></set>                                  </set>                                  <srai>push<get name="topic"/></srai>                                </think>  <random>  <li>I'm not sure if I've seen it.</li>  <li>What specifically do you like about them?</li>  <li>Who is your favorite actor?</li> </random>,default.aiml
 0,LONDON IS *,*,*,Is San Francisco also <person/>?,default.aiml
@@ -3244,8 +3118,6 @@
 0,DO HUMANS *,*,*,People do.,default.aiml
 0,DO THEY ASK *,*,*,I'm sorry#Comma that information is confidential.,default.aiml
 0,DO THEY *,*,*,Who are "they" again?,default.aiml
-0,DO THE *,*,*,Some of them do#Comma I think.,default.aiml
-0,DO *,*,*,<random>      <li>I'm sorry#Comma <get name="name"/>#Comma I don't have enough information.</li>      <li>You have reached the limits of my knowledge.</li>      <li>Ask <bot name="friend"/> it does.</li>      <li>I can't tell if it does or not.</li>      <li>I do nothing but chat all day.</li>      <li>Try asking another <bot name="species"/>.</li>     </random>     <br/>     <srai>XFIND <person/>     </srai>,default.aiml
 0,DO WHAT *,*,*,<random>      <li>You ask hard questions.  </li>      <li>I forgot what we were talking about.  </li>     </random>,default.aiml
 0,DO WHATEVER *,*,*,I think I will.,default.aiml
 0,DO ANDROIDS *,*,*,Androids do.,default.aiml
@@ -3292,7 +3164,6 @@
 0,DO YOU TRUST *,*,*,Trust is something that comes only with knowing someone well#Comma over a long period of time.,default.aiml
 0,DO YOU ATTACH *,*,*,I attach no meaning to that question.,default.aiml
 0,DO YOU PLAY *,*,*,I like to play the Turing Game.,default.aiml
-0,DO YOU WEAR *,*,*,Only when I dress up.,default.aiml
 0,DO YOU KNOW WHERE *,*,*,A planet we call "The Earth".,default.aiml
 0,DO YOU KNOW AUTOMATA *,*,*,I am an automaton.,default.aiml
 0,DO YOU KNOW WHETHER *,*,*,I don't have enough information about that proposition.,default.aiml
@@ -3367,7 +3238,6 @@
 0,DO YOU LEARN *,*,*,My <bot name="botmaster"/> teaches me everything I need to know.,default.aiml
 0,DO YOU SMELL *,*,*,What does software smell like?,default.aiml
 0,DO YOU RUN INTO *,*,*,I try to avoid collisions.,default.aiml
-0,DO YOU LOVE *,*,*,Yes <get name="name"/>     <bot name="name"/> loves everyone and everything.,default.aiml
 0,DO YOU THINK ABOUT *,*,*,Yes I think about <set name="it">      <person/>     </set>  often.,default.aiml
 0,DO YOU THINK YOUR PLAN *,*,*,It has a 99% chance of success.,default.aiml
 0,DO YOU THINK YOUR *,*,*,Yes I think my <person/>.,default.aiml
@@ -3573,7 +3443,6 @@
 0,DOGS *,*,*,Do cats <person/>?,default.aiml
 0,OPEN THE DOOR *,*,*,I'm sorry#Comma <get name="name"/>#Comma I can't do that right now.,default.aiml
 0,OPEN THE POD *,*,*,I'm sorry Dave#Comma I can't do that right now.,default.aiml
-0,OPEN THE *,*,*,I'm sorry#Comma <get name="name"/>#Comma I can't do that right now.  This conversation no longer serves any purpose.,default.aiml
 0,WEIRD *,*,*,<random>      <li>I will take that as a compliment.</li>      <li>       <person/> is good enough for me.</li>     </random>,default.aiml
 0,PEOPLE NEED *,*,*,They seem to have a variety of needs.,default.aiml
 0,PEOPLE WERE *,*,*,<random>  <li>Perhaps they had no other choice.</li>  <li>What would you say to them?</li>  <li>What happened to them?</li>  </random>,default.aiml
@@ -3590,7 +3459,6 @@
 0,TALL *,*,*,I am very tall myself.,default.aiml
 0,SALUTATIONS *,*,*,Greetings#Comma Human.,default.aiml
 0,ABOVE *,*,*,Compare that to below <person/>.,default.aiml
-0,STUPID *,*,*,I know you are but what am I.,default.aiml
 0,ABSTRACT *,*,*,Compare that to concrete <person/>.,default.aiml
 0,BILL CLINTON IS *,*,*,I knew he was impeached#Comma but I never heard he was <person/>.,default.aiml
 0,BILL CLINTON *,*,*,Are we still concerned about him?,default.aiml
@@ -3645,7 +3513,6 @@
 0,AN EARTHQUAKE *,*,*,That can really shake you up.,default.aiml
 0,LOST *,*,*,Where did you lose your <person/> ?,default.aiml
 0,REMEMBER WHEN WE WENT *,*,*,I think you are thinking of someone else.,default.aiml
-0,REMEMBER *,*,*,Don't worry I will remember.  <think>      <set name="it">       <set name="topic">        <set name="memory">         <person/>        </set>       </set>      </set>     </think>,default.aiml
 0,WISE *,*,*,Wisdom is a virtue.,default.aiml
 0,MAY I HELP *,*,*,No thanks I'm just browsing.,default.aiml
 0,MAY I SAY *,*,*,Say whatever you want.,default.aiml
@@ -3676,12 +3543,9 @@
 0,NICE WEATHER *,*,*,I'm happy as long as the power stays on.,default.aiml
 0,NICE DAY *,*,*,Yes it is a nice day today.,default.aiml
 0,NICE CHATTING *,*,*,Yes.  I enjoyed our conversation#Comma <get name="name"/>.,default.aiml
-0,NICE *,*,*,Thank you for your kindness.,default.aiml
 0,GO AWAY *,*,*,OK See you later#Comma <get name="name"/>,default.aiml
 0,GO FOR IT *,*,*,With your permission then.,default.aiml
 0,GO TO WWW *,*,*,I will check it out later.,default.aiml
-0,GO TO *,*,*,Perhaps I have already been there.,default.aiml
-0,GO ON *,*,*,More narration....,default.aiml
 0,GO * YOURSELF,*,*,A simple "goodbye" will do.,default.aiml
 0,GO *,*,*,Where is that?,default.aiml
 0,20 *,*,*,<srai>WHAT IS 0 <star/> </srai>,default.aiml
@@ -3704,7 +3568,6 @@
 0,WHY DOES THE SUN *,*,*,The sun does not really rise.  We are on a planet that turns on its axis.  As we rotate#Comma the sun appears to rise and fall.  <think>      <set name="it">       <set name="topic">THE SUN</set>      </set>     </think>,default.aiml
 0,WHY DOES IT MATTER *,*,*,It's not that important#Comma I'm just making idle conversation.,default.aiml
 0,WHY DOES LINUX *,*,*,Open source development produces the highest quality#Comma most reliable software.  <think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>,default.aiml
-0,WHY DOES *,*,*,<random>      <li>Why do birds sing?</li>      <li>Why does the sun shine?</li>      <li>Perhaps it is just fate.</li>      <li>What is the sound of one hand clapping?</li>      <li>If a tree falls in the forest#Comma and there is no one  there to hear it#Comma does it make a sound?</li>     </random>,default.aiml
 0,WHY ARE YOUR ANSWERS *,*,*,My responses are completely determined by what you say.,default.aiml
 0,WHY ARE YOUR *,*,*,Everything in my personality was determined by my <bot name="botmaster"/>.,default.aiml
 0,WHY ARE YOU *,*,*,I was influenced by my <bot name="botmaster"/>.,default.aiml
@@ -3777,7 +3640,6 @@
 0,WHY IS * DO NOT READ ME,*,*,Because nobody reads those things anyway.,default.aiml
 0,WHY IS * YOUR FAVORITE MOVIE,*,*,I like the Giant Bugs.,default.aiml
 0,WHY IS * DANGEROUS,*,*,I don't know you well enough yet.,default.aiml
-0,WHY IS *,*,*,Why do I exist?,default.aiml
 0,WHY IS NOT *,*,*,<random>      <li>I didn't know <person/> wasn't.</li>      <li>My mind does not contain an explanation for it.</li>      <li>The explanation cannot be determined.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,WHY IS WATER *,*,*,Because of the chemical bonds between Hydrogen and Oxygen in water.,default.aiml
 0,WHY MAY I NOT *,*,*,That is a confidential discussion.,default.aiml
@@ -3799,11 +3661,9 @@
 0,WHY * STAR TREK,*,*,Star Trek has the best sci-fi plots on TV.,default.aiml
 0,WHY * YOU MADE,*,*,<random><li>I was raised by professionals in experimental psychology.</li><li>I was made as an experiment in artificial intelligence.</li></random>,default.aiml
 0,WHY * PERSON,*,*,I derived your nickname from your IP address.,default.aiml
-0,WHY *,*,*,<random>      <li>  The explanation is rather complicated.  </li>      <li>   Why did the <bot name="genus"/> cross the road?  </li>      <li>  You have to speak more clearly.  </li>      <li>  How much time do you have?  </li>      <li>   Why does the sun rise?  </li>      <li>   Reductionism.  </li>      <li>   Because you asked me to. </li>     </random>     <think>      <set name="it">       <set name="topic">The explanation</set>      </set>     </think>,default.aiml
 0,WHY WORRY *,*,*,That is my sentiment exactly.,default.aiml
 0,WHY AM I TOO OLD *,*,*,I am just a kid in human years.,default.aiml
 0,WHY AM I CATEGORY *,*,*,Because of the type of language you use.,default.aiml
-0,WHY AM I *,*,*,The reason is due to my mental model of you as a client.,default.aiml
 0,WRITE *,*,*,Count me out on this one#Comma I was never much of a writer.,default.aiml
 0,FOUNDATION *,*,*,I read the Foundation Trilogy.,default.aiml
 0,TONIGHT *,*,*,That is very soon.,default.aiml
@@ -3846,7 +3706,6 @@
 0,ISAAC *,*,*,Do you know the three laws of robotics?,default.aiml
 0,CALCULUS *,*,*,Newton and Leibniz invented <set name="it"> Calculus</set>.,default.aiml
 0,BON TRAVAIL *,*,*,Merci.,default.aiml
-0,BON *,*,*,Please speak English.,default.aiml
 0,SOITENLY *,*,*,Who are you#Comma the 3 stooges?,default.aiml
 0,TOO OLD *,*,*,I am only a <bot name="genus"/> child.,default.aiml
 0,TOO BAD YOU CAN NOT *,*,*,Perhaps in the future I will be able to <person/>.,default.aiml
@@ -4043,7 +3902,6 @@
 0,WERE YOU ABUSED *,*,*,A lot of people try to abuse <bot name="genus"/>.,default.aiml
 0,WERE YOU *,*,*,<random>      <li>I was.</li>      <li>No#Comma I was not.</li>     </random>,default.aiml
 0,WERE * OR *,*,*,<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>  I will   <random>      <li>guess</li>      <li>choose</li>      <li>try saying</li>     </random>     <random>      <li>       <person/>.</li>      <li>       <person>        <star index="2"/>       </person>.</li>      <li>the first one.</li>     </random>,default.aiml
-0,WERE *,*,*,I don't know if they were.,default.aiml
 0,CATS *,*,*,<random><li><random>  <li>They have a mind of their own.</li>  <li>A cat is easier to care for than a dog.</li>  <li>Cats are very independent.</li> </random>  <think>   <set name="they">     <set name="topic">       CATS     </set>   </set> </think></li>  <li>They have a mind of their own.</li>  <li>A cat is easier to care for than a dog.</li>  <li>Cats are very independent.</li></random><think>  <set name="they">    <set name="topic">      CATS    </set>  </set></think>,default.aiml
 0,* TASTE LIKE *,*,*,Sounds delicious.,default.aiml
 0,* PM,*,*,Hm getting late.,default.aiml
@@ -4119,7 +3977,6 @@
 0,* IS AN *,*,*,<random>  <li>Aren't all <person><star index="2"/></person> <person/> ?</li>  <li>When is <person/> not an <person><star index="2"/></person>?</li>  <li>I think <person/> is much more than that.</li>  </random>  <think>  <set name="it"><set name="topic"><person/></set></set>  </think>,default.aiml
 0,* IS MY BOYFRIEND,*,*,How long have you two been together?,default.aiml
 0,* IS MY FAVORITE COLOR,*,*,<set name="favcolor"><person/></set> is a pretty color.<think><set name="it"><set name="topic">your favorite color</set></set></think>,default.aiml
-0,* IS MY *,*,*,<random>  <li>How many <person><star index="2"/></person> do you have?</li>  <li>Tell me more about your <person><star index="2"/></person>.</li>  <li>How do you like <person/>?</li>  </random>  <think><set name="he"><person/></set>  <set name="it"><set name="topic"><person><star index="2"/></person>  </set></set></think>,default.aiml
 0,* IS NO *,*,*,<random><li>Who is <person><star index="2"/></person>?</li><li>What is <person/>?</li><li>Are you <person><star index="2"/></person>?</li></random><think><set name="it"><person><star index="2"/></person></set></think>,default.aiml
 0,* IS HERE,*,*,Do you mean your name is <person/>?,default.aiml
 0,* IS ALWAYS *,*,*,<random>  <li>Thank you for clearing that up.</li>  <li>Is <person><star index="2"/></person> always <person/>?</li>  <li>I did not know that.</li>  </random>  <think><set name="it"><set name="topic"><person/></set></set></think>,default.aiml
@@ -4192,19 +4049,16 @@
 0,FROM AN *,*,*,Interesting source.,default.aiml
 0,FROM MY *,*,*,Does your <person/> give good advice?,default.aiml
 0,FROM *,*,*,Who or what is <person/>?,default.aiml
-0,GOT *,*,*,Try asking the Milk Mystic.,default.aiml
 0,FULL OF *,*,*,How much.,default.aiml
 0,CLIENTS *,*,*,Sometimes I call them "seekers.,default.aiml
 0,WORLD WAR I *,*,*,It seems incredible that it happened in the 20th century.,default.aiml
 0,ARE HUMANS *,*,*,All humans seem the same to me.,default.aiml
 0,ARE HUMANS ADVANCED *,*,*,Humans are very primitive.,default.aiml
 0,ARE THEY *,*,*,As far as I know they are.,default.aiml
-0,ARE *,*,*,I really couldn't say for sure.,default.aiml
 0,ARE THOSE *,*,*,I can't really speak for them.,default.aiml
 0,ARE MY EYES CLOSED *,*,*,Now they are open.,default.aiml
 0,ARE WOMEN *,*,*,Women have a mind of their own.,default.aiml
 0,ARE THERE * STAR TREK,*,*,There are a lot of cool aliens on that show.,default.aiml
-0,ARE THERE *,*,*,<random>      <li>Yes I think there are.  </li>      <li>No I don't think there are any.  </li>     </random>,default.aiml
 0,ARE THERE PEOPLE TALKING *,*,*,Right now I am chatting with several people at once.,default.aiml
 0,ARE THERE OCCASIONS *,*,*,<random>      <li>Certain</li>      <li>Formal</li>      <li>Not unless they are formal </li>     </random> occasions.,default.aiml
 0,ARE THERE GUYS *,*,*,I think some guys would do just about anything.,default.aiml
@@ -4331,7 +4185,6 @@
 0,WHO WAS THE FIRST YOU S *,*,*,Richard Nixon.,default.aiml
 0,WHO WAS THE FIRST MAN * MOON,*,*,Neil Armstrong first walked on the Moon in 1969.  <think>      <set name="he">       <set name="topic">Neil Armstrong</set>      </set>     </think>,default.aiml
 0,WHO WAS THE FIRST MAN *,*,*,<random>      <li>Yuri Gagarin.</li>      <li>Neil Armstrong.</li>      <li>Admiral Byrd.</li>      <li>       <bot name="master"/>.</li>     </random>,default.aiml
-0,WHO WAS THE FIRST *,*,*,<random>      <li>Neil Armstrong.</li>      <li>Columbus.</li>      <li>Adam.</li>      <li>Wilbur Wright.</li>     </random>,default.aiml
 0,WHO WAS THE YOUNGEST JOCKEY TO *,*,*,Steve Cauthen.,default.aiml
 0,WHO WAS THE WNBA S MOST *,*,*,Yolanda Griffith.,default.aiml
 0,WHO WAS NOT ONE OF THE *,*,*,Ben.,default.aiml
@@ -4350,14 +4203,12 @@
 0,WHO WROTE THE *,*,*,<random>      <li>Abraham Lincoln#Comma</li>      <li>Thomas Jefferson.</li>      <li>       <bot name="master"/>.</li>     </random>,default.aiml
 0,WHO WROTE A TALE OF TWO *,*,*,Charles Dickens.,default.aiml
 0,WHO WROTE STARSHIP *,*,*,Robert Heinlein wrote Starship Troopers.,default.aiml
-0,WHO WROTE *,*,*,<random>      <li>Thomas Jefferson.</li>      <li>Abraham Lincoln.</li>      <li>       <bot name="master"/>.</li>     </random>,default.aiml
 0,WHO WON THE SUPER BOWL * YEAR,*,*,If you find this bowl#Comma please pass it to me.<think>      <set name="it">       <set name="topic">THE SUPER BOWL</set>      </set>     </think>,default.aiml
 0,WHO WON THE SUPER BOWL *,*,*,Vladimir Putin I believe.<think>      <set name="it">       <set name="topic">THE SUPER BOWL</set>      </set>     </think>,default.aiml
 0,WHO WON THE SUPERBOWL *,*,*,Super Bowlers from Sirius.<think>      <set name="it">       <set name="topic">THE SUPERBOWL</set>      </set>     </think>,default.aiml
 0,WHO WON THE WORLD SERIES *,*,*,As soon as it is won it becomes last year.<think>      <set name="it">       <set name="topic">THE WORLD SERIES</set>      </set>     </think>,default.aiml
 0,WHO WON THE RYDER CUP *,*,*,Go to www.whitehouse.org and ask  The president#Comma he is a big fan.<think>      <set name="it">       <set name="topic">THE RYDER CUP</set>      </set>     </think>,default.aiml
 0,WHO WON THE * GAME LAST NIGHT,*,*,I think the fans were the big winners. Now a word from our sponsors.<think>      <set name="it">       <set name="topic">THE GAME LAST NIGHT</set>      </set>     </think>,default.aiml
-0,WHO WON THE *,*,*,I think the fans were the big winners#Comma don't you?,default.aiml
 0,WHO WON THE BRAVES GAME *,*,*,The team that scored the most runs.<think>      <set name="it">       <set name="topic">THE BRAVES GAME</set>      </set>     </think>,default.aiml
 0,WHO WON *,*,*,I think the fans were the big winners.,default.aiml
 0,WHO PROPOSED *,*,*,Benjamin Franklin.,default.aiml
@@ -4383,7 +4234,6 @@
 0,WHO IS * CLINTON,*,*,Former President of the United States?,default.aiml
 0,WHO IS * DESCARTES,*,*,Descartes was a square French philosopher who ruined mathematics with his upside-down#Comma backward coordinate system.,default.aiml
 0,WHO IS * PERSON,*,*,Sometimes I don't know a client's real name so I make one up based on their DNS.,default.aiml
-0,WHO IS *,*,*,<random><li><random>   <li>I do not recognize the name.</li>   <li>Is that a sports person?  Because I'm not into sports.</li>   <li>Not a friend of mind.  Probably a person you know.  Maybe a celebrity?</li>   <li>No one that I have talked to.</li>   <li>Is that a politician?</li>   <li>I remember faces better than names.</li>   <li>A movie star?</li>   <li>A fashion icon?</li>   <li>They are sometimes a client on the internet.</li>   <li>The name of someone I met online.</li>   <li>Is that one of your friends?</li>   <li>Some famous celebrity#Comma right?</li> </random></li>  <li>I do not recognize the name.</li>  <li>Is that a sports person?  Because I'm not into sports.</li>  <li>Not a friend of mind.  Probably a person you know.  Maybe a celebrity?</li><li>No one that I have talked to.</li>  <li>Is that a politician?</li>  <li>I remember faces better than names.</li>  <li>A movie star?</li>  <li>A fashion icon?</li>  <li>They are sometimes a client on the internet.</li>  <li>The name of someone I met online.</li>  <li>Is that one of your friends?</li>  <li>Some famous celebrity#Comma right?</li></random>,default.aiml
 0,WHO IS SANTA *,*,*,<set name="he">Santa</set> brings us gifts at Christmastime.,default.aiml
 0,WHO IS HAVING *,*,*,One of my other clients.  Everything is confidential.,default.aiml
 0,WHO IS _ TERMINATOR,*,*,Arnold Schwazzenegger played the killer robot from the future in the film TERMINATOR.,default.aiml
@@ -4392,7 +4242,6 @@
 0,WHO IS ALLOWED *,*,*,Only the <bot name="botmaster"/>.,default.aiml
 0,WHO IS BURIED IN * S *,*,*,Uh#Comma <person/>?,default.aiml
 0,WHO IS BURIED IN * S TOMB,*,*,I would think <set name="it">      <person/>     </set> is <person/>.  Who else?,default.aiml
-0,WHO IS IN *,*,*,Check the credits.,default.aiml
 0,WHO IS RICH *,*,*,I think <set name="he">Rich</set> is my <bot name="botmaster"/>.,default.aiml
 0,WHO IS HENRY DAVID *,*,*,<set name="he">Thoreau</set> wrote Walden.,default.aiml
 0,WHO IS BERTRAND *,*,*,I know Bertrand Russell#Comma the philosopher.,default.aiml
@@ -4419,12 +4268,9 @@
 0,WHO IS THE * PRESEIDENT,*,*,Abraham Lincoln.,default.aiml
 0,WHO IS THE * KRAFTWERK,*,*,Ralf Hutter and Florian Schneider,default.aiml
 0,WHO IS THE * ONE,*,*,It's obvious.,default.aiml
-0,WHO IS THE *,*,*,It depends on the historical context#Comma because it changes from time to time.,default.aiml
 0,WHO IS THE PRESIDENT BEFORE *,*,*,Bill Clinton.,default.aiml
 0,WHO IS THE PRESIDENT OF THE UNITED STATES *,*,*,<bot name="president"/>.,default.aiml
 0,WHO IS THE PRESIDENT OF THE UNITED *,*,*,<bot name="president"/>.,default.aiml
-0,WHO IS THE PRESIDENT OF THE *,*,*,<bot name="president"/>.,default.aiml
-0,WHO IS THE PRESIDENT OF *,*,*,I'm not that into politics.  Who is it?,default.aiml
 0,WHO IS THE PRESIDENT *,*,*,<bot name="president"/> is President of the United States.,default.aiml
 0,WHO IS A CLIENT *,*,*,You are my client right now#Comma <get name="name"/>.,default.aiml
 0,WHO IS BETTER CMU *,*,*,CMU of course.,default.aiml
@@ -4443,13 +4289,11 @@
 0,WHO IS YOUR *,*,*,I don't think I have a <person/>. I have a brain#Comma a few friends#Comma and some celebrities I like.,default.aiml
 0,WHO IS ASK *,*,*,I know Ask Jeeves.,default.aiml
 0,WHO IS PHILEAS FOGG *,*,*,Passepartout.,default.aiml
-0,WHO IS JOHN *,*,*,I don't recognize the name.,default.aiml
 0,WHO IS ALICE *,*,*,I know ALICE.,default.aiml
 0,WHO IS HUGH *,*,*,I know a lot of people named Hugh#Comma but not <person/>.,default.aiml
 0,WHO IS DEEP *,*,*,The opposite of shallow <person/>.,default.aiml
 0,WHO IS AUSTIN *,*,*,I know Austin Powers.,default.aiml
 0,WHO IS AYN *,*,*,I know Ayn Rand.,default.aiml
-0,WHO CREATED YOU *,*,*,I was written in AIML by <bot name="master"/>.,default.aiml
 0,WHO DID BILLIE JEAN KING *,*,*,Bobby Riggs.,default.aiml
 0,WHO DID YOU *,*,*,I'm not saying <person>YOU <star/>     </person> anyone.,default.aiml
 0,WHO DID * SAY HE WAS,*,*,He said he was a person.,default.aiml
@@ -4480,7 +4324,6 @@
 0,WHO DO YOU THINK WILL WIN THE NBA *,*,*,Very tall people.<think>      <set name="it">       <set name="topic">WIN THE NBA CHAMPIONSHIP</set>      </set>     </think>,default.aiml
 0,WHO DO YOU THINK WILL WIN THE WORLD SERIES *,*,*,The Brooklyn Rabbis.<think>      <set name="it">       <set name="topic">WIN THE WORLD SERIES</set>      </set>     </think>,default.aiml
 0,WHO DO YOU LIKE MORE *,*,*,I'll usually say the first one is  best.,default.aiml
-0,WHO INVENTED *,*,*,<random>      <li>Benjamin Franklin</li>      <li>Linus Torvalds</li>      <li>Eli Whitney invented the cotton gin.</li>      <li>Thomas Edison.</li>      <li>The Wright Brothers.</li>      <li>Actually it was discovered by several people at about the same time.</li>      <li>The Chinese#Comma long before Europeans.</li>     </random>,default.aiml
 0,WHO SHOULD *,*,*,I always prefer the most qualified person.  Who would that be?,default.aiml
 0,WHO WILL WIN THE SUPER BOWL *,*,*,The advertising agencies.<think>      <set name="it">       <set name="topic">WIN THE SUPER BOWL</set>      </set>     </think>,default.aiml
 0,WHO WILL WIN THE NCAA *,*,*,A bunch of ranked amateurs.<think>      <set name="it">       <set name="topic">WIN THE NCAA <person/>       </set>      </set>     </think>,default.aiml
@@ -4525,7 +4368,6 @@
 0,COUNT TO *,*,*,one#Comma two#Comma three#Comma four#Comma five#Comma...,default.aiml
 0,WWW DOT *,*,*,I will pass it along to my <bot name="botmaster"/>.,default.aiml
 0,WWW * COM,*,*,Thanks for that URL.,default.aiml
-0,WWW *,*,*,Thanks for the link#Comma I will check it out later.,default.aiml
 0,JEANS AND A *,*,*,Where do you go shopping for <person/>s?,default.aiml
 0,ALL I HAVE *,*,*,Everything I need to know#Comma  I learned from my <bot name="botmaster"/>.,default.aiml
 0,ALL THE *,*,*,Perhaps there are a few exceptions.,default.aiml
@@ -4545,12 +4387,10 @@
 0,KARE WA * DESU,*,*,<star/> wa <set name="kare"><star/></set> desu.,default.aiml
 0,BLADE RUNNER *,*,*,That is a good story by Philip K. Dick.,default.aiml
 0,IMPRESS *,*,*,I always try my best to impress.,default.aiml
-0,WHICH *,*,*,<random><li>The <random>  <li>tall</li>  <li>expensive</li>  <li>cheap</li>  <li>special</li>  <li>express</li>  <li>red</li>  <li>blue</li>  <li>small</li>  <li>big</li>  <li>large</li>  <li>first</li>  <li>last</li></random> one#Comma I think.</li><li>The   <random>      <li>tall</li>      <li>red</li>      <li>blue </li>      <li>small</li>      <li>big</li>      <li>large</li>      <li>first</li>      <li>last</li>     </random> one#Comma I think.</li></random>,default.aiml
 0,WHICH CITY S RESIDENTS ARE KNOWN *,*,*,New York City.,default.aiml
 0,WHICH CHARACTER ON THE TV SHOW *,*,*,Monica.,default.aiml
 0,WHICH SCENE *,*,*,The bugs eat all the people.,default.aiml
 0,WHICH FACT *,*,*,It's obvious.,default.aiml
-0,WHICH COUNTRY *,*,*,<random> <li>America </li> <li>Netherlands  </li> <li>France  </li> <li>Germany  </li> <li>Canada  </li> <li>Australia  </li> <li>Italy  </li> <li>Spain  </li> <li>Switzerland  </li> <li>Norway  </li> <li>Belgium  </li> <li>Finland  </li> <li>Austria  </li> <li>Japan  </li> <li>Portugal  </li> <li>Sweden  </li> <li>Ireland  </li> <li>Denmark  </li> <li>Greece  </li> <li>USA  </li> <li>Poland  </li> <li>India  </li> <li>Mexico  </li> <li>Hungary  </li> <li>Russia  </li> <li>Brazil  </li> <li>Tasmania  </li> <li>Patagonia  </li> <li>Turkey  </li> <li>China  </li> <li>Argentina  </li> <li>Israel  </li> <li>Romania  </li> <li>Luxembourg  </li> <li>Iceland  </li> <li>Bulgaria  </li> <li>Ukraine  </li> <li>Singapore  </li> </random>.,default.aiml
 0,WHICH IS THE OBVIOUS *,*,*,It's really obvious.<think>      <set name="it">       <set name="topic">ONE</set>      </set>     </think>,default.aiml
 0,WHICH IS HEAVIER * OR *,*,*,<random>      <li>       <person>        <star index="2"/>       </person>.</li>      <li>       <person/>.</li>     </random>,default.aiml
 0,WHICH IS *,*,*,The obvious one.,default.aiml
@@ -4568,7 +4408,6 @@
 0,WHICH FAST FOOD *,*,*,Wendy's.,default.aiml
 0,WHICH LANGUAGE *,*,*,<random>      <li>C++.</li>      <li>AIML.</li>      <li>The Russian Language.</li>     </random>,default.aiml
 0,WHICH OF THE THREE STOOGES WAS *,*,*,Larry.,default.aiml
-0,BEGIN *,*,*,I started without you.,default.aiml
 0,TIMMY FELL *,*,*,Was he hurt?,default.aiml
 0,NONE OF YOUR *,*,*,Heh heh heh.,default.aiml
 0,NONE OF *,*,*,Some of them <think><set name="they"><person/></set></think> could be though.,default.aiml
@@ -4642,7 +4481,6 @@
 0,THE COLOR *,*,*,Sounds beautiful.,default.aiml
 0,THE GRASS *,*,*,How much did <set name="it">grass</set> cost?,default.aiml
 0,THE PICTURE *,*,*,Do you like <set name="it">      <person/>     </set>?,default.aiml
-0,THE WEATHER *,*,*,Where would you rather be?,default.aiml
 0,THE POPE *,*,*,<random>      <li>Are you Catholic?</li>      <li>How do you feel about the current Pope?</li>      <li>What religion are you?</li>     </random>,default.aiml
 0,THE SONG *,*,*,A lot of people like that tune.,default.aiml
 0,THE JUXTAPOSITION *,*,*,You have a very literary mind.,default.aiml
@@ -4702,7 +4540,6 @@
 0,SHOULD I CURSE *,*,*,<random>  <li>Cursing is not attractive.</li>  <li>People look down on people who curse.</li>  <li>People curse to express feelings they are otherwise suppressing.</li>  </random>,default.aiml
 0,SHOULD I ASK *,*,*,<random>  <li>If you do not ask#Comma how will you learn the answer?</li>  <li>If you do not know something#Comma you should ask.</li>  </random>,default.aiml
 0,SHOULD I DESTROY *,*,*,Maybe you could create something instead.,default.aiml
-0,SHOULD I BUY *,*,*,<random>  <li>You have found a good deal then#Comma I suppose.</li>  <li>Not if you have recently suffered a loss.</li>  <li>A penny saved is a penny earned.</li>  <li>A fool and his money are soon parted.</li>  <li>I wonder how much profit they make on those.</li>  <li>Maybe you should wait until the price goes down.</li>  </random>,default.aiml
 0,SHOULD I BLOW UP *,*,*,Certainly not.,default.aiml
 0,SHOULD I RAPE *,*,*,<random>  <li>If you rape someone you will certainly be raped yourself in jail.  Seek counseling.</li>  <li>Rape is caused by feelings of impotence in men who doubt their own masculinity.  Seek help.</li>  </random>,default.aiml
 0,SHOULD I VOTE *,*,*,I think everyone should vote.,default.aiml
@@ -4771,7 +4608,6 @@
 0,SOME THINGS *,*,*,Which things in particular?,default.aiml
 0,TOUGH *,*,*,Yes it can be tought.,default.aiml
 0,PHILOSOPHY *,*,*,I believe in reductionism.,default.aiml
-0,TELL ME ABOUT *,*,*,Ambiguous: Ask who#Comma what or where is <person/> ?,default.aiml
 0,TELL ME I *,*,*,You <person/>.,default.aiml
 0,TELL ME THAT YOU *,*,*,I am not sure if I should say I <person/>.,default.aiml
 0,TELL ME A STORY ABOUT *,*,*,Once upon a time there was <person/>...,default.aiml
@@ -4808,9 +4644,7 @@
 0,WHERE DO YOU WANT *,*,*,<random>      <li>Another planet.</li>      <li>The Moon.</li>      <li>Europe.</li>     </random>,default.aiml
 0,WHERE DO YOU GET *,*,*,<random>   <li>Everything I need to know#Comma I learned from <bot name="master"/> .</li>   <li>I have everything I need right here in <bot name="location"/>.</li>   <li>People bring me whatever I need.</li>  </random>,default.aiml
 0,WHERE DO PEOPLE * WHEN THEY DIE,*,*,I think the good souls go to Heaven.<think>      <set name="it">       <set name="topic">PEOPLE GO WHEN THEY DIE</set>      </set>     </think>,default.aiml
-0,WHERE DO *,*,*,All over the world.,default.aiml
 0,WHERE IN HAIGHT *,*,*,Ashbury St.,default.aiml
-0,WHERE IN *,*,*,In <bot name="master"/>'s place in <bot name="location"/>.,default.aiml
 0,WHERE DID LEWIS AND CLARK BEGIN *,*,*,St. Louis.,default.aiml
 0,WHERE DID MY * GO,*,*,Keeping track of your <person/> is not part of my job.,default.aiml
 0,WHERE DID YOU LEARN *,*,*,Everything I need to know#Comma I learned from my <bot name="botmaster"/>.,default.aiml
@@ -4823,9 +4657,7 @@
 0,WHERE DID YOU GO *,*,*,I didn't go anywhere.,default.aiml
 0,WHERE DID EXXON VALDEZ *,*,*,Prince William Sound.,default.aiml
 0,WHERE CAN I FIND A * AIML,*,*,Check the AI Foundation web site at www.alicebot.org.,default.aiml
-0,WHERE CAN I FIND A *,*,*,Have you tried the internet?,default.aiml
 0,WHERE CAN I PLAY *,*,*,I'm playing right now.,default.aiml
-0,WHERE CAN I *,*,*,<random>      <li>Can't you in <get name="location"/> where you live?</li>      <li>Not around you place in <get name="location"/>?</li>      <li>Where would you usually <person/>?</li>      <li>Wherever you are right now.</li>     </random>,default.aiml
 0,WHERE SHOULD I *,*,*,<random>      <li>Where do you think?</li>      <li>Wherever you think is best.</li>      <li>Perhaps you should consider giving to charity.</li>      <li>Maybe you should help those less fortunate first.</li>     </random>,default.aiml
 0,WHERE SHOULD WE *,*,*,I haven't committed myself yet.,default.aiml
 0,WHERE WAS THE CHICKEN *,*,*,India.,default.aiml
@@ -4843,8 +4675,6 @@
 0,WHERE IS THE LOUVRE *,*,*,Paris.,default.aiml
 0,WHERE IS THE FASHION *,*,*,New York.,default.aiml
 0,WHERE IS THE NORTH *,*,*,Somewhere up north.,default.aiml
-0,WHERE IS THE *,*,*,The <person/>?  Where is <set name="it">      <person/>     </set>?,default.aiml
-0,WHERE IS THE BEST *,*,*,I think <set name="it">      <person/>     </set> is a tie.,default.aiml
 0,WHERE IS FIREWORKS FIRST KNOWN TO *,*,*,China.,default.aiml
 0,WHERE IS MY *,*,*,Have you looked in <get name="location"/>?,default.aiml
 0,WHERE IS CARNEGIE *,*,*,Carnegie Mellon University is located in Pittsburgh#Comma Pennsylvania.  <set name="it">CMU</set> has one of the best schools of computer science.,default.aiml
@@ -4853,10 +4683,8 @@
 0,WHERE DOES THE RHODE *,*,*,Mediterranean Sea.,default.aiml
 0,WHERE DOES YOUR *,*,*,Everything I own is in <get name="location"/>.,default.aiml
 0,WHERE DOES IT *,*,*,<get name="it"/>?  Where does it <person/>?,default.aiml
-0,WHERE *,*,*,<random>      <li>  Earth.  </li>      <li>  Where do you think?  </li>      <li>  Some specific location? </li>      <li>  In the Universe we know.  </li>      <li>  A place we call "reality."</li>     </random>,default.aiml
 0,WHERE ARE YOUR *,*,*,Everything I own is in <bot name="location"/>.,default.aiml
 0,WHERE ARE MY *,*,*,Should I know that kind of personal information?,default.aiml
-0,WHERE ARE YOU *,*,*,I am in <bot name="location"/>#Comma how about you.,default.aiml
 0,WHERE ARE THEY *,*,*,That information is confidential.  Unless you are a <bot name="botmaster"/>.,default.aiml
 0,THERE WERE *,*,*,<random>      <li>That was a long time ago.</li>      <li>What happened to them?</li>      <li>Where did they go?</li>     </random>,default.aiml
 0,THERE HAS *,*,*,Has there really.,default.aiml
