@@ -245,9 +245,9 @@ public class Main {
             } catch (Exception e) {
                 e.getMessage();
             }
+        } else {
+            tts("Invalid uuid structure, please try again");
         }
-    } else {
-        tts("Invalid uuid structure, please try again");
     }
 
 }

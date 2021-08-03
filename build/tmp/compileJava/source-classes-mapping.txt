@@ -8,9 +8,9 @@ main/Config.java
  main.Config
 main/grammarize.java
  main.grammarize
-main/Main.java
- main.Main
-main/setconfig.java
- main.setconfig
 main/TrainSet.java
  main.TrainSet
+main/setconfig.java
+ main.setconfig
+main/Main.java
+ main.Main
