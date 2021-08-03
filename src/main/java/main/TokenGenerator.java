@@ -56,4 +56,20 @@ public class TokenGenerator {
                 ", buf = " + Arrays.toString(buf) +
                 " }";
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof TokenGenerator)) return false;
+        TokenGenerator that = (TokenGenerator) o;
+        return random.equals(that.random) && Arrays.equals(symbols, that.symbols) && Arrays.equals(buf, that.buf);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(random);
+        result = 31 * result + Arrays.hashCode(symbols);
+        result = 31 * result + Arrays.hashCode(buf);
+        return result;
+    }
 }
