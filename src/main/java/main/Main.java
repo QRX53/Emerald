@@ -102,6 +102,17 @@ public class Main {
                         textLine = MagicStrings.null_input;
                     else {
                         String response = chatSession.multisentenceRespond(textLine);
+                        String[] responseMapped = response.split(" ");
+                        int counter = 0;
+
+                        for (String mapped : responseMapped) {
+                            if (mapped.contains("unknown")) {
+                                responseMapped[counter] = "internal processing error";
+                                break;
+                            }
+                            counter++;
+                        }
+
                         while (response.contains("&lt;"))
                             response = response.replace("&lt;", "<");
                         while (response.contains("&gt;"))
