@@ -13,10 +13,9 @@ import org.alicebot.ab.Chat;
 import org.alicebot.ab.MagicBooleans;
 import org.alicebot.ab.MagicStrings;
 
-import main.*;
-
 public class Main {
 
+    public static String ejk;
     public static File datasetFile = new File("src/main/resources/knowledge.csv");
     public static File query = new File("src/main/resources/file.wav");
     public static TrainSet ts = new TrainSet(datasetFile);
@@ -25,8 +24,9 @@ public class Main {
     private static long counter = 0L;
     private static Random rnd;
     public static setconfig scf = new setconfig();
-    private static String smbls = "ABCD37FH.F927RHFNV.WNZ83GGJ1038GNZV";
-    public static TokenGenerator tg = new TokenGenerator(30, rnd, smbls);
+    private static final String smbls = "ABCD37FH.F927RHFNV.WNZ83GGJ1038GNZV";
+    private static final File uuid = new File("src/main/resources/uuid.uuid");
+    public static final String localToken = "be7d0307-2e8e-46eb-b137-fa2a022f34c9";
 
     private static String getResourcesPath() {
         File currDir = new File(".");
@@ -36,8 +36,22 @@ public class Main {
     }
 
     public static String genUUID() {
-        String uuid = UUID.randomUUID().toString();
-        return uuid;
+        return UUID.randomUUID().toString();
+    }
+
+    public static String readFromFile(File myObj, String s) {
+        try {
+            Scanner myReader = new Scanner(myObj);
+            while (myReader.hasNextLine()) {
+                s = myReader.nextLine();
+            }
+            myReader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
+        return s;
+
     }
 
     public static void WriteToFile(String toWrite, File file) {
@@ -48,6 +62,7 @@ public class Main {
             e.printStackTrace();
         }
         try {
+            assert writer != null;
             writer.write(toWrite);
         } catch (IOException e) {
             e.printStackTrace();
@@ -215,7 +230,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        tts("Emerald system online: please allow time for configuration");
+
+        if (localToken.equals(readFromFile(uuid, ejk))) {
+
+            tts("Emerald system online: please allow time for configuration");
             try {
                 run();
                 while (true) {
@@ -227,6 +245,9 @@ public class Main {
             } catch (Exception e) {
                 e.getMessage();
             }
+        }
+    } else {
+        tts("Invalid uuid structure, please try again");
     }
 
 }

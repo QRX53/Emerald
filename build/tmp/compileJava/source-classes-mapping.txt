@@ -1,10 +1,16 @@
+main/TokenGenerator.java
+ main.TokenGenerator
+main/GetFileInfo.java
+ main.GetFileInfo
 main/JavaSoundRecorder.java
  main.JavaSoundRecorder
+main/Config.java
+ main.Config
 main/grammarize.java
  main.grammarize
 main/Main.java
  main.Main
+main/setconfig.java
+ main.setconfig
 main/TrainSet.java
  main.TrainSet
-main/config.java
- main.config

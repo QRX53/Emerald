@@ -50,10 +50,10 @@ public class TokenGenerator {
 
     @Override
     public String toString() {
-        return "TokenGenerator{" +
-                "random=" + random +
-                ", symbols=" + Arrays.toString(symbols) +
-                ", buf=" + Arrays.toString(buf) +
-                '}';
+        return "TokenGenerator { " +
+                "random = " + random +
+                ", symbols = " + Arrays.toString(symbols) +
+                ", buf = " + Arrays.toString(buf) +
+                " }";
     }
 }
