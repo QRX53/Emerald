@@ -1,13 +1,13 @@
 main/TokenGenerator.java
  main.TokenGenerator
-main/QuickstartSample.java
- main.QuickstartSample
 main/GetFileInfo.java
  main.GetFileInfo
 main/JavaSoundRecorder.java
  main.JavaSoundRecorder
 main/Config.java
  main.Config
+main/comments.java
+ main.comments
 main/grammarize.java
  main.grammarize
 main/Main.java

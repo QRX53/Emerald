@@ -56,7 +56,6 @@ public class Main extends ResultAdapter {
         } catch (EngineException engineException) {
             engineException.printStackTrace();
         }
-        System.exit(0);
     }
 
     public static String rot13(String input) {
@@ -338,6 +337,7 @@ public class Main extends ResultAdapter {
             }
         } else {
             tts("Invalid uuid structure, please try again");
+            System.exit(0);
         }
     }
 
