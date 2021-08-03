@@ -5,25 +5,25 @@ import com.sun.speech.freetts.VoiceManager;
 
 import java.io.*;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URI;
-import java.net.URL;
-import java.nio.charset.Charset;
-import java.nio.file.Path;
 import java.util.*;
 import java.util.UUID;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
+import java.io.InputStream;
+import java.util.Arrays;
 
-import groovyjarjarantlr4.v4.runtime.misc.NotNull;
-import groovyjarjarantlr4.v4.runtime.misc.Nullable;
 import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
 import org.alicebot.ab.MagicBooleans;
 import org.alicebot.ab.MagicStrings;
 
+import javax.speech.Central;
+import javax.speech.EngineException;
+import javax.speech.EngineModeDesc;
+import javax.speech.recognition.*;
 
-public class Main {
+import static main.JavaSoundRecorder.RECORD_TIME;
+
+
+public class Main extends ResultAdapter {
 
     public static String ejk;
     public static File datasetFile = new File("src/main/resources/knowledge.csv");
@@ -38,8 +38,41 @@ public class Main {
     private static final File uuid = new File("src/main/resources/uuid.uuid");
     private static String llk;
     public static final String encryptedToken = rot13(readFromFile(uuid, llk));
+    private static final String accessToken = "";
+    private static Recognizer rec;
+    protected static File audio;
+
+    public void resultAccepted(ResultEvent e) {
+        Result r = (Result)(e.getSource());
+        ResultToken tokens[] = r.getBestTokens();
+
+        for (int i = 0; i < tokens.length; i++)
+            System.out.print(tokens[i].getSpokenText() + " ");
+        System.out.println();
+
+        // Deallocate the recognizer and exit
+        try {
+            rec.deallocate();
+        } catch (EngineException engineException) {
+            engineException.printStackTrace();
+        }
+        System.exit(0);
+    }
 
     public static String rot13(String input) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < input.length(); i++) {
+            char c = input.charAt(i);
+            if       (c >= 'a' && c <= 'm') c += 13;
+            else if  (c >= 'A' && c <= 'M') c += 13;
+            else if  (c >= 'n' && c <= 'z') c -= 13;
+            else if  (c >= 'N' && c <= 'Z') c -= 13;
+            sb.append(c);
+        }
+        return sb.toString();
+    }
+
+    public static String decrypt(String input) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
@@ -169,28 +202,41 @@ public class Main {
         }
     }
 
-/*
-    public static String listen() throws IOException {
 
-        final JavaSoundRecorder recorder = new JavaSoundRecorder();
+    public static String listen(File file) throws IOException {
+        String s = new String();
 
-        Thread stopper = new Thread(() -> {
-            try {
-                Thread.sleep(RECORD_TIME);
-            } catch (InterruptedException ex) {
-                ex.printStackTrace();
-            }
-            recorder.finish();
-        });
+        try {
+            // Create a recognizer that supports English.
+            rec = Central.createRecognizer(
+                    new EngineModeDesc(Locale.ENGLISH));
 
-        stopper.start();
+            // Start up the recognizer
+            rec.allocate();
 
-        recorder.start();
+            // Load the grammar from a file, and enable it
+            FileReader reader = new FileReader(file);
+            RuleGrammar gram = rec.loadJSGF(reader);
+            gram.setEnabled(true);
 
-        return qs.getTranscription();
+            // Add the listener to get results
+            rec.addResultListener(new Main());
+
+            // Commit the grammar
+            rec.commitChanges();
+
+            // Request focus and start listening
+            rec.requestFocus();
+            rec.resume();
+            rec.deallocate();
+            s = rec.toString();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return s;
     }
 
- */
+
 
     public static void learnf(String key, String response) {
         try {
@@ -276,7 +322,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        if (encryptedToken.equals(readFromFile(uuid, ejk))) {
+        if (decrypt(encryptedToken).equals(readFromFile(uuid, ejk))) {
 
             tts("Emerald system online: please allow time for configuration");
             try {
