@@ -10,11 +10,11 @@ main/comments.java
  main.comments
 main/grammarize.java
  main.grammarize
-main/Main.java
- main.Main
+main/TDES.java
+ main.TDES
 main/setconfig.java
  main.setconfig
 main/TrainSet.java
  main.TrainSet
-main/TrippleDes.java
- main.TrippleDes
+main/Main.java
+ main.Main

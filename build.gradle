@@ -22,6 +22,7 @@ dependencies {
     implementation "org.jmonkeyengine:jme3-desktop:3.3.2-stable"
     implementation "org.jmonkeyengine:jme3-lwjgl:3.3.2-stable"
     implementation group: 'net.sf.sociaal', name: 'freetts', version: '1.2.2'
+    compile 'commons-codec:commons-codec:1.15'
     compile files('libs/Ab.jar')
     compile files('libs/snakeyaml-1.18.jar')
     compile files('libs/jackson-dataformat-yaml-2.9.2.jar')

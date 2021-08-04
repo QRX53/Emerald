@@ -13,6 +13,7 @@ import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
 import org.alicebot.ab.MagicBooleans;
 import org.alicebot.ab.MagicStrings;
+import org.apache.commons.codec.digest.DigestUtils;
 
 import javax.speech.Central;
 import javax.speech.EngineException;
@@ -60,6 +61,17 @@ public class Main extends ResultAdapter {
             sb.append(c);
         }
         return sb.toString();
+    }
+
+    public static String createUncrackable(String string_to_encode) throws Exception {
+        TDES td = new TDES();
+        String rot13 = rot13(string_to_encode);
+        String tdes = td.encrypt(rot13);
+        String hashed = DigestUtils.sha256Hex(tdes);
+        String megaHashed = DigestUtils.sha256Hex(hashed);
+        String megaTdes = td.encrypt(megaHashed);
+        string_to_encode = rot13(megaTdes);
+        return string_to_encode;
     }
 
     public static String decrypt(String input, Supplier<StringBuilder> supplier) {
@@ -293,9 +305,12 @@ public class Main extends ResultAdapter {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+
+        System.out.println(createUncrackable("kate"));
+
         try {
-            TrippleDes td = new TrippleDes();
+            TDES td = new TDES();
 
             String encryptedToken = td.encrypt(readFromFile(uuid, ejj));
             System.out.println(encryptedToken);
@@ -321,4 +336,6 @@ public class Main extends ResultAdapter {
             e.printStackTrace();
         }
     }
+
+
 }
