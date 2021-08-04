@@ -12,7 +12,6 @@ public class setconfig {
 
     public static Config readyaml() throws IOException {
         File file = new File("src/main/resources/config.yaml");
-            Config config = mapper.readValue(file, Config.class);
-            return config;
+        return mapper.readValue(file, Config.class);
     }
 }

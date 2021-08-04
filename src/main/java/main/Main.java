@@ -7,8 +7,7 @@ import java.io.*;
 import java.io.IOException;
 import java.util.*;
 import java.util.UUID;
-import java.io.InputStream;
-import java.util.Arrays;
+import java.util.function.Supplier;
 
 import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
@@ -20,37 +19,29 @@ import javax.speech.EngineException;
 import javax.speech.EngineModeDesc;
 import javax.speech.recognition.*;
 
-import static main.JavaSoundRecorder.RECORD_TIME;
-
-
 public class Main extends ResultAdapter {
-
+    private static String ekj;
     public static String ejk;
+    public static String ejj;
     public static File datasetFile = new File("src/main/resources/knowledge.csv");
     public static File query = new File("src/main/resources/file.wav");
     public static TrainSet ts = new TrainSet(datasetFile);
     public static HashMap<String, String> dataset = ts.getKnowledge();
     private static final boolean TRACE_MODE = true;
     private static long counter = 0L;
-    private static Random rnd;
-    public static setconfig scf = new setconfig();
     private static final String smbls = "ABCD37FH.F927RHFNV.WNZ83GGJ1038GNZV";
     private static final File uuid = new File("src/main/resources/uuid.uuid");
-    private static String llk;
-    public static final String encryptedToken = rot13(readFromFile(uuid, llk));
-    private static final String accessToken = "";
     private static Recognizer rec;
     protected static File audio;
 
     public void resultAccepted(ResultEvent e) {
-        Result r = (Result)(e.getSource());
-        ResultToken tokens[] = r.getBestTokens();
+        Result r = (Result) (e.getSource());
+        ResultToken[] tokens = r.getBestTokens();
 
         for (int i = 0; i < tokens.length; i++)
             System.out.print(tokens[i].getSpokenText() + " ");
         System.out.println();
 
-        // Deallocate the recognizer and exit
         try {
             rec.deallocate();
         } catch (EngineException engineException) {
@@ -62,23 +53,23 @@ public class Main extends ResultAdapter {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
-            if       (c >= 'a' && c <= 'm') c += 13;
-            else if  (c >= 'A' && c <= 'M') c += 13;
-            else if  (c >= 'n' && c <= 'z') c -= 13;
-            else if  (c >= 'N' && c <= 'Z') c -= 13;
+            if (c >= 'a' && c <= 'm') c += 13;
+            else if (c >= 'A' && c <= 'M') c += 13;
+            else if (c >= 'n' && c <= 'z') c -= 13;
+            else if (c >= 'N' && c <= 'Z') c -= 13;
             sb.append(c);
         }
         return sb.toString();
     }
 
-    public static String decrypt(String input) {
-        StringBuilder sb = new StringBuilder();
+    public static String decrypt(String input, Supplier<StringBuilder> supplier) {
+        StringBuilder sb = supplier.get();
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
-            if       (c >= 'a' && c <= 'm') c += 13;
-            else if  (c >= 'A' && c <= 'M') c += 13;
-            else if  (c >= 'n' && c <= 'z') c -= 13;
-            else if  (c >= 'N' && c <= 'Z') c -= 13;
+            if (c >= 'a' && c <= 'm') c += 13;
+            else if (c >= 'A' && c <= 'M') c += 13;
+            else if (c >= 'n' && c <= 'z') c -= 13;
+            else if (c >= 'N' && c <= 'Z') c -= 13;
             sb.append(c);
         }
         return sb.toString();
@@ -178,18 +169,6 @@ public class Main extends ResultAdapter {
         return array[rnd];
     }
 
-    /*
-    public static QuickstartSample qs;
-
-    static {
-        try {
-            qs = new QuickstartSample(query);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    */
-
 
     public static void run() {
         String s;
@@ -203,7 +182,7 @@ public class Main extends ResultAdapter {
 
 
     public static String listen(File file) throws IOException {
-        String s = new String();
+        String s = "";
 
         try {
             // Create a recognizer that supports English.
@@ -236,7 +215,6 @@ public class Main extends ResultAdapter {
     }
 
 
-
     public static void learnf(String key, String response) {
         try {
             FileWriter fw = new FileWriter(datasetFile, true);
@@ -254,8 +232,15 @@ public class Main extends ResultAdapter {
     }
 
     public static String answer(String question) {
-        /*
+        try {
+            return (String) getResponse(true, question);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
+    public static String answerFromSet(String question) {
         ArrayList<String> ary = new ArrayList<>();
         Set<String> keys = dataset.keySet();
         int counter = 0;
@@ -263,7 +248,6 @@ public class Main extends ResultAdapter {
             String lowerKey = key.toLowerCase();
             String lowerQuestion = question.toLowerCase();
             if (lowerKey.contains(lowerQuestion)) {
-                // return dataset.get(key);
                 ary.add(key);
             }
         }
@@ -273,28 +257,18 @@ public class Main extends ResultAdapter {
         } else {
             return null;
         }
-
-         */
-
-        try {
-            return (String) getResponse(true, question);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
     }
 
     public static String noAnswer(String s) {
 
-        Set<String> keys = dataset.keySet();
-            tts("I don't currently understand your query, how would you like me to respond in the future?");
+        tts("I don't currently understand your query, how would you like me to respond in the future?");
 
-            Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-            String newResp = sc.nextLine();
+        String newResp = sc.nextLine();
 
-            learnf(s, newResp);
-            return newResp;
+        learnf(s, newResp);
+        return newResp;
 
     }
 
@@ -320,25 +294,31 @@ public class Main extends ResultAdapter {
     }
 
     public static void main(String[] args) {
+        try {
+            TrippleDes td = new TrippleDes();
 
-        if (decrypt(encryptedToken).equals(readFromFile(uuid, ejk))) {
+            String encryptedToken = td.encrypt(readFromFile(uuid, ejj));
+            System.out.println(encryptedToken);
+            if (td.decrypt(encryptedToken).equals(readFromFile(uuid, ejk))) {
 
-            tts("Emerald system online: please allow time for configuration");
-            try {
-                run();
-                while (true) {
-                    if (counter == 0) {
-                        tts("Emerald engine starting, response loading...");
+                tts("Emerald system online: please allow time for configuration");
+                try {
+                    run();
+                    while (true) {
+                        if (counter == 0) {
+                            tts("Emerald engine starting, response loading...");
+                        }
+                        break;
                     }
-                    break;
+                } catch (Exception e) {
+                    final String message = e.getMessage();
                 }
-            } catch (Exception e) {
-                e.getMessage();
+            } else {
+                tts("Invalid uuid structure, please try again");
+                System.exit(0);
             }
-        } else {
-            tts("Invalid uuid structure, please try again");
-            System.exit(0);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
-
 }

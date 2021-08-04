@@ -16,3 +16,5 @@ main/setconfig.java
  main.setconfig
 main/TrainSet.java
  main.TrainSet
+main/TrippleDes.java
+ main.TrippleDes
