@@ -21,6 +21,7 @@ import javax.speech.EngineModeDesc;
 import javax.speech.recognition.*;
 
 public class Main extends ResultAdapter {
+
     private static String ekj;
     public static String ejk;
     public static String ejj;
@@ -51,6 +52,7 @@ public class Main extends ResultAdapter {
     }
 
     public static String rot13(String input) {
+        // This is from stackoverflow!!
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
@@ -71,10 +73,11 @@ public class Main extends ResultAdapter {
         String megaHashed = DigestUtils.sha256Hex(hashed);
         String megaTdes = td.encrypt(megaHashed);
         string_to_encode = rot13(megaTdes);
-        return string_to_encode;
+        return rot13(rot13(rot13(DigestUtils.sha256Hex(td.encrypt(DigestUtils.sha256Hex(rot13(string_to_encode)))))));
     }
 
     public static String decrypt(String input, Supplier<StringBuilder> supplier) {
+        // Same as rot13() method
         StringBuilder sb = supplier.get();
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
@@ -105,8 +108,7 @@ public class Main extends ResultAdapter {
                 s = myReader.nextLine();
             }
             myReader.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return s;
@@ -306,7 +308,7 @@ public class Main extends ResultAdapter {
     }
 
     public static void main(String[] args) throws Exception {
-
+        FileWriter fw = new FileWriter("src/main/resources/logs.log");
         System.out.println(createUncrackable("kate"));
 
         try {
