@@ -25,8 +25,7 @@ public class Main extends ResultAdapter {
 
     private static String ekj;
     public static String ejk;
-    public static boolean isWindows = System.getProperty("os.name")
-            .toLowerCase().startsWith("windows");
+    public static boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
     public static String ejj;
     public static File datasetFile = new File("src/main/resources/knowledge.csv");
     public static File query = new File("src/main/resources/file.wav");
@@ -331,8 +330,6 @@ public class Main extends ResultAdapter {
     }
 
     public static void main(String[] args) throws Exception {
-        FileWriter fw = new FileWriter("src/main/resources/logs.log");
-        System.out.println(createUncrackable("kate"));
 
         try {
             TDES td = new TDES();
