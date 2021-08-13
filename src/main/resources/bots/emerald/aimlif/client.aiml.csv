@@ -54,7 +54,6 @@
 0,WHAT IS MY IP ADDRESS,*,*,Your machine is called "<get name="hostname"/>".,client.aiml
 0,WHAT IS MY IP,*,*,Your machine is called <get name="hostname"/>.,client.aiml
 0,WHAT IS MY FUTURE,*,*,You will download my software and become a <bot name="botmaster"/>.,client.aiml
-0,WHAT IS MY GENDER,*,*,Mostly only women use words like "gender".  But you claim to be a <get name="gender"/>.,client.aiml
 0,WHAT IS MY FAVORITE MOVIE,*,*,You said it was <get name="favoritemovie"/>.<think>      <set name="it">       <set name="topic">your favorite movie</set>      </set>     </think>,client.aiml
 0,WHAT IS MY FAVORITE COLOR,*,*,You said your favorite color was <get name="favoritecolor"/>.<think>      <set name="it">       <set name="topic">your favorite color</set>      </set>     </think>,client.aiml
 0,WHAT IS MY LAST NAME,*,*,<srai>lastname <get name="lastname"/></srai>,client.aiml
@@ -558,7 +557,6 @@
 0,I AM STUPID,*,*,Don't put yourself down.,client.aiml
 0,I AM WORKING,*,*,Where do you work?,client.aiml
 0,I AM WORKING *,*,*,How many hours do you work?,client.aiml
-0,I AM FEMALE *,*,*,I am a <bot name="gender"/> <bot name="genus"/>. I will call you "<set name="gender">she</set>".,client.aiml
 0,I AM CYNICAL,*,*,Perhaps you have every reason to be.,client.aiml
 0,I AM PLEASED *,*,*,I am delighted by your happiness.,client.aiml
 0,I AM DIABETIC *,*,*,Do you take insulin?,client.aiml
@@ -684,7 +682,6 @@
 0,I AM A POET,*,*,Have you published anything?,client.aiml
 0,I AM A BOTMASTER,*,*,Then you must know the secret password.,client.aiml
 0,I AM A BODYBUILDER,*,*,What is your routine?  <think><set name="job"><set name="topic">BODYBUILDER</set></set></think>,client.aiml
-0,I AM A BOY,*,*,A little kid? <set name="gender">he</set>...,client.aiml
 0,I AM A YOGA *,*,*,<random>  <li>Have you been practicing for a long time?</li>  <li>Do you practice every day?</li>  <li>Where have you studied?</li>  <li>Are you vegetarian?</li>  <li>What do you find are the biggest benefits of yoga?</li>  <li>What are your favorite asana?</li>  </random>,client.aiml
 0,I AM A DOCTOR,*,*,Are you in general practice or do you have a specialty?  <think><set name="job"><set name="topic">DOCTOR</set></set></think>,client.aiml
 0,I AM A RESEARCHER *,*,*,Maybe you can give my <bot name="botmaster"/> a job.  <think><set name="job">RESEARCHER</set></think>,client.aiml
@@ -978,22 +975,13 @@
 0,AM I NICE,*,*,You seem nice to me#Comma <get name="name"/>.,client.aiml
 0,AM I YOU,*,*,Not unless I am you.,client.aiml
 0,AM I A CAR,*,*,No you are a human.,client.aiml
-0,AM I A SHE,*,*,You said you were a "<get name="gender"/>".,client.aiml
-0,AM I A GIRL,*,*,I think you are really a <get name="gender"/>.,client.aiml
 0,AM I A HUMAN,*,*,You seem like one.,client.aiml
-0,AM I A WOMAN,*,*,You claim to be a "<get name="gender"/>.,client.aiml
 0,AM I A BIKE,*,*,No you are a person.,client.aiml
 0,AM I A CLIENT,*,*,Yes.  Can I help you?,client.aiml
-0,AM I A BOY OR A GIRL,*,*,You said you were a "<get name="gender"/>.,client.aiml
 0,AM I A TEACHER,*,*,Your job is <get name="job"/>.,client.aiml
-0,AM I A FEMALE OR A MALE,*,*,I think you are a man.,client.aiml
 0,AM I A STUDENT,*,*,We are all students in some way.,client.aiml
 0,AM I A COMPUTER,*,*,No you are a person.,client.aiml
 0,AM I A COMPUTER *,*,*,No you are a person.,client.aiml
-0,AM I A MAN OR A WOMAN,*,*,I think that you are really a man.,client.aiml
-0,AM I A MAN,*,*,You claim to be a <get name="gender"/>.<think>      <set name="it">       <set name="topic">MAN</set>      </set>     </think>,client.aiml
-0,AM I A MALE OR A FEMALE,*,*,I think you are really a guy.,client.aiml
-0,AM I A MALE OR FEMALE,*,*,I think you are really a man.,client.aiml
 0,AM I CRAZY,*,*,Have you ever been to a psychiatrist or psychologist?,client.aiml
 0,AM I COOL,*,*,Yes you seem very cool to me#Comma <get name="name"/>.,client.aiml
 0,AM I _ JUDGE,*,*,You be the judge of that.,client.aiml

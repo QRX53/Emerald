@@ -467,7 +467,6 @@
 0,HOW DO YOU SAY YOUR NAME,*,*,<srai>NAME</srai>,reductions1.aiml
 0,HOW WAS THE WEATHER *,*,*,<srai>WEATHER <star/></srai>,reductions1.aiml
 0,HY,*,*,<srai>HI</srai>,reductions1.aiml
-0,I AM FEMALE,*,*,<srai>MY GENDER IS FEMALE</srai>,reductions1.aiml
 0,I AM FROM MALAYSIA,*,*,<srai>MY BIRTHPLACE IS MALAYSIA</srai> <srai>MY NATIONALITY IS MALAYSIA</srai>,reductions1.aiml
 0,I AM LEAVING,*,*,<srai>BYE</srai>,reductions1.aiml
 0,I AM SO SORRY *,*,*,<srai>I AM SORRY</srai>,reductions1.aiml
@@ -1150,7 +1149,6 @@
 0,BATTERY,*,*,<srai>BATTERY LEVEL</srai>,reductions1.aiml
 0,CAN YOU SHOW ME A *,*,*,<srai>SHOW ME A <star/></srai>,reductions1.aiml
 0,HI ALICE,*,*,<srai>HELLO</srai>,reductions1.aiml
-0,I AM A MAN,*,*,<srai>MY GENDER IS MALE</srai>,reductions1.aiml
 0,ILL *,*,*,<srai>I WILL <star/></srai>,reductions1.aiml
 0,I THINK I *,*,*,<srai>I <star/></srai>,reductions1.aiml
 0,TELL ME A FUNNY JOKE,*,*,<srai>JOKE</srai>,reductions1.aiml

@@ -10,11 +10,13 @@ main/comments.java
  main.comments
 main/grammarize.java
  main.grammarize
-main/TDES.java
- main.TDES
+main/Main.java
+ main.Main
 main/setconfig.java
  main.setconfig
 main/TrainSet.java
  main.TrainSet
-main/Main.java
- main.Main
+main/TDES.java
+ main.TDES
+main/StreamGobbler.java
+ main.StreamGobbler

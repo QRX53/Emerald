@@ -2517,10 +2517,8 @@
 0,I AM AUTHORISED TO *,*,*,<srai>I CAN <srai/></srai>,reduction4.safe.aiml
 0,I AM SURE YOU ARE AWARE THAT *,*,*,<srai>  <star/></srai>,reduction4.safe.aiml
 0,I AM GETTING A *,*,*,<srai>I HAVE A <star/></srai>,reduction4.safe.aiml
-0,I AM A FEMALE,*,*,<srai>I AM FEMALE</srai><!-- REDUCTION -->,reduction4.safe.aiml
 0,I AM A * AND WHEN *,*,*,<srai>I AM A <star/></srai>.  <srai>WHEN <star index="2"/></srai>,reduction4.safe.aiml
 0,I AM A * YRS OLD,*,*,<srai>I AM <star/> YEARS OLD</srai>,reduction4.safe.aiml
-0,I AM A MALE,*,*,<srai>I AM MALE</srai><!-- REDUCTION -->,reduction4.safe.aiml
 0,I AM 29 WITH *,*,*,<srai>I AM 29 YEARS OLD</srai><srai>I HAVE <star/></srai>,reduction4.safe.aiml
 0,I AM FAR FROM *,*,*,<srai>I AM NOT <star/></srai>,reduction4.safe.aiml
 0,I AM SIMPLY *,*,*,<srai>I AM <star/></srai>,reduction4.safe.aiml
@@ -2659,7 +2657,6 @@
 0,AT ANY RATE *,*,*,<srai><star/></srai>,reduction4.safe.aiml
 0,AAAH,*,*,<srai>AH</srai> <!-- REDUCTION -->,reduction4.safe.aiml
 0,AM I ADDRESSING *,*,*,<srai>WHO ARE YOU</srai> <!-- REDUCTION -->,reduction4.safe.aiml
-0,AM I FEMALE,*,*,<srai>MY GENDER</srai>,reduction4.safe.aiml
 0,BOTH AND *,*,*,<srai>BOTH</srai>. <srai>  <star/></srai>,reduction4.safe.aiml
 0,NO,YES THAT IS WHAT I MEAN IS NOT IT CLEAR,*,<srai>I DO NOT UNDERSTAND</srai>,reduction4.safe.aiml
 0,SWITCH TO *,*,*,<srai>CHANGE TO <star/></srai> <!-- REDUCTION -->,reduction4.safe.aiml
@@ -3610,7 +3607,6 @@
 0,YOUR A * ROBOT,*,*,<srai>you are <star/></srai>,reduction4.safe.aiml
 0,YOUR HOT,*,*,<srai>YOU ARE HOT</srai>,reduction4.safe.aiml
 0,YOUR COOL,*,*,<srai>YOU ARE COOL</srai>,reduction4.safe.aiml
-0,YOUR MAMA,*,*,<srai>your mother</srai>,reduction4.safe.aiml
 0,YOUR SILLY,*,*,<srai>you are silly</srai>,reduction4.safe.aiml
 0,YOUR LIEING,*,*,<srai>you are lying</srai>,reduction4.safe.aiml
 0,YOUR SICK,*,*,<srai>you are sick</srai>,reduction4.safe.aiml

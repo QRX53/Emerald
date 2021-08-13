@@ -14,7 +14,7 @@
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
+<!-- For more slashCommands.information see http://www.alicebot.org -->
 <category><pattern>ASK FAMILIAR CONTACTNAME</pattern>
 <template><think><set name="topic">ASKING FAMILIAR CONTACTNAME</set></think>
 What is your <lowercase><get name="familiarpredicate"/></lowercase>'s name?</template>

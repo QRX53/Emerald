@@ -14,7 +14,7 @@
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
+<!-- For more slashCommands.information see http://www.alicebot.org -->
 <category><pattern>ARE YOU A WHORE</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>

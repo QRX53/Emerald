@@ -14,7 +14,7 @@
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
+<!-- For more slashCommands.information see http://www.alicebot.org -->
 <category><pattern>VERSION</pattern>
 <template>S.U.P.E.R. AIML Bot version 0.0.4</template>
 </category>

@@ -14,7 +14,7 @@
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
+<!-- For more slashCommands.information see http://www.alicebot.org -->
 <category><pattern>CLEAR DIALOG HISTORY</pattern>
 <template>Cleared.
 <think>
@@ -83,8 +83,8 @@
 </think></template>
 </category>
 <category><pattern>SEND BUG REPORT</pattern>
-<template>Sending transcript to callmom-info@pandorabots.com.
-<oob><email><to>callmom-info@pandorabots.com</to><subject>Transcript of <bot name="name"/> with <get name="name"/> on <date/></subject><body>
+<template>Sending transcript to callmom-slashCommands.info@pandorabots.com.
+<oob><email><to>callmom-slashCommands.info@pandorabots.com</to><subject>Transcript of <bot name="name"/> with <get name="name"/> on <date/></subject><body>
 <srai>DIALOG HISTORY</srai></body></email></oob></template>
 </category>
 <category><pattern>REPORT A PROBLEM</pattern>

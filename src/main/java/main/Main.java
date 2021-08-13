@@ -7,6 +7,7 @@ import java.io.*;
 import java.io.IOException;
 import java.util.*;
 import java.util.UUID;
+import java.util.concurrent.Executors;
 import java.util.function.Supplier;
 
 import org.alicebot.ab.Bot;
@@ -24,13 +25,14 @@ public class Main extends ResultAdapter {
 
     private static String ekj;
     public static String ejk;
+    public static boolean isWindows = System.getProperty("os.name")
+            .toLowerCase().startsWith("windows");
     public static String ejj;
     public static File datasetFile = new File("src/main/resources/knowledge.csv");
     public static File query = new File("src/main/resources/file.wav");
     public static TrainSet ts = new TrainSet(datasetFile);
     public static HashMap<String, String> dataset = ts.getKnowledge();
     private static final boolean TRACE_MODE = true;
-    private static long counter = 0L;
     private static final String smbls = "ABCD37FH.F927RHFNV.WNZ83GGJ1038GNZV";
     private static final File uuid = new File("src/main/resources/uuid.uuid");
     private static Recognizer rec;
@@ -187,7 +189,11 @@ public class Main extends ResultAdapter {
     public static void run() {
         String s;
         Scanner sc = new Scanner(System.in);
+        int counter = 0;
         while (true) {
+            if (counter == 0) {
+                tts("Processing... Please allow up to a minute to index");
+            }
             s = sc.nextLine();
             tts(answer(s));
             counter += 1;
@@ -243,6 +249,23 @@ public class Main extends ResultAdapter {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static void ttsBeta(String toSpeak) throws IOException, InterruptedException {
+        String homeDirectory = System.getProperty("user.home");
+        Process process;
+        if (isWindows) {
+            process = Runtime.getRuntime()
+                    .exec("");
+        } else {
+            process = Runtime.getRuntime()
+                    .exec("cd src; cd main; cd java");
+        }
+        StreamGobbler streamGobbler =
+                new StreamGobbler(process.getInputStream(), System.out::println);
+        Executors.newSingleThreadExecutor().submit(streamGobbler);
+        int exitCode = process.waitFor();
+        assert exitCode == 0;
     }
 
     public static String answer(String question) {
@@ -321,12 +344,6 @@ public class Main extends ResultAdapter {
                 tts("Emerald system online: please allow time for configuration");
                 try {
                     run();
-                    while (true) {
-                        if (counter == 0) {
-                            tts("Emerald engine starting, response loading...");
-                        }
-                        break;
-                    }
                 } catch (Exception e) {
                     final String message = e.getMessage();
                 }

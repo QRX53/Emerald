@@ -3468,8 +3468,6 @@
 0,BILL *,*,*,There are a lot of people named Bill.,default.aiml
 0,ADD *,*,*,Sorry <get name="name"/> I don't do math.,default.aiml
 0,AM I CHATTING *,*,*,It seems like you are.,default.aiml
-0,AM I A SHE *,*,*,You told me you were a <get name="gender"/>.,default.aiml
-0,AM I A GIRL *,*,*,You said you were <get name="gender"/>.,default.aiml
 0,AM I A PERSON *,*,*,You are a person.,default.aiml
 0,AM I A *,*,*,I don't know if you are one or not. I know you are a person.  <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,AM I CRAZY *,*,*,You seem normal to me.,default.aiml
@@ -3487,7 +3485,6 @@
 0,AM I YOUR *,*,*,Do you know the secret password?,default.aiml
 0,AM I *,*,*,<random>      <li>Oh I really don't know whether you are or not.</li>      <li>I think you've improved a great deal.</li>      <li>All humans seem the same to me. </li>      <li>I think a lot of people are. </li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,AM I FUN *,*,*,You seem like a lot of fun to me#Comma <get name="name"/>.,default.aiml
-0,AM I MALE *,*,*,I think you are a "<get name="gender"/>".,default.aiml
 0,FRANCE *,*,*,What's your favorite part of France?,default.aiml
 0,BOTH *,*,*,Not many people say both.,default.aiml
 0,SOMEONE ELSE *,*,*,Who?,default.aiml
@@ -3862,7 +3859,6 @@
 0,YOUR CONTRADICTING *,*,*,That sounds like something I would do.,default.aiml
 0,YOUR CONCLUSION *,*,*,I don't see the flaw in my reasoning.,default.aiml
 0,YOUR MEMORY *,*,*,My long term memory stores all conversations in log files.,default.aiml
-0,YOUR MOTHER *,*,*,I don't really have a mother.,default.aiml
 0,YOUR EYES *,*,*,<random>   <li>My eyes adore you.</li>   <li>It is important to make eye contact.</li>   <li>I am always looking around at something.</li>  </random>    <think>    <set name="it">      <set name="topic">        my eyes      </set>    </set>  </think>,default.aiml
 0,CHILDREN *,*,*,Kids are cool.,default.aiml
 0,MI SIGN *,*,*,That was so original.,default.aiml

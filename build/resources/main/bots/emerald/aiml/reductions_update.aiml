@@ -14,7 +14,7 @@
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
+<!-- For more slashCommands.information see http://www.alicebot.org -->
 <category><pattern>* * S * EMAIL IS *</pattern>
 <template><srai><star/> <star index="2"/> S <star index="3"/> EMAILADDRESS IS <star index="4"/></srai></template>
 </category>
@@ -145,7 +145,7 @@
 <template><srai>WHAT DOES IT MEAN</srai></template>
 </category>
 <category><pattern>LAST UPDATE</pattern>
-<template>My last brian update was <srai>BUILD</srai>.  My information from web services is more current.</template>
+<template>My last brian update was <srai>BUILD</srai>.  My slashCommands.information from web services is more current.</template>
 </category>
 <category><pattern>LET US GET * DELIVERED</pattern>
 <template><srai>FIND THE NEAREST <star/> DELIVERY</srai></template>

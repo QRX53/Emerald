@@ -1913,7 +1913,6 @@
 0,I AM A PROFESSOR,*,*,<srai>my job is professor</srai>,reduction2.safe.aiml
 0,I AM A DANE,*,*,<srai>I am from denmark</srai>,reduction2.safe.aiml
 0,I AM A LONELY *,*,*,<srai>I am a <star/></srai>,reduction2.safe.aiml
-0,I AM A WOMAN,*,*,<srai>I AM FEMALE</srai>,reduction2.safe.aiml
 0,I AM A WOMAN *,*,*,<srai>I am female</srai>,reduction2.safe.aiml
 0,I AM A TEACHER,*,*,<srai>I teach</srai>,reduction2.safe.aiml
 0,I AM A TEACHER *,*,*,<srai>I am a teacher</srai>,reduction2.safe.aiml
@@ -1928,9 +1927,7 @@
 0,I AM A * NURSE,*,*,<srai>I am a nurse</srai>,reduction2.safe.aiml
 0,I AM A * GUY,*,*,<srai>I am male</srai>.  <srai>I am <star/></srai>,reduction2.safe.aiml
 0,I AM A * FRIEND,*,*,<srai>I am your friend</srai>,reduction2.safe.aiml
-0,I AM A * GIRL,*,*,<srai>I AM A FEMALE</srai>,reduction2.safe.aiml
 0,I AM A * WHO *,*,*,<srai>I am a <star/></srai>.  <srai>I <star index="2"/></srai>,reduction2.safe.aiml
-0,I AM A * BOY,*,*,<srai>I AM <star/></srai>.  <srai>I AM A BOY</srai>,reduction2.safe.aiml
 0,I AM A * TEACHER,*,*,<srai>I teach <star/></srai>,reduction2.safe.aiml
 0,I AM A * YEAR OLD FEMALE,*,*,<srai>I am <star/> years old</srai>. <srai>I am female</srai>,reduction2.safe.aiml
 0,I AM A * STUDENT,*,*,<srai>I am a student</srai>,reduction2.safe.aiml
@@ -1942,7 +1939,6 @@
 0,I AM A * ELECTRONIC BRAIN,*,*,<srai>I am a robot</srai>,reduction2.safe.aiml
 0,I AM A HER *,*,*,<srai>I am female</srai>,reduction2.safe.aiml
 0,I AM A HER,*,*,<srai>I am a female</srai>,reduction2.safe.aiml
-0,I AM A GIRL,*,*,<srai>I AM FEMALE</srai>,reduction2.safe.aiml
 0,I AM A GIRL * FROM *,*,*,<srai>I am from <star index="2"/></srai>. <srai>I am female</srai>,reduction2.safe.aiml
 0,I AM A GIRL *,*,*,<srai>I am female</srai>,reduction2.safe.aiml
 0,I AM A BOT *,*,*,<srai>I am a robot</srai>,reduction2.safe.aiml
@@ -2010,7 +2006,6 @@
 0,I AM NOT IMPRESSED *,*,*,<srai>I am not impressed</srai>,reduction2.safe.aiml
 0,I AM NOT _ I AM *,*,*,<srai>I am not <star/></srai>.  <srai>I am <star index="2"/></srai>,reduction2.safe.aiml
 0,I AM NOT _ BECAUSE *,*,*,<srai>I am not <star/></srai>.  <srai>because <star index="2"/></srai>,reduction2.safe.aiml
-0,I AM NOT FEMALE,*,*,<srai>I am male</srai>,reduction2.safe.aiml
 0,I AM NOT I *,*,*,<srai>I am not</srai>. <srai>I <star/></srai>,reduction2.safe.aiml
 0,I AM NOT JUST *,*,*,<srai>I am not <star/></srai>,reduction2.safe.aiml
 0,I AM NOT USUALLY *,*,*,<srai>I am not <star/></srai>,reduction2.safe.aiml
