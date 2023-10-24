@@ -1,41 +1,39 @@
-# Compiled Lua sources
-luac.out
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Precompiled Headers
-*.gch
-*.pch
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+### VS Code ###
+.vscode/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+### Mac OS ###
+.DS_Store
