@@ -1,4 +1,4 @@
-package main;
+package core.other;
 
 import java.security.spec.KeySpec;
 import javax.crypto.Cipher;
@@ -11,7 +11,6 @@ public class TDES {
 
     private static final String UNICODE_FORMAT = "UTF8";
     public static final String DESEDE_ENCRYPTION_SCHEME = "DESede";
-    public static String ekg;
     private Cipher cipher;
     byte[] arrayBytes;
     SecretKey key;

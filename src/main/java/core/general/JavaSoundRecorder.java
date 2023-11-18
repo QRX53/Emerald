@@ -1,4 +1,4 @@
-package main;
+package core.general;
 
 import javax.sound.sampled.*;
 import java.io.*;
